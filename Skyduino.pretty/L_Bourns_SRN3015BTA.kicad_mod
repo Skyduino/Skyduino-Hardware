@@ -1,0 +1,241 @@
+(footprint "L_Bourns_SRN3015BTA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://www.mouser.com/datasheet/2/54/Bourns_08042023_SRN3015BTA_datasheet-3305912.pdf")
+	(tags "Inductor Bourns")
+	(property "Reference" "REF**"
+		(at 0 -3.25 0)
+		(layer "F.SilkS")
+		(uuid "7cca87c4-c105-48aa-b4bb-4ba6d589c024")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Bourns_SRN3015BTA"
+		(at 0 2.51 0)
+		(layer "F.Fab")
+		(uuid "6422c116-e0f2-4c31-a8bd-5b41f74fac6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e2282ea-eaa0-4b89-ab85-53165f66c339")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/datasheet/2/54/Bourns_08042023_SRN3015BTA_datasheet-3305912.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f7ded91-7495-4c5d-b442-b354fa1c0fe2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1d03533-9f7d-463b-ad4f-42d07415d91d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.76 -2.36)
+		(end -1.76 -2.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2309e8e-18db-4665-b707-afc156bf3113")
+	)
+	(fp_line
+		(start -1.76 -2.36)
+		(end 1.76 -2.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d62f7886-75a4-45f2-905b-d5384354d2dc")
+	)
+	(fp_line
+		(start -1.76 2.21)
+		(end -1.76 2.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "180872e5-697e-4fec-89b4-0820fecf268a")
+	)
+	(fp_line
+		(start -1.76 2.36)
+		(end 1.76 2.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5054ed22-f240-48b5-b44e-f067af7d644b")
+	)
+	(fp_line
+		(start 1.76 -2.36)
+		(end 1.76 -2.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f1543aa-7046-497b-87d1-c6c71bd387b3")
+	)
+	(fp_line
+		(start 1.76 2.36)
+		(end 1.76 2.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7acf7d6a-367a-442f-bb3b-826ff6416f1f")
+	)
+	(fp_line
+		(start -2 -2.5)
+		(end -2 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64bbd5ca-6f81-4c0c-8701-f3dc61b8a1d1")
+	)
+	(fp_line
+		(start -2 2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73f4e64d-5e27-4f77-871f-1a92294af5b8")
+	)
+	(fp_line
+		(start 2 -2.5)
+		(end -2 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a115dcf3-39fb-4eed-8431-0bb3a26cd41d")
+	)
+	(fp_line
+		(start 2 2.5)
+		(end 2 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b294b21-059e-483a-9b90-162b869302c0")
+	)
+	(fp_line
+		(start -1.5 -2)
+		(end -1.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "adbc0efd-6841-4544-9e81-5deee0046e3e")
+	)
+	(fp_line
+		(start -1.5 2)
+		(end 1.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81ca1dea-3fc0-4e60-9211-4a9a2208abe5")
+	)
+	(fp_line
+		(start 1.5 -2)
+		(end -1.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7c0da7e-8450-4c73-a40f-990a3083b8b3")
+	)
+	(fp_line
+		(start 1.5 2)
+		(end 1.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac0fde6f-d6af-4056-89d6-7e67c7f92c60")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "74c467a1-1451-4fe6-a4e0-6c4997a6e522")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0)
+		(size 1.3 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b00a572-7032-4d6c-83b2-3ce47752fe5c")
+	)
+	(pad "2" smd rect
+		(at 1.1 0)
+		(size 1.3 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bb5d65a3-6c29-4e5e-b80e-c4c1eb4f46d5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Cenker_CKCS3015.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

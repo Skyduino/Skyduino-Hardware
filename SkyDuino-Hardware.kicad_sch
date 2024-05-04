@@ -1599,6 +1599,216 @@
 				)
 			)
 		)
+		(symbol "Sensor_Temperature:MAX31855KASA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MAX31855KASA"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 25.4 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cold Junction Termocouple Interface SPI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX31855KASA_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MAX31855KASA_1_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "T-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "T+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "V_CC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Skyduino_Library:LV3842"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2646,6 +2856,12 @@
 		(uuid "7655ade0-17ff-4336-bc84-26d3808c76fb")
 	)
 	(junction
+		(at 220.98 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "899313a5-8210-429f-9e56-b182eaa8e0c0")
+	)
+	(junction
 		(at 48.26 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2656,6 +2872,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a90dd689-b1fd-403d-b8c1-57fdf76a9137")
+	)
+	(junction
+		(at 240.03 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae3a8e73-b121-4308-bc4d-8d060e5fea88")
 	)
 	(junction
 		(at 96.52 99.06)
@@ -2674,6 +2896,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d329c491-d7a7-4225-8025-b9fa67c4db0a")
+	)
+	(junction
+		(at 220.98 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7858d4b-bbad-46e6-a75c-c7f4fff3d080")
 	)
 	(junction
 		(at 64.77 106.68)
@@ -2746,6 +2974,26 @@
 			(type default)
 		)
 		(uuid "07d10f7e-59ce-4c3d-931e-f0e3cd49edc5")
+	)
+	(wire
+		(pts
+			(xy 265.43 25.4) (xy 265.43 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a6bd6d-429a-46a7-9c40-539ccc3e379b")
+	)
+	(wire
+		(pts
+			(xy 265.43 24.13) (xy 240.03 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be17a82-a0e1-4d6b-9535-2664179b1f52")
 	)
 	(wire
 		(pts
@@ -2909,6 +3157,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 39.37) (xy 252.73 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3731ff0d-4009-4e20-941a-0d192b35d181")
+	)
+	(wire
+		(pts
 			(xy 82.55 30.48) (xy 90.17 30.48)
 		)
 		(stroke
@@ -2916,6 +3174,16 @@
 			(type default)
 		)
 		(uuid "38033452-5fa6-4117-be7a-113fd4ae2a69")
+	)
+	(wire
+		(pts
+			(xy 250.19 34.29) (xy 252.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ef0e5f-6070-4d07-99f0-68d05ef377e0")
 	)
 	(wire
 		(pts
@@ -2999,6 +3267,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 33.02) (xy 217.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614c4ded-45d8-4c25-9e7d-7ff289b8d6a1")
+	)
+	(wire
+		(pts
 			(xy 100.33 39.37) (xy 100.33 40.64)
 		)
 		(stroke
@@ -3039,6 +3317,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 40.64) (xy 220.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a214a53-3fda-4882-9488-b119cfd6040f")
+	)
+	(wire
+		(pts
 			(xy 134.62 30.48) (xy 139.7 30.48)
 		)
 		(stroke
@@ -3059,6 +3347,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 40.64) (xy 229.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c99e34a-b675-449e-a9a1-0464d7bc141a")
+	)
+	(wire
+		(pts
 			(xy 20.32 109.22) (xy 20.32 87.63)
 		)
 		(stroke
@@ -3076,6 +3374,16 @@
 			(type default)
 		)
 		(uuid "6d68f82c-e383-475e-a4a8-fe0b038947c1")
+	)
+	(wire
+		(pts
+			(xy 229.87 34.29) (xy 229.87 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d82ab69-5264-4224-bd08-a7e1b0cfe998")
 	)
 	(wire
 		(pts
@@ -3229,6 +3537,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 40.64) (xy 229.87 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917695a0-a69a-4f1f-b358-2d2042c7b64b")
+	)
+	(wire
+		(pts
+			(xy 240.03 21.59) (xy 240.03 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e2b35c-0218-4629-be8b-bf0c252b5003")
+	)
+	(wire
+		(pts
 			(xy 167.64 38.1) (xy 167.64 30.48)
 		)
 		(stroke
@@ -3349,6 +3677,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 38.1) (xy 217.17 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aafc8faa-90af-4b66-9443-f2de5ec1c139")
+	)
+	(wire
+		(pts
 			(xy 86.36 107.95) (xy 96.52 107.95)
 		)
 		(stroke
@@ -3409,6 +3747,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 24.13) (xy 240.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c003be2d-a785-4dca-a048-1d5c522e4871")
+	)
+	(wire
+		(pts
+			(xy 250.19 31.75) (xy 252.73 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a7bd62-4dd7-4c72-b4f3-8b36ee3e1bc9")
+	)
+	(wire
+		(pts
 			(xy 121.92 22.86) (xy 121.92 30.48)
 		)
 		(stroke
@@ -3446,6 +3804,16 @@
 			(type default)
 		)
 		(uuid "c826862c-5d4e-4f5b-89db-5abf5ae08e91")
+	)
+	(wire
+		(pts
+			(xy 220.98 33.02) (xy 229.87 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7d9785-06d0-4ac5-a908-a193d127ee17")
 	)
 	(wire
 		(pts
@@ -3569,6 +3937,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 33.02) (xy 220.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66697f8-17b8-4ca0-afcf-5a7aee7c404d")
+	)
+	(wire
+		(pts
 			(xy 46.99 109.22) (xy 48.26 109.22)
 		)
 		(stroke
@@ -3576,6 +3954,16 @@
 			(type default)
 		)
 		(uuid "f6cd52ad-8039-4f50-a72d-74a8f273dc85")
+	)
+	(wire
+		(pts
+			(xy 240.03 46.99) (xy 240.03 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77e735d-9805-4e2e-8625-c1ec3c5cbddc")
 	)
 	(wire
 		(pts
@@ -3639,6 +4027,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTCS"
+		(shape input)
+		(at 252.73 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b4266c9-7754-4ec1-8055-cdb325faa291")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.4323 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3744,6 +4154,50 @@
 		(uuid "75e974ad-5f11-4024-b2b5-6bdafe369b57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.8004 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SO"
+		(shape input)
+		(at 252.73 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad21a24a-6c8a-4cda-a022-6026dba78cef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.2552 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 252.73 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd1ca63e-a64d-4525-af58-a3335ade6131")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.4647 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,6 +4480,71 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 240.03 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fea94a9-d845-481c-bf49-736064eaa94a")
+		(property "Reference" "#PWR019"
+			(at 240.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 240.03 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 240.03 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10ed7079-d8cc-47c8-a902-108d1b761aec")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4980,6 +5499,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 220.98 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "578555a7-5d42-469f-9b6d-a2be5ace0630")
+		(property "Reference" "C8"
+			(at 221.742 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 222.25 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 221.9452 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "810-C2012C0G1H103J-1"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/TDK/C2012C0G1H103J060AA?qs=dfay7wIA1uESihXTlxZAiQ%3D%3D"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3a0de41-7754-4625-b72b-f0328ae47aaf")
+		)
+		(pin "2"
+			(uuid "01504c1a-af2a-46c3-b1fa-014ab53253d0")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 96.52 102.87 0)
 		(unit 1)
@@ -5156,6 +5762,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 265.43 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5efe0623-e1c8-49b8-8ca3-9256b3b488cb")
+		(property "Reference" "C9"
+			(at 266.192 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 266.7 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 266.3952 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "810-C2012X7R2A104K"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/810-C2012X7R2A104K"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97505ffe-3669-4a7a-b05c-36e5b1642a5a")
+		)
+		(pin "2"
+			(uuid "0fb22e97-cdb2-483c-b0cc-87a3eacbd27b")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 24.13 27.94 180)
 		(unit 1)
@@ -5221,6 +5914,75 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 212.09 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69e9c6ac-6446-488f-99d5-5e3af97b3793")
+		(property "Reference" "J6"
+			(at 209.042 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BT"
+			(at 211.836 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 212.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 212.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b121fdf-5f4e-4e47-80f4-ca4614ebee53")
+		)
+		(pin "2"
+			(uuid "9606447d-71eb-49fa-bcdb-fa409870e2ed")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6198,6 +6960,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Temperature:MAX31855KASA")
+		(at 240.03 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a209a4eb-a9dc-4788-aeee-80fc9e2a4588")
+		(property "Reference" "U4"
+			(at 233.172 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX31855KASA"
+			(at 241.046 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 265.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/609/MAX31855-3128071.pdf"
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cold Junction K-type Termocouple Interface, SPI, SO8"
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "700-MAX31855KASA+T"
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1e83bea8-787f-41ee-b851-42c0194233f3")
+		)
+		(pin "5"
+			(uuid "01ecc9cb-3ff4-4847-8c57-9767950e2928")
+		)
+		(pin "2"
+			(uuid "69c55b27-cb5e-4410-ac57-849df4876ad9")
+		)
+		(pin "3"
+			(uuid "3434df5f-706a-44c6-b44c-e7bb7e6f793e")
+		)
+		(pin "7"
+			(uuid "cecc1dcf-efd5-4488-84fb-6efe4d87ab56")
+		)
+		(pin "1"
+			(uuid "812fe314-2688-4065-8ff2-1dc2310caa1c")
+		)
+		(pin "6"
+			(uuid "5d2345f6-efdc-4bf8-b9a9-2157f23557d1")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:DMN6075S")
 		(at 88.9 139.7 0)
 		(mirror y)
@@ -6277,6 +7133,72 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b20d9941-5c68-4dc3-a862-ceef1913c875")
+		(property "Reference" "#PWR021"
+			(at 240.03 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08abaf2a-2314-4f9c-b8d5-c05beb7cc66c")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7059,6 +7981,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 265.43 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c66bb5-0331-4ece-be5f-e032c70f9b25")
+		(property "Reference" "#PWR013"
+			(at 265.43 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92756f0e-8d47-48c1-a53f-e91126f08656")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 86.36 81.28 0)
 		(unit 1)
@@ -7215,6 +8203,44 @@
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "U2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 313.182 94.234)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30f0c390-a08b-495d-a987-fe20b2c7c730")
+		(property "Sheetname" "CPU"
+			(at 313.182 93.5224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SkyDuino-CPU.kicad_sch"
+			(at 313.182 98.6286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(page "2")
 				)
 			)
 		)

@@ -4298,7 +4298,7 @@
 		)
 	)
 	(global_label "SO"
-		(shape input)
+		(shape output)
 		(at 252.73 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4386,7 +4386,7 @@
 		)
 	)
 	(global_label "SO"
-		(shape input)
+		(shape output)
 		(at 252.73 34.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5751,7 +5751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
 			(at 24.13 120.65 0)
 			(effects
 				(font
@@ -5761,6 +5761,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 24.13 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "603-RC0805FR-0730KL"
 			(at 24.13 120.65 0)
 			(effects
 				(font
@@ -8986,9 +8995,8 @@
 		)
 	)
 	(sheet
-		(at 313.182 94.234)
+		(at 16.002 167.894)
 		(size 12.7 3.81)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -8998,7 +9006,7 @@
 		)
 		(uuid "30f0c390-a08b-495d-a987-fe20b2c7c730")
 		(property "Sheetname" "CPU"
-			(at 313.182 93.5224 0)
+			(at 16.002 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9007,7 +9015,7 @@
 			)
 		)
 		(property "Sheetfile" "SkyDuino-CPU.kicad_sch"
-			(at 313.182 98.6286 0)
+			(at 16.002 172.2886 0)
 			(effects
 				(font
 					(size 1.27 1.27)

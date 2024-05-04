@@ -8871,7 +8871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connectors:USB_C_Receptacle_Molex_Upright"
 			(at 34.29 157.48 0)
 			(effects
 				(font

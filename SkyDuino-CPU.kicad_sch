@@ -8009,7 +8009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 90.17 21.59 0)
 			(effects
 				(font

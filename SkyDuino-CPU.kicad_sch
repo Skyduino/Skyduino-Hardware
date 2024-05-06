@@ -10,6 +10,329 @@
 		(company "Raz-1")
 	)
 	(lib_symbols
+		(symbol "Connector:USB_A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_A"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Type A connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_A_0_1"
+				(rectangle
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 2.159)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 4.826)
+					(end -4.318 5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 4.572)
+					(end -4.572 5.842)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.635 3.429)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_A_1_1"
+				(polyline
+					(pts
+						(xy -1.905 2.159) (xy 0.635 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -4577,10 +4900,22 @@
 		(uuid "2f18d2c6-0763-4dcd-a0b8-dfefbc83ce50")
 	)
 	(junction
+		(at 276.86 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "350c9e7e-8910-4dd0-9c47-c6decfdc5821")
+	)
+	(junction
 		(at 91.44 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47037e91-7614-44c1-bb64-27440bd62fe4")
+	)
+	(junction
+		(at 242.57 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dc8d357-aaf9-45eb-b3df-603a0a99798a")
 	)
 	(junction
 		(at 48.26 157.48)
@@ -4607,10 +4942,22 @@
 		(uuid "596f9a9b-474a-463b-b318-58331d787c15")
 	)
 	(junction
+		(at 256.54 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b0ba441-112c-455e-bf54-1fbc65522fad")
+	)
+	(junction
 		(at 43.18 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65463814-446a-4cf8-bae6-8dbc99fcc196")
+	)
+	(junction
+		(at 251.46 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "680a3e0d-9908-4834-8b9f-2d589ff2fba9")
 	)
 	(junction
 		(at 34.29 35.56)
@@ -4641,6 +4988,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76c15b78-4be7-4733-8140-5eff06236561")
+	)
+	(junction
+		(at 260.35 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88092d40-459c-41cf-ae72-7f054f551c5d")
 	)
 	(junction
 		(at 85.09 31.75)
@@ -4766,6 +5119,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 57.15) (xy 260.35 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a68e29-f9be-4a5b-86ea-511d728700ba")
+	)
+	(wire
+		(pts
 			(xy 74.93 72.39) (xy 74.93 73.66)
 		)
 		(stroke
@@ -4773,6 +5136,16 @@
 			(type default)
 		)
 		(uuid "0926524f-0015-4b17-b136-d5886ccde616")
+	)
+	(wire
+		(pts
+			(xy 260.35 69.85) (xy 260.35 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0c86c8-153d-4bb1-a51b-fca2efabf712")
 	)
 	(wire
 		(pts
@@ -4793,6 +5166,16 @@
 			(type default)
 		)
 		(uuid "0e22699f-ff01-444b-ba33-f0ec4efea289")
+	)
+	(wire
+		(pts
+			(xy 251.46 69.85) (xy 256.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5ae512-cc03-4df3-9f11-1f0c8cb7166b")
 	)
 	(wire
 		(pts
@@ -4823,6 +5206,16 @@
 			(type default)
 		)
 		(uuid "13685a43-e628-46b1-abed-da54cce3317f")
+	)
+	(wire
+		(pts
+			(xy 247.65 77.47) (xy 269.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141d91d4-afeb-4b12-83a4-25538422a97c")
 	)
 	(wire
 		(pts
@@ -4863,6 +5256,16 @@
 			(type default)
 		)
 		(uuid "15b45efb-b3aa-4028-b435-0973cb1b0f7d")
+	)
+	(wire
+		(pts
+			(xy 219.71 80.01) (xy 226.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f5cee8-71d1-4ca3-a87b-e855c61ccbac")
 	)
 	(wire
 		(pts
@@ -4986,6 +5389,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 88.9) (xy 276.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b58219-2284-423b-97b1-a3a810bb5df1")
+	)
+	(wire
+		(pts
 			(xy 85.09 31.75) (xy 86.36 31.75)
 		)
 		(stroke
@@ -4993,6 +5406,16 @@
 			(type default)
 		)
 		(uuid "28fc96e9-1143-4db2-ba11-f99b15d8c370")
+	)
+	(wire
+		(pts
+			(xy 171.45 77.47) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4c5169-81fa-4353-9409-43de5e3137c2")
 	)
 	(wire
 		(pts
@@ -5043,6 +5466,16 @@
 			(type default)
 		)
 		(uuid "2fcc5b8f-07d0-40b3-879c-3c315bc8460d")
+	)
+	(wire
+		(pts
+			(xy 251.46 67.31) (xy 251.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308e3c74-48a9-4840-b5d9-5a2d73e564c5")
 	)
 	(wire
 		(pts
@@ -5186,6 +5619,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 57.15) (xy 251.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af65bc0-d243-432f-b204-6c69d6254c53")
+	)
+	(wire
+		(pts
 			(xy 54.61 149.86) (xy 55.88 149.86)
 		)
 		(stroke
@@ -5266,6 +5709,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 80.01) (xy 233.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565d2017-18d8-42af-9e40-741d8d8c9435")
+	)
+	(wire
+		(pts
 			(xy 156.21 30.48) (xy 156.21 46.99)
 		)
 		(stroke
@@ -5323,6 +5776,16 @@
 			(type default)
 		)
 		(uuid "5b1b052a-c85a-4fd7-8637-abcc4163af02")
+	)
+	(wire
+		(pts
+			(xy 242.57 85.09) (xy 242.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2ce07c-19c3-4b81-b705-a7239b022e9f")
 	)
 	(wire
 		(pts
@@ -5396,6 +5859,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 59.69) (xy 251.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6620e79e-938a-487f-9624-05bb9d608926")
+	)
+	(wire
+		(pts
 			(xy 156.21 30.48) (xy 153.67 30.48)
 		)
 		(stroke
@@ -5433,6 +5906,26 @@
 			(type default)
 		)
 		(uuid "6afa818d-5fbb-41be-b706-d9c959224274")
+	)
+	(wire
+		(pts
+			(xy 242.57 57.15) (xy 242.57 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7282dd04-7ff6-4544-b4dc-43d1b0e16850")
+	)
+	(wire
+		(pts
+			(xy 269.24 72.39) (xy 269.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c9503f-821f-4a3d-84d6-58518b2011fd")
 	)
 	(wire
 		(pts
@@ -5506,6 +5999,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 57.15) (xy 260.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a5f2b8-3aff-4e04-b1e8-3ce309c3067d")
+	)
+	(wire
+		(pts
 			(xy 161.29 30.48) (xy 158.75 30.48)
 		)
 		(stroke
@@ -5556,6 +6059,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 74.93) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae7b567-da69-4b71-b025-96561f8ad29c")
+	)
+	(wire
+		(pts
 			(xy 82.55 64.77) (xy 74.93 64.77)
 		)
 		(stroke
@@ -5603,6 +6116,16 @@
 			(type default)
 		)
 		(uuid "93ca8488-17f5-4684-a3e6-d5f506ca0fdb")
+	)
+	(wire
+		(pts
+			(xy 279.4 88.9) (xy 276.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9413d358-aa35-4349-a122-5800cb558180")
 	)
 	(wire
 		(pts
@@ -5686,6 +6209,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 55.88) (xy 242.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df03c09-28eb-48e5-9f6c-06784639aa29")
+	)
+	(wire
+		(pts
 			(xy 45.72 147.32) (xy 46.99 147.32)
 		)
 		(stroke
@@ -5693,6 +6226,16 @@
 			(type default)
 		)
 		(uuid "a04c4c19-ebeb-4b47-aeeb-3c4286c4a91d")
+	)
+	(wire
+		(pts
+			(xy 260.35 57.15) (xy 269.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c4b0d9-f170-4d9b-9509-9e70fdf0b0d7")
 	)
 	(wire
 		(pts
@@ -5733,6 +6276,26 @@
 			(type default)
 		)
 		(uuid "a5b45a91-8d35-42f7-bf7b-62cf6b7b042a")
+	)
+	(wire
+		(pts
+			(xy 256.54 69.85) (xy 256.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fd77e6-fdb3-4f07-9fda-fabf5b067e43")
+	)
+	(wire
+		(pts
+			(xy 276.86 87.63) (xy 276.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85753bd-0b11-425c-973d-ade1ae2d3471")
 	)
 	(wire
 		(pts
@@ -5906,6 +6469,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 77.47) (xy 233.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6489461-cbe9-4d42-a007-159cb206dac7")
+	)
+	(wire
+		(pts
 			(xy 25.4 33.02) (xy 25.4 35.56)
 		)
 		(stroke
@@ -5943,6 +6516,16 @@
 			(type default)
 		)
 		(uuid "dc674a84-f99b-4c41-b864-092b8661cffd")
+	)
+	(wire
+		(pts
+			(xy 279.4 87.63) (xy 279.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df50a441-aa8d-4b83-a6b4-3b72f22f4bea")
 	)
 	(wire
 		(pts
@@ -5986,6 +6569,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 80.01) (xy 269.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e6a044-1f16-438e-ae4e-54a3cabd2fc9")
+	)
+	(wire
+		(pts
 			(xy 156.21 140.97) (xy 156.21 138.43)
 		)
 		(stroke
@@ -5993,6 +6586,26 @@
 			(type default)
 		)
 		(uuid "e564d8aa-fca6-4272-81ca-f5675eda8202")
+	)
+	(wire
+		(pts
+			(xy 256.54 69.85) (xy 260.35 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6619ad5-0e44-42d8-a03d-ab0af937ed6f")
+	)
+	(wire
+		(pts
+			(xy 219.71 77.47) (xy 226.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ecbe7e-281f-41e1-8d29-bd1fbd2227e7")
 	)
 	(wire
 		(pts
@@ -6129,6 +6742,18 @@
 			(type none)
 		)
 		(uuid 33969500-814c-4cd3-aab8-2399ab4565ad)
+	)
+	(rectangle
+		(start 203.2 48.26)
+		(end 284.48 99.06)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7e0d69b1-42b9-4efc-9b59-fd5c3120657e)
 	)
 	(rectangle
 		(start 240.03 13.97)
@@ -6296,6 +6921,28 @@
 			)
 		)
 	)
+	(global_label "TO_RMT"
+		(shape input)
+		(at 219.71 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c0b1249-e00d-4497-8b00-65b35d2e7641")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.7701 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED0"
 		(shape input)
 		(at 180.34 52.07 0)
@@ -6406,6 +7053,28 @@
 			)
 		)
 	)
+	(global_label "TO_RMT"
+		(shape input)
+		(at 180.34 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e6d18ef-d52b-4e1e-9e81-d55ce1aaf60c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.2799 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCK"
 		(shape output)
 		(at 180.34 64.77 0)
@@ -6463,6 +7132,28 @@
 		(uuid "af38fbf2-cf2b-4bff-929f-9853a712b679")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.9642 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FROM_RMT"
+		(shape output)
+		(at 180.34 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbe2ffd7-f761-4f65-90c8-5e0c6fd9fb1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.1223 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,6 +7295,28 @@
 			)
 		)
 	)
+	(global_label "FROM_RMT"
+		(shape output)
+		(at 219.71 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e23748ae-4297-4871-aa52-d4fe021c0689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.9277 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB+"
 		(shape bidirectional)
 		(at 180.34 82.55 0)
@@ -6687,6 +7400,83 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 80.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0adc128d-f8bc-450c-abec-6d98cfa24b6f")
+		(property "Reference" "R17"
+			(at 229.616 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 229.87 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 229.87 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "603-RC0805FR-1010RL"
+			(at 229.87 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e05bae14-c339-4441-b43c-bfbd6e848250")
+		)
+		(pin "2"
+			(uuid "9428dc4d-f948-456b-a2c4-0514aa1d8884")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6839,6 +7629,224 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ccecf42-a0e8-4e95-998b-70d316a77c57")
+		(property "Reference" "#PWR047"
+			(at 256.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148bb2a0-cde3-4f85-b36c-55191087e536")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_A")
+		(at 276.86 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d1baef3-139f-4ef5-a611-70bca40b792f")
+		(property "Reference" "J11"
+			(at 276.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-A RMT"
+			(at 276.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
+			(at 273.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/676430910?display=pdf"
+			(at 273.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Type A connector"
+			(at 276.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "538-67643-0910"
+			(at 276.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ccdfcc3a-5a80-4c8d-8356-b92afa21a8e8")
+		)
+		(pin "2"
+			(uuid "4187d9ea-e34b-4238-8479-93cf5d6e4df0")
+		)
+		(pin "5"
+			(uuid "ca7d3434-b646-4934-af88-2195136d068b")
+		)
+		(pin "1"
+			(uuid "c77b26e0-633a-4e32-bf8d-e1e6ac071d16")
+		)
+		(pin "4"
+			(uuid "8bddd552-7c1b-4045-afcc-a7bf43e18065")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 242.57 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dbb89d5-2f6e-4305-88ed-78eb380713c4")
+		(property "Reference" "#PWR045"
+			(at 242.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 242.57 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 242.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88a40318-918f-47eb-bb14-310cca22db06")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9351,6 +10359,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 260.35 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2fffa14-820f-4c64-b412-8ea8896b3119")
+		(property "Reference" "C25"
+			(at 260.858 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 261.366 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 261.3152 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
+			(at 260.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 260.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "810-C2012X7R2A104K"
+			(at 260.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/810-C2012X7R2A104K"
+			(at 260.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cde6e5eb-23f4-4a29-92f5-ab83bf8d60e8")
+		)
+		(pin "2"
+			(uuid "586e9782-5ed4-44d4-ad06-9e0bb4eb8b0e")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 260.35 29.21 90)
 		(unit 1)
@@ -9566,6 +10661,101 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 242.57 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1bc8044-4edc-4fbb-ae93-ed4e70c750aa")
+		(property "Reference" "U9"
+			(at 240.9189 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 240.9189 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 241.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 241.3 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 242.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "511-USBLC6-2SC6"
+			(at 242.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f94564b8-808d-4561-8b14-81b9b511fcd0")
+		)
+		(pin "4"
+			(uuid "c6ae7a56-c199-42c5-b262-0d737eb0c539")
+		)
+		(pin "5"
+			(uuid "39085ccb-3eca-4808-a0df-519255cb2ce5")
+		)
+		(pin "6"
+			(uuid "45afaab8-794e-46be-b2ae-9ccf24ff4e62")
+		)
+		(pin "3"
+			(uuid "194093bd-4a76-44d3-9722-218ef2bf3b63")
+		)
+		(pin "2"
+			(uuid "36843a1a-f2c1-4a7e-a5c8-b978af415a4c")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -10013,6 +11203,149 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 251.46 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cddd5b1a-d958-47e7-bd42-42b7b5062fbf")
+		(property "Reference" "C24"
+			(at 252.222 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2µF"
+			(at 252.476 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 252.4252 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf"
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "963-HMK325B7225KM-P"
+			(at 251.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d449e53c-6450-4f97-add0-a8178f5678e0")
+		)
+		(pin "1"
+			(uuid "e747498a-ba76-412a-9c56-0ad05b4f5661")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1e15f85-ba62-4acb-95eb-eabe75ffc63f")
+		(property "Reference" "#PWR044"
+			(at 276.86 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dde03211-6ddc-4585-8899-a53364eba3ed")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 34.29 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10257,6 +11590,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 229.87 77.47 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de341f4a-c8cd-4b11-b81b-0a2daeab2dbf")
+		(property "Reference" "R16"
+			(at 229.87 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 230.124 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 229.87 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
+			(at 229.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "603-RC0805FR-1010RL"
+			(at 229.87 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2644394-0747-4b45-b694-6f1cf64d4e68")
+		)
+		(pin "2"
+			(uuid "d17994f9-9b25-4c67-afd0-b029ba356abb")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 64.77 146.05 0)
 		(unit 1)
@@ -10393,6 +11803,72 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb49fc34-37e0-4c86-8331-6843d4678975")
+		(property "Reference" "#PWR046"
+			(at 242.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.57 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 242.57 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61fce49b-e362-487a-8603-15200bc6b709")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)

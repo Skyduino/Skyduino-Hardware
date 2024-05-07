@@ -5693,6 +5693,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 82.55) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d272bdc-66fe-41c8-8f63-f2af84577701")
+	)
+	(wire
+		(pts
 			(xy 25.4 66.04) (xy 31.75 66.04)
 		)
 		(stroke
@@ -7045,6 +7055,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SSR"
+		(shape output)
+		(at 128.27 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39551fb2-36b6-446a-b0e4-a060ecac2837")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.5958 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8596,7 +8628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "403f7abb-b590-4283-aded-deb8b31f15ff")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 158.4041 138.43 0)
 			(effects
 				(font
@@ -8846,7 +8878,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8927,7 +8959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41a1d952-c067-430d-9b3c-be95782ec84e")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 66.4211 149.86 0)
 			(effects
 				(font
@@ -9005,7 +9037,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -11450,22 +11482,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1bc8044-4edc-4fbb-ae93-ed4e70c750aa")
-		(property "Reference" "U7"
-			(at 240.9189 69.85 0)
+		(property "Reference" "U8"
+			(at 245.5865 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 240.9189 72.39 0)
+			(at 245.5865 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
@@ -11528,7 +11560,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -12289,7 +12321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da066d5e-22d7-4eb7-b3d9-7fff6ec2208b")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 97.79 55.372 0)
 			(effects
 				(font
@@ -12356,7 +12388,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)

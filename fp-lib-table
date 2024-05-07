@@ -3,4 +3,5 @@
   (lib (name "Inductor_Bourns")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Inductor_Bourns.pretty")(options "")(descr ""))
   (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Connectors.pretty")(options "")(descr ""))
   (lib (name "Oscillators")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Oscillators.pretty")(options "")(descr ""))
+  (lib (name "SSRs")(type "KiCad")(uri "${KIPRJMOD}/Footprints/SSRs.pretty")(options "")(descr ""))
 )

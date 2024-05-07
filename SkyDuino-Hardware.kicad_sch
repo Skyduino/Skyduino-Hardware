@@ -2844,6 +2844,12 @@
 		(uuid "4a6545f7-c887-47f8-a0a6-870c6e7a075a")
 	)
 	(junction
+		(at 261.62 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c0261f6-cd29-40c7-ad00-a8b80a668460")
+	)
+	(junction
 		(at 86.36 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2982,6 +2988,16 @@
 			(type default)
 		)
 		(uuid "06c12296-8113-45e0-85fb-20a0b8583db8")
+	)
+	(wire
+		(pts
+			(xy 256.54 119.38) (xy 261.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c9c8c6-3323-4c2f-ac08-4ac940f328ff")
 	)
 	(wire
 		(pts
@@ -3335,6 +3351,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 105.41) (xy 261.62 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d67742d-e1c8-4495-bfe3-2125458223bd")
+	)
+	(wire
+		(pts
 			(xy 265.43 63.5) (xy 265.43 62.23)
 		)
 		(stroke
@@ -3352,6 +3378,16 @@
 			(type default)
 		)
 		(uuid "538da4f3-6ce5-4f33-bdc3-f4b22614d446")
+	)
+	(wire
+		(pts
+			(xy 266.7 121.92) (xy 261.62 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574acce2-a479-438b-beb6-d9d3bc142dd7")
 	)
 	(wire
 		(pts
@@ -3725,6 +3761,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 119.38) (xy 266.7 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b4293e-6cad-4781-82f6-5d4bf046636e")
+	)
+	(wire
+		(pts
 			(xy 24.13 142.24) (xy 26.67 142.24)
 		)
 		(stroke
@@ -3985,6 +4031,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 116.84) (xy 261.62 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6452c2f-e9be-4ba5-8cd7-d7bf5b5e192c")
+	)
+	(wire
+		(pts
 			(xy 36.83 87.63) (xy 36.83 97.79)
 		)
 		(stroke
@@ -4233,6 +4289,16 @@
 		)
 		(uuid "fd7f900c-ed18-4551-b812-569a4d5d66ff")
 	)
+	(wire
+		(pts
+			(xy 261.62 121.92) (xy 261.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8064a4-c5a0-49f6-a284-ddfbecb9a441")
+	)
 	(rectangle
 		(start 13.97 71.12)
 		(end 127.635 159.385)
@@ -4307,6 +4373,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NTC"
+		(shape output)
+		(at 256.54 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1669bddc-ca50-4061-b214-710f0bd88093")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.9867 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4893,6 +4981,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 261.62 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fc8f443-7f86-43e1-a64b-7ef66237429d")
+		(property "Reference" "#PWR053"
+			(at 261.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 261.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 261.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cde3006-51b6-4c3f-86c7-fd9de7db8f03")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 22.86 82.55 270)
 		(mirror x)
@@ -5022,6 +5175,72 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 261.62 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "211693de-d022-414e-bdd6-1c9afa73af88")
+		(property "Reference" "#PWR052"
+			(at 261.62 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c842dc8e-2ea4-4801-8569-284f5241cfa8")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7503,6 +7722,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 271.78 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8589daf8-935c-466a-a53a-0aed842de779")
+		(property "Reference" "J13"
+			(at 273.558 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NTC"
+			(at 274.574 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62ea3df1-cc17-4670-9f7a-cff0420b0572")
+		)
+		(pin "2"
+			(uuid "5f8c8c28-9ec9-4f6c-b18f-ae0934495177")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 93.98 30.48 90)
 		(unit 1)
@@ -8417,6 +8705,85 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 261.62 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfdca3b4-cbc8-446c-9b76-153bb16e1c99")
+		(property "Reference" "R18"
+			(at 264.16 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 264.16 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 259.842 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_11.pdf"
+			(at 261.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 261.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "603-AC0805JR-0710KL"
+			(at 261.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee9470be-01a8-4b13-acbb-2e19d91ac759")
+		)
+		(pin "2"
+			(uuid "7960ec35-e720-46b0-aa9c-9191f2995e67")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "R18")
 					(unit 1)
 				)
 			)

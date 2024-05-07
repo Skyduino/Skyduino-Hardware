@@ -6437,6 +6437,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 54.61) (xy 180.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45f8c02-3934-4da4-b1bc-afd8ae9dd942")
+	)
+	(wire
+		(pts
 			(xy 25.4 63.5) (xy 31.75 63.5)
 		)
 		(stroke
@@ -7325,6 +7335,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NTC"
+		(shape input)
+		(at 180.34 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8a5ca5a-40a0-4547-84e6-a28897ba1fb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.8933 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

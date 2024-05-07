@@ -5091,6 +5091,12 @@
 		(color 0 0 0 0)
 		(uuid "f5e61a04-a1a7-494f-8d79-7aea175923eb")
 	)
+	(junction
+		(at 193.04 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffb9fe0b-e242-4d92-b6b0-544e8a265ff3")
+	)
 	(no_connect
 		(at 45.72 142.24)
 		(uuid "2006fe2a-2736-4a0a-839d-6a5051398688")
@@ -6117,6 +6123,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 57.15) (xy 193.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d78a3a-1c23-469b-a9bb-ef09de6f1a99")
+	)
+	(wire
+		(pts
 			(xy 171.45 74.93) (xy 180.34 74.93)
 		)
 		(stroke
@@ -6477,7 +6493,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 54.61) (xy 180.34 54.61)
+			(xy 171.45 54.61) (xy 193.04 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6554,6 +6570,16 @@
 			(type default)
 		)
 		(uuid "cdb7667b-969c-4f3f-be94-d848d24e496b")
+	)
+	(wire
+		(pts
+			(xy 193.04 64.77) (xy 193.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce27dcc8-25d6-401f-abf7-b7f32c3f4fef")
 	)
 	(wire
 		(pts
@@ -6854,6 +6880,16 @@
 			(type default)
 		)
 		(uuid "fbdeac1d-d7b2-42c1-8e4c-be3d46b8d7a8")
+	)
+	(wire
+		(pts
+			(xy 193.04 54.61) (xy 195.58 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc138fd0-225b-476b-9de7-fadadfbbf4cb")
 	)
 	(wire
 		(pts
@@ -7521,7 +7557,7 @@
 	)
 	(global_label "NTC"
 		(shape input)
-		(at 180.34 54.61 0)
+		(at 195.58 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7531,7 +7567,7 @@
 		)
 		(uuid "d8a5ca5a-40a0-4547-84e6-a28897ba1fb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8933 54.61 0)
+			(at 202.1333 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +7675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0437997a-b997-42dc-9f81-121047e7fe65")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR052"
 			(at 156.21 149.86 0)
 			(effects
 				(font
@@ -7689,7 +7725,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR031")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7705,7 +7741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0adc128d-f8bc-450c-abec-6d98cfa24b6f")
-		(property "Reference" "R17"
+		(property "Reference" "R14"
 			(at 229.616 80.01 90)
 			(effects
 				(font
@@ -7766,7 +7802,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "R17")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7781,7 +7817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0affb783-e457-449f-9ca0-b8b8cd1d7cd7")
-		(property "Reference" "R14"
+		(property "Reference" "R17"
 			(at 77.47 157.48 90)
 			(effects
 				(font
@@ -7842,7 +7878,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7857,7 +7893,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c6cf365-524f-4a39-8b3e-9193f040d073")
-		(property "Reference" "R15"
+		(property "Reference" "R18"
 			(at 77.724 160.02 90)
 			(effects
 				(font
@@ -7918,7 +7954,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "R15")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7933,7 +7969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ccecf42-a0e8-4e95-998b-70d316a77c57")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR043"
 			(at 256.54 77.47 0)
 			(effects
 				(font
@@ -7983,7 +8019,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR047")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7999,7 +8035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d1baef3-139f-4ef5-a611-70bca40b792f")
-		(property "Reference" "J11"
+		(property "Reference" "J12"
 			(at 276.86 64.77 0)
 			(effects
 				(font
@@ -8069,7 +8105,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "J11")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -8086,7 +8122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dbb89d5-2f6e-4305-88ed-78eb380713c4")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR040"
 			(at 242.57 59.69 0)
 			(effects
 				(font
@@ -8136,7 +8172,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR045")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8152,7 +8188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f7074d2-0ff5-4a0d-b4b5-ee52f73fb68e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -8203,7 +8239,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8219,7 +8255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31b82f62-f46c-48af-a086-6d82bf37ec5f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR036"
 			(at 17.78 44.45 0)
 			(effects
 				(font
@@ -8269,7 +8305,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR029")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8284,7 +8320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "332a00d0-5fc2-4adc-b142-03812981cb0d")
-		(property "Reference" "C23"
+		(property "Reference" "C21"
 			(at 108.712 68.072 0)
 			(effects
 				(font
@@ -8347,7 +8383,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C23")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8363,7 +8399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39fd525f-d0aa-44b7-a6f3-9c4c212d61e0")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 106.68 27.94 0)
 			(effects
 				(font
@@ -8413,7 +8449,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8429,7 +8465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c931b1a-fc28-40a7-b9fe-dfeaed1a50e1")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR035"
 			(at 276.86 38.1 0)
 			(effects
 				(font
@@ -8479,7 +8515,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR039")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8495,7 +8531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c9c9e37-349f-46fe-80ed-3790c500238b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 148.59 31.75 0)
 			(effects
 				(font
@@ -8545,7 +8581,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8560,7 +8596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "403f7abb-b590-4283-aded-deb8b31f15ff")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 158.4041 138.43 0)
 			(effects
 				(font
@@ -8810,7 +8846,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -8825,7 +8861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4115916d-4ddd-41a3-acf1-a4ec43c3e31a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR054"
 			(at 55.88 157.48 0)
 			(effects
 				(font
@@ -8875,7 +8911,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR043")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -8891,7 +8927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41a1d952-c067-430d-9b3c-be95782ec84e")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 66.4211 149.86 0)
 			(effects
 				(font
@@ -8969,7 +9005,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8984,7 +9020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4338828f-2761-4ac4-bfd7-9fce7f1f3ed7")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 97.79 36.83 90)
 			(effects
 				(font
@@ -9045,7 +9081,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9060,7 +9096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47cd9c94-fc85-48fe-a515-e70551f1ba0d")
-		(property "Reference" "C12"
+		(property "Reference" "C17"
 			(at 60.198 26.924 0)
 			(effects
 				(font
@@ -9132,7 +9168,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C12")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -9147,7 +9183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48c34aae-5dea-48d9-8c35-5e93925be0fb")
-		(property "Reference" "C21"
+		(property "Reference" "C26"
 			(at 82.55 122.428 90)
 			(effects
 				(font
@@ -9208,7 +9244,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C21")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9223,7 +9259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e3fd059-ddef-4e24-873e-c2372fcb1413")
-		(property "Reference" "C26"
+		(property "Reference" "C18"
 			(at 67.818 26.924 0)
 			(effects
 				(font
@@ -9295,7 +9331,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C26")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9311,7 +9347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f418c3a-9d27-404c-8dd7-b1e5d628eb05")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR044"
 			(at 92.71 81.28 0)
 			(effects
 				(font
@@ -9362,7 +9398,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR037")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9445,7 +9481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55f6a62a-7904-443b-93b6-9185826ceb3c")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR056"
 			(at 30.48 198.12 0)
 			(effects
 				(font
@@ -9495,7 +9531,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR041")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -9588,7 +9624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a48f6dd-603a-470a-9629-d0d0b6a71e03")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR037"
 			(at 106.68 44.45 0)
 			(effects
 				(font
@@ -9638,7 +9674,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR026")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9735,7 +9771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b97f62b-0304-4470-b471-e8fec4d9ec72")
-		(property "Reference" "C18"
+		(property "Reference" "C12"
 			(at 18.542 26.924 0)
 			(effects
 				(font
@@ -9798,7 +9834,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C18")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9813,7 +9849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "700306b7-d977-4e38-83f1-ff05d85ce4a9")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 170.942 39.624 90)
 			(effects
 				(font
@@ -9885,7 +9921,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9900,7 +9936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72969a26-3e65-41d0-8d06-4d78bf24397f")
-		(property "Reference" "C20"
+		(property "Reference" "C25"
 			(at 82.5437 99.822 90)
 			(effects
 				(font
@@ -9961,7 +9997,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C20")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -9977,7 +10013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "730c4d71-bc22-4a95-862c-6c61c0f4e01a")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 172.72 49.53 0)
 			(effects
 				(font
@@ -10027,7 +10063,74 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR032")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7594116e-bbb6-41c3-8918-85aa592b5d35")
+		(property "Reference" "#PWR01"
+			(at 193.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97c19dec-4605-44c6-88e7-e57f516ade38")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10043,7 +10146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77fcc059-96fc-4d10-ad0d-435587d32bde")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR041"
 			(at 29.21 62.23 0)
 			(effects
 				(font
@@ -10093,7 +10196,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR028")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10109,7 +10212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79d79d85-7664-45ba-82f8-3c1fa3967c1c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR042"
 			(at 29.21 77.47 0)
 			(effects
 				(font
@@ -10159,7 +10262,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR034")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10174,7 +10277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c52a3d1-6eb4-4653-9ddd-c7e112661233")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR055"
 			(at 64.77 173.99 0)
 			(effects
 				(font
@@ -10224,7 +10327,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR040")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10240,7 +10343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ef65c2c-a841-4690-b116-cc3728f59de9")
-		(property "Reference" "J9"
+		(property "Reference" "J14"
 			(at 30.48 134.62 0)
 			(effects
 				(font
@@ -10340,7 +10443,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "J9")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -10356,7 +10459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fd433a7-c2e2-4cfd-8233-934ffc36fc83")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR049"
 			(at 99.06 120.65 0)
 			(effects
 				(font
@@ -10407,7 +10510,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR036")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10422,7 +10525,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cd154b3-7c08-43db-820e-735fb34b21c1")
-		(property "Reference" "C16"
+		(property "Reference" "C27"
 			(at 124.206 121.412 0)
 			(effects
 				(font
@@ -10494,7 +10597,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C16")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -10511,7 +10614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d0e390e-0a8c-4b09-b31c-df774df57577")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR047"
 			(at 271.78 114.3 0)
 			(effects
 				(font
@@ -10561,7 +10664,94 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR055")
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9823a331-b8b8-4bab-8648-509a4e8a8012")
+		(property "Reference" "C22"
+			(at 193.802 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 194.31 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 194.0052 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf?ref_disty=mouser"
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "810-C2012C0G1H103J-1"
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/TDK/C2012C0G1H103J060AA?qs=dfay7wIA1uESihXTlxZAiQ%3D%3D"
+			(at 193.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ed4b965-7393-45b1-a6a8-63c63e540ef7")
+		)
+		(pin "2"
+			(uuid "453b9fae-594d-4ad7-8534-4e9a0206688b")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -10576,7 +10766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99d57c77-0050-4b1e-b89e-2fb396a78ae9")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 43.688 26.924 0)
 			(effects
 				(font
@@ -10648,7 +10838,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10664,7 +10854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bbf991b-b674-4946-9099-0e9272fcc2a6")
-		(property "Reference" "J14"
+		(property "Reference" "J13"
 			(at 279.654 124.968 0)
 			(effects
 				(font
@@ -10722,7 +10912,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -10737,7 +10927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c487172-27e4-4345-8f55-6a6f7a85add6")
-		(property "Reference" "C22"
+		(property "Reference" "C20"
 			(at 76.2 67.818 0)
 			(effects
 				(font
@@ -10800,7 +10990,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C22")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10815,7 +11005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d75c96d-e53a-41fd-add8-5d90118b1504")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR050"
 			(at 271.78 130.81 0)
 			(effects
 				(font
@@ -10865,7 +11055,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR054")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -10881,7 +11071,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a1a895b7-2370-4cfb-81d7-1e6e36e6fb43")
-		(property "Reference" "R11"
+		(property "Reference" "R19"
 			(at 25.4 182.8799 0)
 			(effects
 				(font
@@ -10935,7 +11125,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "R11")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10950,7 +11140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2fffa14-820f-4c64-b412-8ea8896b3119")
-		(property "Reference" "C25"
+		(property "Reference" "C24"
 			(at 260.858 61.214 0)
 			(effects
 				(font
@@ -11022,7 +11212,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C25")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -11038,7 +11228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a63191c4-f34e-4458-bb56-5edc2185389d")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 260.35 22.86 90)
 			(effects
 				(font
@@ -11099,7 +11289,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11185,7 +11375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae1c6691-f9d0-456f-9186-7c895e89ba57")
-		(property "Reference" "J8"
+		(property "Reference" "J11"
 			(at 20.066 57.912 0)
 			(effects
 				(font
@@ -11243,7 +11433,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "J8")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -11260,7 +11450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1bc8044-4edc-4fbb-ae93-ed4e70c750aa")
-		(property "Reference" "U9"
+		(property "Reference" "U7"
 			(at 240.9189 69.85 0)
 			(effects
 				(font
@@ -11338,7 +11528,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "U9")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -11354,7 +11544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b34dd714-8099-4cdb-9bf2-bc89dabe0deb")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR032"
 			(at 17.78 25.4 0)
 			(effects
 				(font
@@ -11404,7 +11594,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR025")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11419,7 +11609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6213ec8-e6ca-4c2b-ac34-2c1a954ff5d5")
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 50.546 149.86 90)
 			(effects
 				(font
@@ -11480,7 +11670,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "R13")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11495,7 +11685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b65c5a76-3fa2-4fa7-a7ac-96bc54b2ae5b")
-		(property "Reference" "C13"
+		(property "Reference" "C16"
 			(at 52.578 26.924 0)
 			(effects
 				(font
@@ -11567,7 +11757,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11583,7 +11773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8d5fcec-50e3-484c-b4c1-354f35a23719")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR051"
 			(at 128.27 134.62 0)
 			(effects
 				(font
@@ -11633,7 +11823,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR030")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -11649,7 +11839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcf7bed2-bac7-4b5a-b17e-9a2b1d88bdab")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR048"
 			(at 72.39 119.38 0)
 			(effects
 				(font
@@ -11700,7 +11890,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR035")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11715,7 +11905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb98aa0b-3d27-4b1a-af42-ed6b6912a6a0")
-		(property "Reference" "C19"
+		(property "Reference" "C13"
 			(at 26.162 26.924 0)
 			(effects
 				(font
@@ -11778,7 +11968,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C19")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11793,7 +11983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cddd5b1a-d958-47e7-bd42-42b7b5062fbf")
-		(property "Reference" "C24"
+		(property "Reference" "C23"
 			(at 252.222 61.214 0)
 			(effects
 				(font
@@ -11856,7 +12046,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C24")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -11871,7 +12061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1e15f85-ba62-4acb-95eb-eabe75ffc63f")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 276.86 96.52 0)
 			(effects
 				(font
@@ -11921,7 +12111,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11936,7 +12126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3727134-3764-47a3-97ae-95283706fca6")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 34.798 26.924 0)
 			(effects
 				(font
@@ -12008,7 +12198,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -12099,7 +12289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da066d5e-22d7-4eb7-b3d9-7fff6ec2208b")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 97.79 55.372 0)
 			(effects
 				(font
@@ -12166,7 +12356,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12182,7 +12372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de341f4a-c8cd-4b11-b81b-0a2daeab2dbf")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 229.87 77.47 90)
 			(effects
 				(font
@@ -12243,7 +12433,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12259,7 +12449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e14f5ff8-2daf-49a9-a07b-3c40a9224aa1")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR053"
 			(at 64.77 149.86 0)
 			(effects
 				(font
@@ -12309,7 +12499,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR042")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12324,7 +12514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4ddfe0c-842c-4101-9b00-b08467afd827")
-		(property "Reference" "R12"
+		(property "Reference" "R15"
 			(at 50.546 147.32 90)
 			(effects
 				(font
@@ -12385,7 +12575,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "R12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12401,7 +12591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb49fc34-37e0-4c86-8331-6843d4678975")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 242.57 93.98 0)
 			(effects
 				(font
@@ -12451,7 +12641,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)

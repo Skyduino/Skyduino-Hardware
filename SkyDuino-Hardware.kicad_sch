@@ -6213,6 +6213,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 27.94 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31554193-de6c-4375-aedb-559a82d6a972")
+		(property "Reference" "ACN1"
+			(at 22.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QC 19705-4303"
+			(at 27.94 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connectors:QuickConnect_Tab_Molex_19705-4303"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/197/19705/197054303_sd.pdf"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminals QUICK DISCONNECT TAB"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "538-19705-4303"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dc4112c-78d1-4a27-a5d6-0edd0aa94d4f")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "ACN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 52.07 0)
 		(unit 1)
@@ -7036,7 +7110,7 @@
 				)
 			)
 		)
-		(property "Value" "Spade Conn"
+		(property "Value" "QC 19705-4303"
 			(at 27.94 172.72 0)
 			(effects
 				(font
@@ -7045,7 +7119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connectors:QuickConnect_Tab_Molex_19705-4303"
 			(at 27.94 176.53 0)
 			(effects
 				(font
@@ -7054,7 +7128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/197/19705/197054303_sd.pdf"
 			(at 27.94 176.53 0)
 			(effects
 				(font
@@ -7063,7 +7137,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Terminals QUICK DISCONNECT TAB"
+			(at 27.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "538-19705-4303"
 			(at 27.94 176.53 0)
 			(effects
 				(font
@@ -7399,7 +7482,7 @@
 				)
 			)
 		)
-		(property "Value" "Spade Conn"
+		(property "Value" "QC 19705-4303"
 			(at 27.94 167.64 0)
 			(effects
 				(font
@@ -7408,7 +7491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connectors:QuickConnect_Tab_Molex_19705-4303"
 			(at 27.94 171.45 0)
 			(effects
 				(font
@@ -7417,7 +7500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/197/19705/197054303_sd.pdf"
 			(at 27.94 171.45 0)
 			(effects
 				(font
@@ -7426,7 +7509,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Terminals QUICK DISCONNECT TAB"
+			(at 27.94 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "538-19705-4303"
 			(at 27.94 171.45 0)
 			(effects
 				(font
@@ -9711,71 +9803,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 27.94 186.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb358087-879c-4024-9ced-b8663868529c")
-		(property "Reference" "HEAT2"
-			(at 22.86 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Spade Conn"
-			(at 20.32 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afd20537-a8f8-49bf-8619-4a2b9921cbf2")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "HEAT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 110.49 41.91 0)
 		(unit 1)
@@ -10078,71 +10105,6 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 27.94 181.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9045817-bc63-4da9-8ee2-7e7a6b6df2e7")
-		(property "Reference" "ACN1"
-			(at 22.86 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Spade Conn"
-			(at 27.94 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02fe77bb-2108-4528-aee6-beb8c47421f8")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "ACN1")
 					(unit 1)
 				)
 			)
@@ -10825,6 +10787,80 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 27.94 186.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffaa352c-361d-42e1-bf83-48f3f5c3622d")
+		(property "Reference" "HEAT2"
+			(at 22.86 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QC 19705-4303"
+			(at 27.94 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connectors:QuickConnect_Tab_Molex_19705-4303"
+			(at 27.94 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/197/19705/197054303_sd.pdf"
+			(at 27.94 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Terminals QUICK DISCONNECT TAB"
+			(at 27.94 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "538-19705-4303"
+			(at 27.94 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e6a2286-aa1e-4c78-ac6e-3e7402d28bba")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "HEAT2")
 					(unit 1)
 				)
 			)

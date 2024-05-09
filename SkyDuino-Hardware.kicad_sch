@@ -3299,6 +3299,12 @@
 		(uuid "2da8cbe6-6c79-4f70-945c-0d242b020e05")
 	)
 	(junction
+		(at 52.07 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "390c9016-6798-4bc2-8e62-4347c104b0d4")
+	)
+	(junction
 		(at 86.36 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3359,10 +3365,10 @@
 		(uuid "899313a5-8210-429f-9e56-b182eaa8e0c0")
 	)
 	(junction
-		(at 48.26 97.79)
+		(at 67.31 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9870debb-9e84-46b3-aee6-4250d51a20f5")
+		(uuid "a6bf5e3a-ff95-4945-8525-a777b6f377b9")
 	)
 	(junction
 		(at 96.52 139.7)
@@ -3500,16 +3506,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 142.24) (xy 43.18 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdc6477-5aef-4ac3-9d43-4b445d2d6437")
-	)
-	(wire
-		(pts
 			(xy 265.43 24.13) (xy 240.03 24.13)
 		)
 		(stroke
@@ -3550,16 +3546,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 144.78) (xy 43.18 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "104db3b9-087e-4722-9d1f-aa55e8bfc7ef")
-	)
-	(wire
-		(pts
 			(xy 52.07 35.56) (xy 58.42 35.56)
 		)
 		(stroke
@@ -3597,6 +3583,16 @@
 			(type default)
 		)
 		(uuid "18858504-c80b-4fc1-9102-5abaa263d1e7")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 54.61 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cda59a-b3ae-4400-a63c-6c7e4d914573")
 	)
 	(wire
 		(pts
@@ -3780,26 +3776,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 142.24) (xy 26.67 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bf772e8-7338-4b93-9503-81caec43f590")
-	)
-	(wire
-		(pts
-			(xy 48.26 97.79) (xy 64.77 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c0820af-65cb-43bb-82f2-455a7557832d")
-	)
-	(wire
-		(pts
 			(xy 31.75 25.4) (xy 31.75 22.86)
 		)
 		(stroke
@@ -3950,7 +3926,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 97.79) (xy 48.26 97.79)
+			(xy 36.83 97.79) (xy 52.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4000,7 +3976,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 87.63) (xy 50.8 88.9)
+			(xy 39.37 87.63) (xy 39.37 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4027,16 +4003,6 @@
 			(type default)
 		)
 		(uuid "6ce2dd27-1ba8-40e4-93f4-dcb5cbdeff03")
-	)
-	(wire
-		(pts
-			(xy 26.67 144.78) (xy 26.67 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf7cd22-8961-4db6-98e7-20bff9bd2d5a")
 	)
 	(wire
 		(pts
@@ -4140,16 +4106,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 87.63) (xy 39.37 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eba7a93-e952-4dae-9428-b1d7ead607a7")
-	)
-	(wire
-		(pts
 			(xy 29.21 25.4) (xy 31.75 25.4)
 		)
 		(stroke
@@ -4207,6 +4163,16 @@
 			(type default)
 		)
 		(uuid "888ed0ee-0dc3-461d-923e-defde22c1f0f")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 67.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88947f10-b19c-45e4-b4d7-81ea9ffd8662")
 	)
 	(wire
 		(pts
@@ -4270,16 +4236,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 142.24) (xy 26.67 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98f3d146-1678-443a-96be-9336efa3af0d")
-	)
-	(wire
-		(pts
 			(xy 45.72 35.56) (xy 52.07 35.56)
 		)
 		(stroke
@@ -4297,16 +4253,6 @@
 			(type default)
 		)
 		(uuid "9bdfeb35-2c25-46fc-9cc0-c5bfc87fa992")
-	)
-	(wire
-		(pts
-			(xy 24.13 144.78) (xy 26.67 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed6c257-7304-4f8b-8dd1-7cb20f90696d")
 	)
 	(wire
 		(pts
@@ -4370,7 +4316,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 87.63) (xy 48.26 97.79)
+			(xy 36.83 87.63) (xy 36.83 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4560,16 +4506,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 87.63) (xy 36.83 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6b7fd63-edbe-463b-9e63-b9f0b48e9c30")
-	)
-	(wire
-		(pts
 			(xy 55.88 25.4) (xy 55.88 30.48)
 		)
 		(stroke
@@ -4630,16 +4566,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 142.24) (xy 43.18 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4791fe3-4022-4022-99c9-9b677fd8b96e")
-	)
-	(wire
-		(pts
 			(xy 52.07 25.4) (xy 52.07 27.94)
 		)
 		(stroke
@@ -4687,6 +4613,16 @@
 			(type default)
 		)
 		(uuid "dfa4de9f-fbbd-4fb6-880c-9fd6dd6ea0a0")
+	)
+	(wire
+		(pts
+			(xy 52.07 87.63) (xy 52.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0219354-4d6e-45af-b00c-b7cc2e6cdefd")
 	)
 	(wire
 		(pts
@@ -4800,13 +4736,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 144.78) (xy 43.18 144.78)
+			(xy 52.07 97.79) (xy 64.77 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd6fc7ea-0345-4056-94c4-ee696e60e24d")
+		(uuid "f84f4263-09a0-4d31-aff4-02fcc12064e0")
 	)
 	(wire
 		(pts
@@ -4827,6 +4763,16 @@
 			(type default)
 		)
 		(uuid "fd8064a4-c5a0-49f6-a284-ddfbecb9a441")
+	)
+	(wire
+		(pts
+			(xy 54.61 88.9) (xy 54.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fefc7dfd-2b2c-4345-ac5d-d18ea0a17a80")
 	)
 	(wire
 		(pts
@@ -4886,7 +4832,7 @@
 	)
 	(global_label "EXHT"
 		(shape input)
-		(at 50.8 88.9 270)
+		(at 39.37 88.9 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4896,7 +4842,7 @@
 		)
 		(uuid "027603ed-ef18-4bbd-8933-d7ee18cc5a18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 96.5418 90)
+			(at 39.37 96.5418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +5118,7 @@
 	)
 	(global_label "COOL"
 		(shape input)
-		(at 67.31 88.9 270)
+		(at 67.31 90.17 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5182,7 +5128,7 @@
 		)
 		(uuid "ddb7482d-dadc-43d7-a67f-537fd5e5e7ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 96.8443 90)
+			(at 67.31 98.1143 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,72 +5242,6 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 146.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "082fdf94-0e35-4ccc-b8f8-5f25b29c3f1c")
-		(property "Reference" "#PWR029"
-			(at 26.67 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.924 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24b3c1d3-b76e-4402-bff1-393cc7f6bf8f")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6500,76 +6380,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 35.56 142.24 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "382e91bf-c920-4cdd-ac64-50d27747b568")
-		(property "Reference" "J10"
-			(at 33.782 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AUX2"
-			(at 33.274 148.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 35.56 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d7793fc-a769-4da3-b5fc-39a120f86298")
-		)
-		(pin "2"
-			(uuid "1700eeb5-614c-4f82-a0fe-6be1079cff7f")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 100.33 52.07 0)
 		(unit 1)
@@ -6882,72 +6692,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 26.67 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5177e481-9ea6-4279-92a1-1fca8dcb4415")
-		(property "Reference" "#PWR027"
-			(at 26.67 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 26.67 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 26.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "695f2304-fadc-493f-9b98-3e8e11bdadb0")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 24.13 120.65 0)
 		(mirror y)
@@ -7162,72 +6906,6 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "ACL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 146.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56b85d1d-3c30-4847-bf6e-cd99452bda33")
-		(property "Reference" "#PWR030"
-			(at 43.18 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.434 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9844e4a0-874f-4dda-b4b1-ee504b8ab585")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8088,72 +7766,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 43.18 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72551017-d475-4bae-85cb-6149c29e63bd")
-		(property "Reference" "#PWR028"
-			(at 43.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 43.18 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 43.18 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a973d4e2-8781-49c2-bea2-d1242106db67")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 121.92 52.07 0)
 		(unit 1)
@@ -8221,85 +7833,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 19.05 142.24 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73b2be8e-d2ca-4727-bac1-bba1b4cff310")
-		(property "Reference" "J9"
-			(at 17.272 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AUX1"
-			(at 16.764 148.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 19.05 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 19.05 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "15259af7-2b45-4f9f-8fb1-834afd783c0c")
-		)
-		(pin "2"
-			(uuid "ecee27ff-3293-412e-834d-94dcce9b0ea2")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 48.26 82.55 90)
+		(at 36.83 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "750f8cde-c75a-4cee-84eb-ea6466b6c636")
-		(property "Reference" "J6"
-			(at 48.26 79.248 90)
+		(property "Reference" "J5"
+			(at 36.83 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +7850,7 @@
 			)
 		)
 		(property "Value" "Exhaust"
-			(at 53.086 82.296 90)
+			(at 41.656 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +7859,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 48.26 82.55 0)
+			(at 36.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +7868,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 82.55 0)
+			(at 36.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,7 +7877,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 82.55 0)
+			(at 36.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +7894,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8603,15 +8145,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 36.83 82.55 90)
+		(at 52.07 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "800de8a8-be08-49a2-9dce-af760ce90c61")
-		(property "Reference" "J5"
-			(at 35.052 79.502 90)
+		(property "Reference" "J6"
+			(at 50.292 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8619,8 +8161,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Filter"
-			(at 38.1 79.502 90)
+		(property "Value" "Cooling"
+			(at 53.34 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +8171,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 36.83 82.55 0)
+			(at 52.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8638,7 +8180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 82.55 0)
+			(at 52.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8647,7 +8189,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 36.83 82.55 0)
+			(at 52.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8206,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9039,72 +8581,6 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b78d6e8-94d1-42d9-af2c-5cab106d1c1a")
-		(property "Reference" "#PWR019"
-			(at 39.37 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.624 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b37849f0-b7d6-4c85-99f1-0c42391ec441")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)

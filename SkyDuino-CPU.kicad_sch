@@ -12145,6 +12145,7 @@
 	(symbol
 		(lib_id "Oscillator:KC2520Z")
 		(at 92.71 64.77 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12152,7 +12153,7 @@
 		(dnp no)
 		(uuid "da066d5e-22d7-4eb7-b3d9-7fff6ec2208b")
 		(property "Reference" "U7"
-			(at 97.79 55.372 0)
+			(at 95.758 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12160,7 +12161,7 @@
 			)
 		)
 		(property "Value" "25MHz"
-			(at 97.79 57.912 0)
+			(at 97.536 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12168,7 +12169,7 @@
 			)
 		)
 		(property "Footprint" "Oscillator:Oscillator_SMD_Kyocera_KC2520Z-4Pin_2.5x2.0mm"
-			(at 96.52 60.96 0)
+			(at 88.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12177,7 +12178,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/clock_z_x_e-3044365.pdf"
-			(at 96.52 60.96 0)
+			(at 88.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -9737,7 +9737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Oscillators:Diodes Inc G43270021"
 			(at 91.44 111.76 0)
 			(effects
 				(font

@@ -7750,7 +7750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_SH:KF7.62_2P"
+		(property "Footprint" "Connectors:KF7.62_2P"
 			(at 212.09 76.2 0)
 			(effects
 				(font
@@ -7890,7 +7890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_SH:KF7.62_2P"
+		(property "Footprint" "Connectors:KF7.62_2P"
 			(at 212.09 38.1 0)
 			(effects
 				(font

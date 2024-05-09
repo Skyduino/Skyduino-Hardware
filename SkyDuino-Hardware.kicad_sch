@@ -7217,7 +7217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 52.07 30.48 0)
 			(effects
 				(font
@@ -7226,7 +7226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 52.07 30.48 0)
 			(effects
 				(font
@@ -7235,7 +7235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "100V 2.2uF X7R 1210 10 %"
 			(at 52.07 30.48 0)
 			(effects
 				(font
@@ -7244,7 +7244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "963-HMK325B7225KM-P"
+		(property "Mouser pn" "187-CL21B225KPFNNNF"
 			(at 52.07 30.48 0)
 			(effects
 				(font
@@ -7906,7 +7906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 64.77 101.6 0)
 			(effects
 				(font
@@ -7915,7 +7915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/396/mlcc02_e-1307760.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 64.77 101.6 0)
 			(effects
 				(font
@@ -7933,7 +7933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "963-HMK325B7225KM-P"
+		(property "Mouser pn" "187-CL21B225KPFNNNF"
 			(at 64.77 101.6 0)
 			(effects
 				(font

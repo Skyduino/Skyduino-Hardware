@@ -557,10 +557,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Mouser pn",
           "name": "Mouser pn",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

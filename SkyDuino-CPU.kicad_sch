@@ -9534,6 +9534,7 @@
 	(symbol
 		(lib_id "Device:Crystal_GND23")
 		(at 91.44 111.76 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9549,7 +9550,7 @@
 			)
 		)
 		(property "Value" "32.768kHz"
-			(at 97.536 107.696 90)
+			(at 97.79 107.696 90)
 			(effects
 				(font
 					(size 1.27 1.27)

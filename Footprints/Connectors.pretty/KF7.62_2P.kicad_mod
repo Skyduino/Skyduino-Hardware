@@ -189,4 +189,15 @@
 		(remove_unused_layers no)
 		(uuid "a6dc2311-993c-45cb-ba4e-5c470791c628")
 	)
+	(model "${KIPRJMOD}/Lib/3dModels/KF7_62-2P.STEP"
+		(offset
+			(xyz 0 0.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

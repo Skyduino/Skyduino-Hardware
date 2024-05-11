@@ -198,4 +198,15 @@
 		(remove_unused_layers no)
 		(uuid "7c98f8eb-ce37-4a88-aaee-73a9f3b2928f")
 	)
+	(model "${KIPRJMOD}/Lib/3dModels/Molex-QC-19705-4303.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

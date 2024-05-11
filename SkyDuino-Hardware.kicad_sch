@@ -5169,8 +5169,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 22.86 82.55 270)
-		(mirror x)
+		(at 20.32 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5178,7 +5177,7 @@
 		(dnp no)
 		(uuid "10b51474-0af0-4adf-983c-b35f4e589baf")
 		(property "Reference" "J4"
-			(at 22.352 79.502 90)
+			(at 20.828 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5186,7 @@
 			)
 		)
 		(property "Value" "Drum"
-			(at 29.972 82.55 90)
+			(at 25.146 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5195,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 22.86 82.55 0)
+			(at 20.32 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 82.55 0)
+			(at 20.32 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5213,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 22.86 82.55 0)
+			(at 20.32 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +7000,7 @@
 				)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "24V"
 			(at 24.13 21.59 0)
 			(effects
 				(font

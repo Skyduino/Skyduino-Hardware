@@ -4959,7 +4959,7 @@
 		(uuid "86278182-f83f-4d86-bc78-7045d7da0ad1")
 	)
 	(no_connect
-		(at 171.45 114.3)
+		(at 171.45 115.57)
 		(uuid "8c24cc74-0e57-4209-8660-d8f0b439ee64")
 	)
 	(no_connect
@@ -4967,7 +4967,7 @@
 		(uuid "8f519a18-959b-497d-a535-a6b08352a5d7")
 	)
 	(no_connect
-		(at 171.45 118.11)
+		(at 135.89 82.55)
 		(uuid "9a984366-dded-4121-af88-2fe0693bcd37")
 	)
 	(no_connect
@@ -5596,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 82.55) (xy 135.89 82.55)
+			(xy 180.34 118.11) (xy 171.45 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6928,22 +6928,22 @@
 	)
 	(global_label "SSR"
 		(shape output)
-		(at 128.27 82.55 180)
+		(at 180.34 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "39551fb2-36b6-446a-b0e4-a060ecac2837")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.5958 82.55 0)
+			(at 187.0142 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)

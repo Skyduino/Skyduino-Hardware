@@ -4967,6 +4967,10 @@
 		(uuid "8f519a18-959b-497d-a535-a6b08352a5d7")
 	)
 	(no_connect
+		(at 171.45 52.07)
+		(uuid "9406663f-86e2-4076-a331-24411eb18de0")
+	)
+	(no_connect
 		(at 135.89 82.55)
 		(uuid "9a984366-dded-4121-af88-2fe0693bcd37")
 	)
@@ -5043,16 +5047,6 @@
 			(type default)
 		)
 		(uuid "0152a920-10f4-4bc7-b595-d916ee6d38af")
-	)
-	(wire
-		(pts
-			(xy 171.45 59.69) (xy 180.34 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0542e76a-e4f1-49b5-8014-45c1e9faac5d")
 	)
 	(wire
 		(pts
@@ -5386,7 +5380,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 52.07) (xy 180.34 52.07)
+			(xy 171.45 59.69) (xy 180.34 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6970,28 +6964,6 @@
 			)
 		)
 	)
-	(global_label "ETCS"
-		(shape output)
-		(at 180.34 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f23c74a-9565-4006-ab2a-227bce3319cb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.9213 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB2"
 		(shape input)
 		(at 180.34 100.33 0)
@@ -7104,7 +7076,7 @@
 	)
 	(global_label "LED0"
 		(shape input)
-		(at 180.34 52.07 0)
+		(at 180.34 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7114,7 +7086,7 @@
 		)
 		(uuid "838308cc-e6a9-40d8-bc9c-09817da4b691")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.9818 52.07 0)
+			(at 187.9818 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

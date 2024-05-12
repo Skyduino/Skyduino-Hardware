@@ -4805,22 +4805,10 @@
 		(uuid "6ff70145-cb45-49bb-b0fa-ff24310ddd75")
 	)
 	(junction
-		(at 92.71 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "700fdf17-e856-4a6f-a243-0fcb15391c20")
-	)
-	(junction
 		(at 156.21 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76c15b78-4be7-4733-8140-5eff06236561")
-	)
-	(junction
-		(at 107.95 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "789f0e5c-e2d5-4459-be1d-af877251b3ba")
 	)
 	(junction
 		(at 260.35 57.15)
@@ -5128,7 +5116,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 71.12) (xy 92.71 72.39)
+			(xy 92.71 69.85) (xy 92.71 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5468,16 +5456,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 69.85) (xy 92.71 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3966f354-d82d-4b0d-b438-3f6b267485bc")
-	)
-	(wire
-		(pts
 			(xy 107.95 113.03) (xy 107.95 119.38)
 		)
 		(stroke
@@ -5638,16 +5616,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 64.77) (xy 107.95 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5009acbb-1e7c-4965-8636-496066e392f7")
-	)
-	(wire
-		(pts
 			(xy 48.26 154.94) (xy 48.26 157.48)
 		)
 		(stroke
@@ -5738,16 +5706,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 71.12) (xy 92.71 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a57ede5-8dfc-4913-80e9-efdeb7b380c7")
-	)
-	(wire
-		(pts
 			(xy 17.78 35.56) (xy 17.78 38.1)
 		)
 		(stroke
@@ -5835,16 +5793,6 @@
 			(type default)
 		)
 		(uuid "640cf300-db83-4113-94aa-53962542715c")
-	)
-	(wire
-		(pts
-			(xy 107.95 69.85) (xy 107.95 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64cac980-65d0-44f3-8ab2-83db0740e6fc")
 	)
 	(wire
 		(pts
@@ -5985,16 +5933,6 @@
 			(type default)
 		)
 		(uuid "7fe8b3e5-afb0-4a0b-871e-ed0b775cb1a1")
-	)
-	(wire
-		(pts
-			(xy 107.95 62.23) (xy 102.87 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "830e8d9a-4658-4341-99e2-a95a5cb81a40")
 	)
 	(wire
 		(pts
@@ -6388,7 +6326,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 62.23) (xy 107.95 62.23)
+			(xy 102.87 62.23) (xy 135.89 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8267,84 +8205,6 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 107.95 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "332a00d0-5fc2-4adc-b142-03812981cb0d")
-		(property "Reference" "C22"
-			(at 108.712 65.532 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "11pF	"
-			(at 109.22 69.088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/C0GNP0_Dielectric-2952720.pdf"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser pn" "581-08055A110JAT2A"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76551103-83ab-48d0-be7a-22903224a5dd")
-		)
-		(pin "2"
-			(uuid "b4a4a28e-3fa3-43ca-9b44-dab8599df195")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C22")
 					(unit 1)
 				)
 			)

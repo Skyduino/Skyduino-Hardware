@@ -4652,6 +4652,39 @@
 		)
 		(uuid "54193bd6-b48c-4d98-85cb-14e46d919163")
 	)
+	(label "AC_NEUTRAL"
+		(at 34.29 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30e27f2c-1c6d-4f69-b9e1-20a975ae0f17")
+	)
+	(label "HEATER_LIFE"
+		(at 31.75 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35135b2c-143c-440e-b846-b9b0b0abdb0a")
+	)
+	(label "AC_Live"
+		(at 31.75 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a19d63c-f5e3-4ffe-abcd-8bdb47ee2c3f")
+	)
 	(global_label "EXHT"
 		(shape input)
 		(at 39.37 88.9 270)
@@ -4913,6 +4946,72 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 44.45 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fbf12ec-bd05-436f-b06c-00118f04b730")
+		(property "Netclass" "AC"
+			(at 44.45 167.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 44.45 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77f285d8-d194-4035-afe1-d2812490bcea")
+		(property "Netclass" "AC"
+			(at 44.45 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 33.02 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb267981-a4cb-48c2-a970-292aaa2eba0c")
+		(property "Netclass" "AC"
+			(at 37.084 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)

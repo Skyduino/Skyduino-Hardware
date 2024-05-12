@@ -578,7 +578,11 @@
       "/CPU/VDDA": "rgb(0, 194, 0)",
       "GND": "rgb(132, 132, 132)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(ACL1-Pin_1)": "AC",
+      "Net-(ACN1-Pin_1)": "AC",
+      "Net-(HEAT1-Pin_1)": "AC"
+    },
     "netclass_patterns": [
       {
         "netclass": "GND",

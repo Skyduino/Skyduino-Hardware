@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SkyDuino Roaster")
+		(date "2024-05-12")
 		(rev "0.1")
 		(company "Raz-1")
 	)
@@ -4652,6 +4653,39 @@
 		)
 		(uuid "54193bd6-b48c-4d98-85cb-14e46d919163")
 	)
+	(label "AC_NEUTRAL"
+		(at 34.29 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30e27f2c-1c6d-4f69-b9e1-20a975ae0f17")
+	)
+	(label "HEATER_LIFE"
+		(at 31.75 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35135b2c-143c-440e-b846-b9b0b0abdb0a")
+	)
+	(label "AC_Live"
+		(at 31.75 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a19d63c-f5e3-4ffe-abcd-8bdb47ee2c3f")
+	)
 	(global_label "EXHT"
 		(shape input)
 		(at 39.37 88.9 270)
@@ -4916,6 +4950,72 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 44.45 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fbf12ec-bd05-436f-b06c-00118f04b730")
+		(property "Netclass" "AC"
+			(at 44.45 167.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 44.45 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77f285d8-d194-4035-afe1-d2812490bcea")
+		(property "Netclass" "AC"
+			(at 44.45 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 33.02 181.61 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb267981-a4cb-48c2-a970-292aaa2eba0c")
+		(property "Netclass" "AC"
+			(at 37.084 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Driver_Motor:DRV8871DDA")
 		(at 36.83 109.22 0)
@@ -5051,7 +5151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 102.87 141.478 90)
 			(effects
 				(font
@@ -5683,7 +5783,7 @@
 		(dnp no)
 		(uuid "290106be-61ea-4328-8c1d-f6577238b78f")
 		(property "Reference" "C3"
-			(at 84.074 26.162 0)
+			(at 83.566 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5691,8 +5791,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
-			(at 84.836 29.21 0)
+		(property "Value" "100nF"
+			(at 84.074 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/396/taiyo_yuden_12132018_mlcc11_hq_e-1510082.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_midvoltage_en.pdf"
 			(at 82.55 27.94 0)
 			(effects
 				(font
@@ -5727,7 +5827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "963-GMK212BJ104KGHT"
+		(property "Mouser pn" "810-C2012X7R2A104K"
 			(at 82.55 27.94 0)
 			(effects
 				(font
@@ -5736,7 +5836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/GMK212BJ104KGHT"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/810-C2012X7R2A104K"
 			(at 82.55 27.94 0)
 			(effects
 				(font
@@ -6301,7 +6401,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 25.908 120.65 90)
 			(effects
 				(font
@@ -6673,7 +6773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 94.742 102.87 90)
 			(effects
 				(font
@@ -7439,7 +7539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 94.742 143.51 90)
 			(effects
 				(font
@@ -8674,7 +8774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 259.842 113.03 90)
 			(effects
 				(font
@@ -8810,7 +8910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22µF"
 			(at 114.3 43.1799 0)
 			(effects
 				(font
@@ -9051,7 +9151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100µF"
 			(at 122.936 44.196 0)
 			(effects
 				(font
@@ -9146,7 +9246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 102.87 100.838 90)
 			(effects
 				(font

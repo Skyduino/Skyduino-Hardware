@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.7,
+          "height": 2.55,
+          "width": 2.55
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,39 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "invalid_outline|125000000|111000000|273dd7d6-859c-405f-91f3-a53197984f24|00000000-0000-0000-0000-000000000000",
+        "invalid_outline|126000000|109000000|048bbf5e-901c-47ff-905f-bc1d1578acd3|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|207574246|135412147|03efde3f-c2bd-47bb-b963-d5404f3423e0|45ba5a3c-c494-4116-987c-bbcc477f3da5",
+        "silk_edge_clearance|207574246|135412147|03efde3f-c2bd-47bb-b963-d5404f3423e0|74c038e2-046d-41a6-8ecf-ecbacbbd1eee",
+        "silk_edge_clearance|217912147|125074246|03efde3f-c2bd-47bb-b963-d5404f3423e0|59becf8c-af4f-4ce3-a8c8-181a13f1a1fd",
+        "starved_thermal|156637500|108287500|246d89a8-16d3-4037-8239-0bf95782912f|3ad67c46-3c43-4ecc-b7a7-328517c09b77|F.Cu",
+        "starved_thermal|165000000|133500000|246d89a8-16d3-4037-8239-0bf95782912f|9cfcc422-c007-4c8d-ba92-8c1eb31db4fa|In1.Cu",
+        "starved_thermal|169000000|97000000|dc08f782-5246-403a-a66a-5a1a82bd907a|9492158b-dd58-4372-8cec-1ae4e1ab7b51|B.Cu",
+        "starved_thermal|169000000|97000000|dc08f782-5246-403a-a66a-5a1a82bd907a|9492158b-dd58-4372-8cec-1ae4e1ab7b51|F.Cu",
+        "starved_thermal|169000000|98300000|dc08f782-5246-403a-a66a-5a1a82bd907a|03b9931c-b477-462a-bf87-fb4a0deb5201|F.Cu",
+        "starved_thermal|169000000|99600000|dc08f782-5246-403a-a66a-5a1a82bd907a|22cd995d-34f2-43ad-8b42-58deff89d7c2|B.Cu",
+        "starved_thermal|169000000|99600000|dc08f782-5246-403a-a66a-5a1a82bd907a|22cd995d-34f2-43ad-8b42-58deff89d7c2|F.Cu",
+        "starved_thermal|170300000|97000000|dc08f782-5246-403a-a66a-5a1a82bd907a|275bb3de-0a76-4269-8b1f-9d1e5545fae7|B.Cu",
+        "starved_thermal|170300000|97000000|dc08f782-5246-403a-a66a-5a1a82bd907a|275bb3de-0a76-4269-8b1f-9d1e5545fae7|F.Cu",
+        "starved_thermal|170300000|98300000|dc08f782-5246-403a-a66a-5a1a82bd907a|5edbaac7-a908-4329-b5d5-95a797ecf4d7|B.Cu",
+        "starved_thermal|170300000|98300000|dc08f782-5246-403a-a66a-5a1a82bd907a|5edbaac7-a908-4329-b5d5-95a797ecf4d7|F.Cu",
+        "starved_thermal|170300000|99600000|dc08f782-5246-403a-a66a-5a1a82bd907a|0a2cfe2f-4e84-41f9-b84a-c7146fca618c|B.Cu",
+        "starved_thermal|170300000|99600000|dc08f782-5246-403a-a66a-5a1a82bd907a|0a2cfe2f-4e84-41f9-b84a-c7146fca618c|In1.Cu",
+        "starved_thermal|170300000|99600000|dc08f782-5246-403a-a66a-5a1a82bd907a|0a2cfe2f-4e84-41f9-b84a-c7146fca618c|In2.Cu",
+        "starved_thermal|172525000|97665000|246d89a8-16d3-4037-8239-0bf95782912f|1f4473b1-af38-420d-a247-399f7b96f70b|F.Cu",
+        "starved_thermal|178250000|124537500|246d89a8-16d3-4037-8239-0bf95782912f|5f453a2e-0e96-4b74-8342-a678ea68b602|F.Cu",
+        "starved_thermal|190500000|102462500|246d89a8-16d3-4037-8239-0bf95782912f|2da9bb50-9161-4c0b-b327-1bbd53802ac7|F.Cu",
+        "starved_thermal|195000000|119962500|246d89a8-16d3-4037-8239-0bf95782912f|d2cbac7b-c9e1-4428-9c97-defb610b8a16|F.Cu",
+        "starved_thermal|201500000|112862500|246d89a8-16d3-4037-8239-0bf95782912f|fc6dd3fd-35c6-498c-ae08-e5b829075d60|F.Cu",
+        "starved_thermal|210637500|106000000|246d89a8-16d3-4037-8239-0bf95782912f|922dd973-a918-4742-9d93-944915865dfb|F.Cu",
+        "starved_thermal|213750000|110250000|246d89a8-16d3-4037-8239-0bf95782912f|70d5810a-5380-4f70-b4e9-d42812797eaa|F.Cu",
+        "starved_thermal|214619742|110016654|246d89a8-16d3-4037-8239-0bf95782912f|838a2fe5-e0a6-4296-8b99-3024b3e33ba8|B.Cu",
+        "starved_thermal|214619742|110016654|246d89a8-16d3-4037-8239-0bf95782912f|838a2fe5-e0a6-4296-8b99-3024b3e33ba8|F.Cu",
+        "starved_thermal|214619742|110016654|246d89a8-16d3-4037-8239-0bf95782912f|838a2fe5-e0a6-4296-8b99-3024b3e33ba8|In2.Cu",
+        "starved_thermal|217568377|114068376|246d89a8-16d3-4037-8239-0bf95782912f|a5e495ba-47a2-454a-835d-253947030fe5|B.Cu",
+        "starved_thermal|217568377|114068376|246d89a8-16d3-4037-8239-0bf95782912f|a5e495ba-47a2-454a-835d-253947030fe5|In2.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -128,7 +160,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.13,
         "min_via_diameter": 0.65,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -477,8 +509,25 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.3,
+        "via_diameter": 0.65,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 2.0,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "AC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 10.0,
+        "via_diameter": 0.65,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -495,7 +544,7 @@
         "pcb_color": "rgb(132, 132, 132)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.65,
         "via_drill": 0.3,
         "wire_width": 12
       },
@@ -511,9 +560,9 @@
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
@@ -526,10 +575,10 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgb(255, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.65,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -546,7 +595,7 @@
         "pcb_color": "rgb(0, 255, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
+        "via_diameter": 0.65,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -561,7 +610,11 @@
       "/CPU/VDDA": "rgb(0, 194, 0)",
       "GND": "rgb(132, 132, 132)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(ACL1-Pin_1)": "AC",
+      "Net-(ACN1-Pin_1)": "AC",
+      "Net-(HEAT1-Pin_1)": "AC"
+    },
     "netclass_patterns": [
       {
         "netclass": "GND",
@@ -578,6 +631,18 @@
       {
         "netclass": "USB",
         "pattern": "USB*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "AC",
+        "pattern": "/AC*"
+      },
+      {
+        "netclass": "AC",
+        "pattern": "/HEAT*"
       }
     ]
   },
@@ -586,7 +651,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -739,5 +804,7 @@
       "CPU"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "Variant": "BM"
+  }
 }

@@ -340,23 +340,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J14"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
-				(at 0 19.685 0)
+			(property "Value" "USB_C Artisan"
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connectors:USB_C_Receptacle_Molex_Upright"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -365,7 +365,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/216/216989/2169890001_sd.pdf"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -375,6 +375,15 @@
 				)
 			)
 			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser pn" "538-216989-0001"
 				(at 0 0 0)
 				(effects
 					(font
@@ -405,6 +414,39 @@
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 9.144 -14.986)
+					(end 10.16 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 9.144 -12.446)
+					(end 10.16 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 9.144 12.954)
+					(end 10.16 12.446)
 					(stroke
 						(width 0)
 						(type default)
@@ -802,8 +844,8 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08) hide
+					(at 15.24 12.7 180)
+					(length 5.08)
 					(name "VBUS"
 						(effects
 							(font
@@ -856,8 +898,8 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08) hide
+					(at 15.24 -12.7 180)
+					(length 5.08)
 					(name "VBUS"
 						(effects
 							(font
@@ -928,8 +970,8 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08) hide
+					(at 15.24 -15.24 180)
+					(length 5.08)
 					(name "VBUS"
 						(effects
 							(font
@@ -4931,6 +4973,10 @@
 		(uuid "49758d6d-d88d-4035-b33d-7c00ce6c5180")
 	)
 	(no_connect
+		(at 45.72 172.72)
+		(uuid "5220c6a4-ee14-4e31-8024-084305f8972b")
+	)
+	(no_connect
 		(at 171.45 120.65)
 		(uuid "5510b52c-fc48-4ad7-8ef3-7401bb548394")
 	)
@@ -4975,6 +5021,10 @@
 		(uuid "9a984366-dded-4121-af88-2fe0693bcd37")
 	)
 	(no_connect
+		(at 45.72 144.78)
+		(uuid "a133de57-f630-45a0-9faa-6506bbabe32a")
+	)
+	(no_connect
 		(at 135.89 69.85)
 		(uuid "ac0e28a5-7b55-42ee-87de-aa8acce4613f")
 	)
@@ -5009,6 +5059,10 @@
 	(no_connect
 		(at 171.45 130.81)
 		(uuid "d37e5424-ad7b-44c9-9c0d-5b49a702a39b")
+	)
+	(no_connect
+		(at 45.72 170.18)
+		(uuid "da765140-bd5b-4cad-9660-774aa51a0bba")
 	)
 	(no_connect
 		(at 171.45 105.41)

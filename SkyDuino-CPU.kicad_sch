@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SkyDuino Roaster")
-		(date "2024-05-12")
-		(rev "0.1")
+		(date "2024-05-13")
+		(rev "0.2")
 		(company "Raz-1")
 	)
 	(lib_symbols

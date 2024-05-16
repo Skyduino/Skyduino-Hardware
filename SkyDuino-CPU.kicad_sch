@@ -5006,10 +5006,6 @@
 		(uuid "86278182-f83f-4d86-bc78-7045d7da0ad1")
 	)
 	(no_connect
-		(at 171.45 115.57)
-		(uuid "8c24cc74-0e57-4209-8660-d8f0b439ee64")
-	)
-	(no_connect
 		(at 135.89 107.95)
 		(uuid "8f519a18-959b-497d-a535-a6b08352a5d7")
 	)
@@ -6065,6 +6061,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 115.57) (xy 180.34 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e5363d-8923-4ac8-a9c7-23444e1e5fc4")
+	)
+	(wire
+		(pts
 			(xy 171.45 62.23) (xy 180.34 62.23)
 		)
 		(stroke
@@ -6966,6 +6972,28 @@
 		(uuid "1b620544-3be4-4320-bd63-ecb1c384d68c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 95.8389 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HEAT_CTL"
+		(shape output)
+		(at 180.34 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f5e7fb9-3dce-436e-a59d-bc9a0499baa9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.0942 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

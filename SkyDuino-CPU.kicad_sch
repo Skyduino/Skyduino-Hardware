@@ -8464,7 +8464,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F411RET6"
+		(property "Value" "STM32F412RET6"
 			(at 158.4041 140.97 0)
 			(effects
 				(font

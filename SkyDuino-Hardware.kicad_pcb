@@ -255,8 +255,8 @@
 			)
 		)
 		(property "Value" "TCR2EF33"
-			(at 0 2.4 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "41ab8308-3dbf-44c7-bd4f-834397c4b41e")
 			(effects
 				(font
@@ -829,8 +829,8 @@
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 0 1.68 180)
-			(layer "F.Fab")
+			(at 0 0 180)
+			(layer "User.1")
 			(uuid "7a8c1571-fb91-4485-a7be-cecb4c9fe5c4")
 			(effects
 				(font
@@ -1052,8 +1052,8 @@
 			)
 		)
 		(property "Value" "10Ω"
-			(at 0 1.65 90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "User.1")
 			(uuid "607447a5-6964-4212-8360-e1fe0313f5e0")
 			(effects
 				(font
@@ -1752,8 +1752,8 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 0 1.65 -45)
-			(layer "F.Fab")
+			(at 0 0 315)
+			(layer "User.1")
 			(uuid "d32f820a-4fe7-4615-8c20-9c06281ee19a")
 			(effects
 				(font
@@ -1975,8 +1975,8 @@
 			)
 		)
 		(property "Value" "7.5pF"
-			(at 0 1.68 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "dee268d3-d058-4a92-87ef-9e02b59ff0e0")
 			(effects
 				(font
@@ -2530,8 +2530,8 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.65 90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "User.1")
 			(uuid "815e5e35-1def-42c6-b137-8efd36d9afa0")
 			(effects
 				(font
@@ -3415,8 +3415,8 @@
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 0 1.68 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "52424731-20f4-41eb-97ab-38a546bface8")
 			(effects
 				(font
@@ -4182,8 +4182,8 @@
 			)
 		)
 		(property "Value" "88.7k"
-			(at 0 1.75 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "b02a23a8-f0ab-4aa6-89e3-d942b81922f8")
 			(effects
 				(font
@@ -5211,8 +5211,8 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.65 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "87d6c517-eb91-406d-87e5-9cd0f7eb0fbe")
 			(effects
 				(font
@@ -5698,7 +5698,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 3 0.1 270)
+			(at 3 0.1 -90)
 			(layer "F.SilkS")
 			(uuid "16d9778b-2aef-4c20-861d-6ca4bae84c68")
 			(effects
@@ -5709,8 +5709,8 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 270)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "764d0da8-2761-4b37-bb3c-ce7c64884064")
 			(effects
 				(font
@@ -5887,7 +5887,7 @@
 			(uuid "8a7f5ce8-6257-4158-83fc-5584f1fc9224")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "635ceb87-2f1d-4543-9d77-fc6278760bd4")
 			(effects
@@ -6179,8 +6179,8 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 0 1.65 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "fa100457-894b-4389-a1eb-4105668532fc")
 			(effects
 				(font
@@ -6413,8 +6413,8 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.68 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "7555dc83-f7fe-40e5-8789-bd843d2974cf")
 			(effects
 				(font
@@ -7935,8 +7935,8 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "38eec0f6-d666-4e8b-bb57-d961fa6f47c3")
 			(effects
 				(font
@@ -8182,8 +8182,8 @@
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 0 1.68 90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "User.1")
 			(uuid "6303ba0d-8d67-4eb1-bc01-722851899b8c")
 			(effects
 				(font
@@ -9610,8 +9610,8 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 0 1.65 -90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "User.1")
 			(uuid "ef6f028e-b61d-4830-9bc8-e47320a890e3")
 			(effects
 				(font
@@ -9833,8 +9833,8 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "5cb31abc-b018-42ff-a5d4-27b40396ccb7")
 			(effects
 				(font
@@ -10069,8 +10069,8 @@
 			)
 		)
 		(property "Value" "22µF"
-			(at 0 1.68 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "53753fb7-bb0e-4140-89df-61716ef789a3")
 			(effects
 				(font
@@ -10305,8 +10305,8 @@
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 0 1.68 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "331bfb15-4073-46c2-9a22-afcc7af98720")
 			(effects
 				(font
@@ -10541,8 +10541,8 @@
 			)
 		)
 		(property "Value" "LV3842"
-			(at 0 2.4 180)
-			(layer "F.Fab")
+			(at -0.9 -0.0125 0)
+			(layer "User.1")
 			(uuid "074d3b6b-d131-4bf9-a35d-4e0f76e23e37")
 			(effects
 				(font
@@ -10848,8 +10848,8 @@
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 0 1.68 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "99ee007e-f546-4081-9b6e-8ae20e818698")
 			(effects
 				(font
@@ -11084,8 +11084,8 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.65 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "821157f4-0f97-4327-a625-8f07b7b56e79")
 			(effects
 				(font
@@ -11296,7 +11296,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C18"
-			(at 3.200707 -0.100707 270)
+			(at 3.200707 -0.100707 -90)
 			(layer "F.SilkS")
 			(uuid "c69f3d9c-9097-433f-a7e4-c9ae2ec1b937")
 			(effects
@@ -11307,8 +11307,8 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 270)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "fcce4391-5791-4c6c-8035-da3f6dc49790")
 			(effects
 				(font
@@ -11485,7 +11485,7 @@
 			(uuid "28b7ca99-7299-4056-8575-e03beb07aabe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "cca982cc-173c-46b5-a405-1f73ac66ff46")
 			(effects
@@ -12052,8 +12052,8 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 0 2 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.2")
 			(uuid "3e844077-70fa-4418-accc-2e1142dee538")
 			(effects
 				(font
@@ -12276,7 +12276,7 @@
 		)
 		(property "Value" "USBLC6-2SC6"
 			(at 0 2.4 180)
-			(layer "F.Fab")
+			(layer "User.1")
 			(uuid "f6c16a25-07aa-4215-bf24-570274d5d624")
 			(effects
 				(font
@@ -12582,8 +12582,8 @@
 			)
 		)
 		(property "Value" "600R"
-			(at 0 1.55 90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "User.1")
 			(uuid "432c35c1-ff10-4767-abd3-5296995459df")
 			(effects
 				(font
@@ -13283,8 +13283,8 @@
 			)
 		)
 		(property "Value" "54r9"
-			(at 0 1.65 135)
-			(layer "F.Fab")
+			(at 0 0 135)
+			(layer "User.1")
 			(uuid "3deb49dd-d02b-4f7d-8c01-d174c3043509")
 			(effects
 				(font
@@ -13506,8 +13506,8 @@
 			)
 		)
 		(property "Value" "22µF"
-			(at 0 1.68 180)
-			(layer "F.Fab")
+			(at 0 0 180)
+			(layer "User.1")
 			(uuid "a6ac2040-326e-4149-8676-ddecd77bd14e")
 			(effects
 				(font
@@ -13753,8 +13753,8 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.65 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "3775797c-f2f2-4318-b6be-741b411d9708")
 			(effects
 				(font
@@ -14396,8 +14396,8 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.65 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "03ec1c47-6825-42c3-9eab-cfd22b7a6aa1")
 			(effects
 				(font
@@ -15289,8 +15289,8 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 0 1.65 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "9443a47a-8490-40ee-99e4-a99df563b483")
 			(effects
 				(font
@@ -15978,8 +15978,8 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "63b46c6a-6342-43f2-86ac-5deae56e1a05")
 			(effects
 				(font
@@ -16225,8 +16225,8 @@
 			)
 		)
 		(property "Value" "100µF"
-			(at 2.5 3.15 90)
-			(layer "F.Fab")
+			(at -1.7 0.25 180)
+			(layer "User.1")
 			(uuid "bcedc1e1-8ee8-4240-868f-f12d21138cb9")
 			(effects
 				(font
@@ -18336,8 +18336,8 @@
 			)
 		)
 		(property "Value" "18uH"
-			(at 0 2.51 90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "User.1")
 			(uuid "d64d8b96-f865-4985-8a21-729748116e29")
 			(effects
 				(font
@@ -18846,8 +18846,8 @@
 			)
 		)
 		(property "Value" "2.2µF"
-			(at 0 1.68 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "96e72849-d2a8-47cc-987f-c522a0c8911e")
 			(effects
 				(font
@@ -19082,8 +19082,8 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 180)
-			(layer "F.Fab")
+			(at 0 0 180)
+			(layer "User.1")
 			(uuid "ff5be248-00d8-49ca-87e2-4e7d7507305f")
 			(effects
 				(font
@@ -20808,8 +20808,8 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "8622a80f-c76c-4432-9dc7-8d868969dc32")
 			(effects
 				(font
@@ -21055,8 +21055,8 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.68 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "e277ed8a-b51b-4cc6-a4c3-a18d1cdde751")
 			(effects
 				(font
@@ -21313,8 +21313,8 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 0 1.68 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "b0a36401-3c27-44aa-bb02-5f5f704f1501")
 			(effects
 				(font
@@ -21868,8 +21868,8 @@
 			)
 		)
 		(property "Value" "10Ω"
-			(at 0 1.65 90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "User.1")
 			(uuid "880423f4-d642-419d-9f75-1b2e75962ee5")
 			(effects
 				(font
@@ -22113,8 +22113,8 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 0 2.4 90)
-			(layer "F.Fab")
+			(at -2.1 0.8 90)
+			(layer "User.1")
 			(uuid "956f5a1a-0d1c-4cab-8bdf-ace278e24636")
 			(effects
 				(font
@@ -22464,8 +22464,8 @@
 			)
 		)
 		(property "Value" "100µF"
-			(at 2.5 6.25 90)
-			(layer "F.Fab")
+			(at 1.667677 -2.3 180)
+			(layer "User.1")
 			(uuid "e67bada8-0c66-47b0-a512-20ce29a27983")
 			(effects
 				(font
@@ -24575,8 +24575,8 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 0 1.65 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "0021fa16-4077-40c1-b40d-395e552cb031")
 			(effects
 				(font
@@ -24798,8 +24798,8 @@
 			)
 		)
 		(property "Value" "30kΩ"
-			(at 0 1.65 180)
-			(layer "F.Fab")
+			(at 0 0 180)
+			(layer "User.1")
 			(uuid "e0073edc-d092-49d5-b2c1-0539f0264648")
 			(effects
 				(font
@@ -25347,8 +25347,8 @@
 			)
 		)
 		(property "Value" "10Ω"
-			(at 0 1.65 90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "User.1")
 			(uuid "5006295e-82f3-45e9-ae45-dc8133537b00")
 			(effects
 				(font
@@ -25592,8 +25592,8 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 0 1.65 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "9deeaf78-e343-4a46-bcc0-c98ac0e1c9fb")
 			(effects
 				(font
@@ -25815,8 +25815,8 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "fe13c740-f77a-4737-acfe-99d159695390")
 			(effects
 				(font
@@ -26328,8 +26328,8 @@
 			)
 		)
 		(property "Value" "10Ω"
-			(at 0 1.65 90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "User.1")
 			(uuid "05f3b56b-95ef-49ca-a65e-a20b1f5b3b51")
 			(effects
 				(font
@@ -26562,8 +26562,8 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 90)
-			(layer "F.Fab")
+			(at 0 0 90)
+			(layer "User.1")
 			(uuid "b3e6b0f2-eb9d-4f7c-a657-bafb2dadb672")
 			(effects
 				(font
@@ -26809,8 +26809,8 @@
 			)
 		)
 		(property "Value" "7.5pF"
-			(at 0 1.68 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "05938486-7ef2-4260-8695-41feeab792d9")
 			(effects
 				(font
@@ -27921,8 +27921,8 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 -90)
-			(layer "F.Fab")
+			(at 0 0 270)
+			(layer "User.1")
 			(uuid "acc0980c-e45c-43d2-b208-e345ce29990b")
 			(effects
 				(font

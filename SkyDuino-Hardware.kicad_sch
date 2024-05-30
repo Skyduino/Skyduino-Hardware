@@ -3642,6 +3642,12 @@
 		(uuid "40480f6b-67f0-4ca3-94a7-83c947c53c27")
 	)
 	(junction
+		(at 215.9 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47506182-d6fd-4818-8ec3-ec46e94bed18")
+	)
+	(junction
 		(at 36.83 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3652,6 +3658,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a6545f7-c887-47f8-a0a6-870c6e7a075a")
+	)
+	(junction
+		(at 209.55 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bfb2ea4-c639-4c9e-8341-5c25120b3502")
 	)
 	(junction
 		(at 27.94 180.34)
@@ -3742,6 +3754,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d329c491-d7a7-4225-8025-b9fa67c4db0a")
+	)
+	(junction
+		(at 52.07 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed6dac9b-6063-4050-84aa-a455533f8b80")
 	)
 	(junction
 		(at 220.98 33.02)
@@ -3953,7 +3971,27 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 71.12) (xy 215.9 73.66)
+			(xy 72.39 101.6) (xy 64.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178ac3d9-a603-4ddf-804d-63763b09b54b")
+	)
+	(wire
+		(pts
+			(xy 52.07 104.14) (xy 52.07 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1856dde2-5b8e-4199-bfdb-3b3b8977e382")
+	)
+	(wire
+		(pts
+			(xy 215.9 71.12) (xy 215.9 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3990,6 +4028,26 @@
 			(type default)
 		)
 		(uuid "1af80131-dfbb-4007-b79f-18dbd26ba725")
+	)
+	(wire
+		(pts
+			(xy 215.9 77.47) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bec606a-edf8-424c-b190-5be5b9befb9b")
+	)
+	(wire
+		(pts
+			(xy 209.55 77.47) (xy 215.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228bcb5b-ced7-4913-bd2a-63d338422bf9")
 	)
 	(wire
 		(pts
@@ -4143,6 +4201,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 104.14) (xy 54.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444fa99b-3ea5-467a-abd4-9a91f100d291")
+	)
+	(wire
+		(pts
 			(xy 121.92 30.48) (xy 121.92 39.37)
 		)
 		(stroke
@@ -4230,6 +4298,16 @@
 			(type default)
 		)
 		(uuid "5da05e64-8475-4025-9321-7f09bb7a672c")
+	)
+	(wire
+		(pts
+			(xy 209.55 66.04) (xy 205.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e92ac77-12b5-4734-92aa-a629ef7e0099")
 	)
 	(wire
 		(pts
@@ -4743,6 +4821,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 76.2) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0209da-d4a5-4a56-97ab-2bc6c0639cf5")
+	)
+	(wire
+		(pts
 			(xy 93.98 179.07) (xy 96.52 179.07)
 		)
 		(stroke
@@ -4793,6 +4881,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 114.3) (xy 52.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9d2bbd-51e5-4f52-a545-93fab1b31ce5")
+	)
+	(wire
+		(pts
 			(xy 234.95 66.04) (xy 269.24 66.04)
 		)
 		(stroke
@@ -4803,7 +4901,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 66.04) (xy 213.36 66.04)
+			(xy 219.71 66.04) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5083,7 +5181,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 104.14) (xy 48.26 104.14)
+			(xy 46.99 104.14) (xy 52.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5110,6 +5208,16 @@
 			(type default)
 		)
 		(uuid "f84f4263-09a0-4d31-aff4-02fcc12064e0")
+	)
+	(wire
+		(pts
+			(xy 209.55 66.04) (xy 209.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d139e1-9dc6-4bdc-9d18-b30d09416c8d")
 	)
 	(wire
 		(pts
@@ -5164,7 +5272,7 @@
 		(uuid 04e6ffa0-0bd3-4373-8dc4-42732a07c863)
 	)
 	(rectangle
-		(start 204.47 55.88)
+		(start 196.85 55.88)
 		(end 283.21 111.76)
 		(stroke
 			(width 0.2)
@@ -5267,7 +5375,7 @@
 	)
 	(global_label "SSR"
 		(shape input)
-		(at 213.36 66.04 180)
+		(at 205.74 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5277,7 +5385,7 @@
 		)
 		(uuid "0530fe6b-b0c8-4aef-9971-652e59b429fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.6858 66.04 0)
+			(at 199.0658 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +5529,7 @@
 	)
 	(global_label "DRUM_CTL"
 		(shape input)
-		(at 48.26 104.14 0)
+		(at 54.61 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5431,7 +5539,7 @@
 		)
 		(uuid "75e974ad-5f11-4024-b2b5-6bdafe369b57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.8004 104.14 0)
+			(at 67.1504 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,6 +6229,84 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 209.55 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "197b8b82-cc5e-4bad-83b1-06d8fa16845b")
+		(property "Reference" "R22"
+			(at 203.962 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 202.692 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 211.328 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_11.pdf"
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "603-AC0805JR-0710KL"
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dcbe2c9-1cff-4d38-9147-ccd5a8734946")
+		)
+		(pin "2"
+			(uuid "60ebc289-af5a-43dd-b2d4-907c3fb8982a")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7558,6 +7744,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 52.07 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "563bd048-2f9e-4e22-b0c3-98d8ff3a86e9")
+		(property "Reference" "#PWR030"
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c755aea-3c51-40f8-8612-b8e5b5bcca17")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 86.36 116.84 0)
 		(unit 1)
@@ -8126,6 +8380,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 52.07 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "648c6760-c59d-4e6c-8137-eedbb7cfc50d")
+		(property "Reference" "R21"
+			(at 54.61 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 54.61 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 50.292 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_11.pdf"
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "603-AC0805JR-0710KL"
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad33ee10-97b3-419a-829e-768470c49012")
+		)
+		(pin "2"
+			(uuid "83843372-1d00-417f-b694-b2b9fcfd7c88")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 24.13 27.94 180)
 		(unit 1)
@@ -8268,7 +8601,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 73.66 0)
+		(at 215.9 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8278,7 +8611,7 @@
 		(fields_autoplaced yes)
 		(uuid "6da7ca96-7320-4ead-b0b1-3778033f2800")
 		(property "Reference" "#PWR057"
-			(at 215.9 80.01 0)
+			(at 215.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,7 +8620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 78.74 0)
+			(at 215.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,7 +8628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 73.66 0)
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +8637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 73.66 0)
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,7 +8646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 73.66 0)
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,7 +9066,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 101.6 0)
+		(at 72.39 101.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8743,7 +9076,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b0b5c13-4a44-4374-8018-a314194cbe41")
 		(property "Reference" "#PWR022"
-			(at 64.77 107.95 0)
+			(at 72.39 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,15 +9085,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 106.68 0)
+			(at 74.93 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 101.6 0)
+			(at 72.39 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8769,7 +9103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 101.6 0)
+			(at 72.39 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +9112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 101.6 0)
+			(at 72.39 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

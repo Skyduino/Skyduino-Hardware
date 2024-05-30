@@ -10,8 +10,10 @@
 	(title_block
 		(title "Skyduino Roaster")
 		(date "2024-05-13")
-		(rev "0.2")
+		(rev "${RELEASE_VERSION}")
 		(company "Raz-1")
+		(comment 2 "${COMMIT_DATE_LONG}")
+		(comment 3 "${COMMIT_HASH}")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -144,6 +146,10 @@
 			(outputdirectory "Gerbers")
 		)
 	)
+	(property "COMMIT_DATE" "YYYY-MM-DD")
+	(property "COMMIT_DATE_LONG" "YYYY-MM-DD HH:MM:SS TZ")
+	(property "COMMIT_HASH" "beefbeef")
+	(property "RELEASE_VERSION" "0.3")
 	(property "Variant" "BM")
 	(net 0 "")
 	(net 1 "Net-(ACL1-Pin_1)")
@@ -28473,7 +28479,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "${TITLE} Rev. ${Variant}.${REVISION}"
+	(gr_text "${TITLE} Rev. ${Variant}.${RELEASE_VERSION}\n${COMMIT_HASH}"
 		(at 143.2 85.8 0)
 		(layer "B.SilkS")
 		(uuid "4f399c1f-3d36-4540-9e1c-0ee690b86465")

@@ -6,9 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "SkyDuino Roaster")
-		(date "2024-05-13")
-		(rev "0.2")
+		(date "2024-05-29")
+		(rev "${RELEASE_VERSION}")
 		(company "Raz-1")
+		(comment 2 "${COMMIT_DATE_LONG}")
+		(comment 3 "${COMMIT_HASH}")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"

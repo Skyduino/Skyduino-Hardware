@@ -5826,7 +5826,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-AC0805JR-0710KL"
+		(property "LCSC" ""
+			(at 96.52 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-AC0805JR-0710KL"
+			(at 96.52 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "AC0805JR-0710KL"
 			(at 96.52 182.88 0)
 			(effects
 				(font
@@ -5971,7 +5989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "595-DRV8871DDA"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Texas-Instruments/DRV8871DDA?qs=Fobv33ltQGiluwfB07aSBw%3D%3D"
 			(at 36.83 104.14 0)
 			(effects
 				(font
@@ -5980,7 +5998,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Texas-Instruments/DRV8871DDA?qs=Fobv33ltQGiluwfB07aSBw%3D%3D"
+		(property "LCSC" ""
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "595-DRV8871DDA"
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "DRV8871DDA"
 			(at 36.83 104.14 0)
 			(effects
 				(font
@@ -6078,8 +6114,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-AC0805FR-10100RL"
-			(at 102.87 134.62 90)
+		(property "LCSC" ""
+			(at 102.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-AC0805FR-10100RL"
+			(at 102.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "AC0805FR-10100RL"
+			(at 102.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6344,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-AC0805JR-0710KL"
+		(property "LCSC" ""
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-AC0805JR-0710KL"
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "AC0805JR-0710KL"
 			(at 209.55 72.39 0)
 			(effects
 				(font
@@ -6566,7 +6638,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "558-SPF240D25"
+		(property "LCSC" ""
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "558-SPF240D25"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "SPF240D25"
 			(at 227.33 68.58 0)
 			(effects
 				(font
@@ -6641,6 +6731,33 @@
 			)
 		)
 		(property "Description" "Schrack RT1 relay, bistable single pole dual throw, single DC coil, 24V, IEC 60335-1"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "655-RT314024"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "RT314024"
 			(at 245.11 93.98 0)
 			(effects
 				(font
@@ -6794,7 +6911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "667-ERA-6AEB8872V"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Panasonic/ERA-6AEB8872V"
 			(at 100.33 35.56 0)
 			(effects
 				(font
@@ -6803,7 +6920,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Panasonic/ERA-6AEB8872V"
+		(property "LCSC" ""
+			(at 100.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "667-ERA-6AEB8872V"
+			(at 100.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "ERA-6AEB8872V"
 			(at 100.33 35.56 0)
 			(effects
 				(font
@@ -6881,7 +7016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "810-C2012X7R2A104K"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/810-C2012X7R2A104K"
 			(at 82.55 27.94 0)
 			(effects
 				(font
@@ -6890,7 +7025,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/810-C2012X7R2A104K"
+		(property "LCSC" ""
+			(at 82.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "810-C2012X7R2A104K"
+			(at 82.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "C2012X7R2A104K"
 			(at 82.55 27.94 0)
 			(effects
 				(font
@@ -6968,7 +7121,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "538-19705-4303"
+		(property "LCSC" ""
+			(at 274.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "538-19705-4303"
+			(at 274.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "19705-4303"
 			(at 274.32 86.36 0)
 			(effects
 				(font
@@ -7110,7 +7281,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-RT0805DRE0722KL"
+		(property "LCSC" ""
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-RT0805DRE0722KL"
+			(at 100.33 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "RT0805DRE0722KL"
 			(at 100.33 45.72 0)
 			(effects
 				(font
@@ -7341,8 +7530,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "637-M2"
-			(at 86.36 166.37 90)
+		(property "LCSC" ""
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "637-M2"
+			(at 86.36 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "M2"
+			(at 86.36 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7626,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "595-LV3842XFDBVR"
+		(property "LCSC" ""
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "595-LV3842XFDBVR"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "LV3842XFDBVR"
 			(at 68.58 30.48 0)
 			(effects
 				(font
@@ -7580,7 +7805,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-RC0805FR-0730KL"
+		(property "LCSC" ""
+			(at 24.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-RC0805FR-0730KL"
+			(at 24.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "RC0805FR-0730KL"
 			(at 24.13 115.57 0)
 			(effects
 				(font
@@ -7724,7 +7967,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "538-19705-4303"
+		(property "LCSC" ""
+			(at 274.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "538-19705-4303"
+			(at 274.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "19705-4303"
 			(at 274.32 71.12 0)
 			(effects
 				(font
@@ -7933,7 +8194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "810-C2012C0G1H103J-1"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/TDK/C2012C0G1H103J060AA?qs=dfay7wIA1uESihXTlxZAiQ%3D%3D"
 			(at 220.98 36.83 0)
 			(effects
 				(font
@@ -7942,7 +8203,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/TDK/C2012C0G1H103J060AA?qs=dfay7wIA1uESihXTlxZAiQ%3D%3D"
+		(property "LCSC" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "810-C2012C0G1H103J-1"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "C2012C0G1H103J-1"
 			(at 220.98 36.83 0)
 			(effects
 				(font
@@ -8021,7 +8300,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-AC0805JR-0710KL"
+		(property "LCSC" ""
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-AC0805JR-0710KL"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "AC0805JR-0710KL"
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -8098,8 +8395,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-AC0805FR-10100RL"
-			(at 102.87 179.07 90)
+		(property "LCSC" ""
+			(at 102.87 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-AC0805FR-10100RL"
+			(at 102.87 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "AC0805FR-10100RL"
+			(at 102.87 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8491,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "538-19705-4303"
+		(property "LCSC" ""
+			(at 274.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "538-19705-4303"
+			(at 274.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "19705-4303"
 			(at 274.32 66.04 0)
 			(effects
 				(font
@@ -8270,8 +8603,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "637-M2"
-			(at 86.36 121.92 90)
+		(property "LCSC" ""
+			(at 86.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "637-M2"
+			(at 86.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "M2"
+			(at 86.36 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "810-C2012X7R2A104K"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/810-C2012X7R2A104K"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -8357,7 +8708,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/810-C2012X7R2A104K"
+		(property "LCSC" ""
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "810-C2012X7R2A104K"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "C2012X7R2A104K"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -8436,7 +8805,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-AC0805JR-0710KL"
+		(property "LCSC" ""
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-AC0805JR-0710KL"
+			(at 52.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "AC0805JR-0710KL"
 			(at 52.07 110.49 0)
 			(effects
 				(font
@@ -8722,7 +9109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "187-CL21B225KPFNNNF"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/HMK325B7225KM-P"
 			(at 52.07 30.48 0)
 			(effects
 				(font
@@ -8731,7 +9118,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/HMK325B7225KM-P"
+		(property "LCSC" ""
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "187-CL21B225KPFNNNF"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "CL21B225KPFNNNF"
 			(at 52.07 30.48 0)
 			(effects
 				(font
@@ -8945,7 +9350,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-AC0805JR-0710KL"
+		(property "LCSC" ""
+			(at 96.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-AC0805JR-0710KL"
+			(at 96.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "AC0805JR-0710KL"
 			(at 96.52 138.43 0)
 			(effects
 				(font
@@ -9042,8 +9465,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "637-M2"
-			(at 86.36 81.28 90)
+		(property "LCSC" ""
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "637-M2"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "M2"
+			(at 86.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,7 +9766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "652-SRN3015BTA-180M"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Bourns/SRN3015BTA-180M"
 			(at 93.98 30.48 90)
 			(effects
 				(font
@@ -9334,8 +9775,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Bourns/SRN3015BTA-180M"
-			(at 93.98 30.48 90)
+		(property "LCSC" ""
+			(at 93.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "652-SRN3015BTA-180M"
+			(at 93.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "SRN3015BTA-180M"
+			(at 93.98 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9412,7 +9871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "187-CL21B225KPFNNNF"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/HMK325B7225KM-P"
 			(at 64.77 96.52 0)
 			(effects
 				(font
@@ -9421,7 +9880,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/TAIYO-YUDEN/HMK325B7225KM-P"
+		(property "LCSC" ""
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "187-CL21B225KPFNNNF"
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "CL21B225KPFNNNF"
 			(at 64.77 96.52 0)
 			(effects
 				(font
@@ -9698,7 +10175,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "700-MAX31855KASA+T"
+		(property "LCSC" ""
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "700-MAX31855KASA+T"
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "MAX31855KASA+T"
 			(at 240.03 36.83 0)
 			(effects
 				(font
@@ -9795,7 +10290,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "621-DMN6075S-7"
+		(property "LCSC" ""
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "621-DMN6075S-7"
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "DMN6075S-7"
 			(at 88.9 134.62 0)
 			(effects
 				(font
@@ -9946,7 +10459,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "621-DMN6075S-7"
+		(property "LCSC" ""
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "621-DMN6075S-7"
+			(at 88.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "DMN6075S-7"
 			(at 88.9 93.98 0)
 			(effects
 				(font
@@ -10027,7 +10558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "667-ECA-2AM101"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Panasonic/ECA-2AM101"
 			(at 45.72 30.48 0)
 			(effects
 				(font
@@ -10036,7 +10567,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Panasonic/ECA-2AM101"
+		(property "LCSC" ""
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "667-ECA-2AM101"
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "ECA-2AM101"
 			(at 45.72 30.48 0)
 			(effects
 				(font
@@ -10181,7 +10730,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-AC0805JR-0710KL"
+		(property "LCSC" ""
+			(at 27.94 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-AC0805JR-0710KL"
+			(at 27.94 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "AC0805JR-0710KL"
 			(at 27.94 173.99 0)
 			(effects
 				(font
@@ -10392,7 +10959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "810-C2012X5R1V226MAC"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/TDK/C2012X5R1V226M125AC"
 			(at 110.49 41.91 0)
 			(effects
 				(font
@@ -10401,7 +10968,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/TDK/C2012X5R1V226M125AC"
+		(property "LCSC" ""
+			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "810-C2012X5R1V226MAC"
+			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "C2012X5R1V226MAC"
 			(at 110.49 41.91 0)
 			(effects
 				(font
@@ -10480,7 +11065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "810-C2012X7R2A104K"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/810-C2012X7R2A104K"
 			(at 179.07 41.91 0)
 			(effects
 				(font
@@ -10489,7 +11074,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/810-C2012X7R2A104K"
+		(property "LCSC" ""
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "810-C2012X7R2A104K"
+			(at 179.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "C2012X7R2A104K"
 			(at 179.07 41.91 0)
 			(effects
 				(font
@@ -10633,7 +11236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "667-ECA-2AM101"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Panasonic/ECA-2AM101"
 			(at 121.92 41.91 0)
 			(effects
 				(font
@@ -10642,7 +11245,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Panasonic/ECA-2AM101"
+		(property "LCSC" ""
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "667-ECA-2AM101"
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "ECA-2AM101"
 			(at 121.92 41.91 0)
 			(effects
 				(font
@@ -10719,8 +11340,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "603-AC0805FR-10100RL"
-			(at 102.87 93.98 90)
+		(property "LCSC" ""
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "603-AC0805FR-10100RL"
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "AC0805FR-10100RL"
+			(at 102.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,7 +11639,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "621-DMN6075S-7"
+		(property "LCSC" ""
+			(at 88.9 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "621-DMN6075S-7"
+			(at 88.9 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "DMN6075S-7"
 			(at 88.9 179.07 0)
 			(effects
 				(font
@@ -11212,7 +11869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "757-TCR2EF33LMCT"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/757-TCR2EF33LMCT"
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -11221,7 +11878,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/757-TCR2EF33LMCT"
+		(property "LCSC" ""
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "757-TCR2EF33LMCT"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "TCR2EF33LMCT"
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -11308,7 +11983,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "538-19705-4303"
+		(property "LCSC" ""
+			(at 274.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" "538-19705-4303"
+			(at 274.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" "19705-4303"
 			(at 274.32 81.28 0)
 			(effects
 				(font

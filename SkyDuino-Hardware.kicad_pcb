@@ -28421,7 +28421,7 @@
 		(start 135 90)
 		(end 135 101)
 		(stroke
-			(width 0.05)
+			(width 1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -28441,7 +28441,7 @@
 		(start 135 101)
 		(end 143.5 109.5)
 		(stroke
-			(width 0.05)
+			(width 1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -28461,7 +28461,7 @@
 		(start 143 134.5)
 		(end 143 119.5)
 		(stroke
-			(width 0.05)
+			(width 1)
 			(type default)
 		)
 		(layer "Edge.Cuts")

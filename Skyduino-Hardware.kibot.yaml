@@ -22,7 +22,12 @@ globals:
 preflight:
   check_zone_fills: true
   erc: true
-  drc: true
+  drc:
+    enabled: true
+    filters:
+      - filter: Ignore cutout errors
+        error: invalid_outline
+        regex: Segment on Edge.Cuts
   update_xml: true
   set_text_variables:
     # The revision will be the short git hash

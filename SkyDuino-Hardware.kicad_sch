@@ -2700,42 +2700,6 @@
 				)
 			)
 			(symbol "LV3842_0_0"
-				(pin power_in line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "CB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
@@ -2801,6 +2765,44 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(symbol "LV3842_1_0"
+				(pin input line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "CB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3576,6 +3578,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 31.75 25.4)
@@ -3686,6 +3784,12 @@
 		(uuid "649d5969-3011-450d-84fc-d3e1d82dd15f")
 	)
 	(junction
+		(at 31.75 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64cc4385-c215-4f26-b432-844dbdf54b14")
+	)
+	(junction
 		(at 52.07 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3756,6 +3860,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d329c491-d7a7-4225-8025-b9fa67c4db0a")
+	)
+	(junction
+		(at 39.37 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db9f9bfd-88bd-4316-8f47-31175308197f")
 	)
 	(junction
 		(at 52.07 104.14)
@@ -4373,7 +4483,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 25.4) (xy 45.72 25.4)
+			(xy 31.75 25.4) (xy 39.37 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4733,6 +4843,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 25.4) (xy 45.72 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c4555f-aa46-4acf-8cd9-9ac224e45a53")
+	)
+	(wire
+		(pts
 			(xy 78.74 25.4) (xy 82.55 25.4)
 		)
 		(stroke
@@ -4750,6 +4870,16 @@
 			(type default)
 		)
 		(uuid "a5a3e623-4454-4385-a8b9-5cdcb1c94e67")
+	)
+	(wire
+		(pts
+			(xy 39.37 22.86) (xy 39.37 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6aca61d-99f0-4750-a35f-40d437115d3a")
 	)
 	(wire
 		(pts
@@ -4830,6 +4960,16 @@
 			(type default)
 		)
 		(uuid "af0209da-d4a5-4a56-97ab-2bc6c0639cf5")
+	)
+	(wire
+		(pts
+			(xy 110.49 22.86) (xy 110.49 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b500e1c8-2ce5-45ff-8041-d17d139b6fcd")
 	)
 	(wire
 		(pts
@@ -5330,28 +5470,6 @@
 			)
 		)
 		(uuid "54193bd6-b48c-4d98-85cb-14e46d919163")
-	)
-	(label "HEATER_LIFE"
-		(at 270.51 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35135b2c-143c-440e-b846-b9b0b0abdb0a")
-	)
-	(label "AC_Live"
-		(at 270.51 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5a19d63c-f5e3-4ffe-abcd-8bdb47ee2c3f")
 	)
 	(global_label "EXHT"
 		(shape input)
@@ -7458,6 +7576,99 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 110.49 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bc4a6c7-875e-4d76-929f-63658cf23cc2")
+		(property "Reference" "#FLG03"
+			(at 110.49 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 110.49 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2682c817-7e9e-493a-92bc-b1550bb64352")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4002")
 		(at 86.36 166.37 270)
 		(unit 1)
@@ -7646,6 +7857,15 @@
 		)
 		(property "Manufacturer p/n" "LV3842XFDBVR"
 			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser pn" "595-LV3842XFDBVR"
+			(at 68.58 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8240,6 +8460,100 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 31.75 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c68b08-b35e-44df-abfe-88649216571e")
+		(property "Reference" "#FLG02"
+			(at 33.655 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d60041e-f619-4f1c-9910-9700397c8074")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -11811,6 +12125,99 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb21935c-0b53-4ab5-80de-ed99589a37be")
+		(property "Reference" "#FLG01"
+			(at 39.37 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "24V"
+			(at 39.37 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
+			(at 39.37 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ced1197d-2f6a-485a-a0f0-7c49b9ef5472")
+		)
+		(instances
+			(project "SkyDuino-Hardware"
+				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

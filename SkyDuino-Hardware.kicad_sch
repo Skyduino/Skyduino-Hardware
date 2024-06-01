@@ -7828,7 +7828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 4-V to 36-V, 600-mA, Synchronous Step-Down Converter"
+		(property "Description" "4-V to 36-V, 600-mA, Synchronous Step-Down Converter"
 			(at 68.58 30.48 0)
 			(effects
 				(font

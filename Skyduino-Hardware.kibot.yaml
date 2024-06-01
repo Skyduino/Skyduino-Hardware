@@ -145,7 +145,7 @@ outputs:
       # sheet_reference_layout: pcb_print.kicad_wks
       scaling: 2.0
       pages:
-        - layers: [ F.Paste, F.Adhes, Dwgs.User, F.Fab ]
+        - layers: [ F.Paste, F.Adhes, Dwgs.User, F.Fab, User.1 ]
           sheet: 'Fabrication layers'
         - layers:
             - layer: F.Cu

@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "invalid_outline|135000000|90000000|39f8fe03-88c5-4e1e-9528-8022a61ee788|00000000-0000-0000-0000-000000000000",
+        "invalid_outline|143000000|134500000|d2df29a5-51f4-4e49-9455-10c1f450b60f|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|137123500|103123500|5f17298a-d7fd-4fe5-80b3-ecc68bc99d58|6b5ae34c-a57e-4964-b202-566d2a77a3a6",
+        "silk_edge_clearance|143000000|122300000|d2df29a5-51f4-4e49-9455-10c1f450b60f|18795561-e2d8-4a17-82b7-d65291fe4366",
+        "silk_edge_clearance|207574246|135412147|03efde3f-c2bd-47bb-b963-d5404f3423e0|45ba5a3c-c494-4116-987c-bbcc477f3da5",
+        "silk_edge_clearance|207574246|135412147|03efde3f-c2bd-47bb-b963-d5404f3423e0|74c038e2-046d-41a6-8ecf-ecbacbbd1eee",
+        "silk_edge_clearance|217912147|125074246|03efde3f-c2bd-47bb-b963-d5404f3423e0|59becf8c-af4f-4ce3-a8c8-181a13f1a1fd",
+        "starved_thermal|169700000|97100000|dc08f782-5246-403a-a66a-5a1a82bd907a|9492158b-dd58-4372-8cec-1ae4e1ab7b51|B.Cu",
+        "starved_thermal|169700000|97100000|dc08f782-5246-403a-a66a-5a1a82bd907a|9492158b-dd58-4372-8cec-1ae4e1ab7b51|F.Cu",
+        "starved_thermal|169700000|98400000|dc08f782-5246-403a-a66a-5a1a82bd907a|03b9931c-b477-462a-bf87-fb4a0deb5201|F.Cu",
+        "starved_thermal|169700000|99700000|dc08f782-5246-403a-a66a-5a1a82bd907a|22cd995d-34f2-43ad-8b42-58deff89d7c2|B.Cu",
+        "starved_thermal|171000000|97100000|dc08f782-5246-403a-a66a-5a1a82bd907a|275bb3de-0a76-4269-8b1f-9d1e5545fae7|B.Cu",
+        "starved_thermal|171000000|97100000|dc08f782-5246-403a-a66a-5a1a82bd907a|275bb3de-0a76-4269-8b1f-9d1e5545fae7|F.Cu",
+        "starved_thermal|171000000|98400000|dc08f782-5246-403a-a66a-5a1a82bd907a|5edbaac7-a908-4329-b5d5-95a797ecf4d7|B.Cu",
+        "starved_thermal|171000000|98400000|dc08f782-5246-403a-a66a-5a1a82bd907a|5edbaac7-a908-4329-b5d5-95a797ecf4d7|F.Cu",
+        "starved_thermal|171000000|99700000|dc08f782-5246-403a-a66a-5a1a82bd907a|0a2cfe2f-4e84-41f9-b84a-c7146fca618c|B.Cu"
+      ],
       "meta": {
         "version": 2
       },

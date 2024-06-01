@@ -21,8 +21,8 @@ globals:
 
 preflight:
   check_zone_fills: true
-  run_erc: true
-  run_drc: true
+  erc: true
+  drc: true
   # Filters for ERC/DRC errors/warnings
   filters:
     - filter: 'We know some connectors extend outside the board'
@@ -32,7 +32,7 @@ preflight:
     # The revision will be the short git hash
     # We use ${git_hash} for the REV field in the worksheet (frame)
     - name: COMMIT_HASH
-      command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
+      command: 'git log -1 --format="%h"'
       before: 'Git:'
     - name: COMMIT_DATE_LONG
       command: 'git show --no-patch --format=%ci'

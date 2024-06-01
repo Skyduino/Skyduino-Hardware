@@ -23,6 +23,7 @@ preflight:
   check_zone_fills: true
   erc: true
   drc: true
+  update_xml: true
   # Filters for ERC/DRC errors/warnings
   filters:
     - filter: 'We know some connectors extend outside the board'
@@ -40,20 +41,8 @@ preflight:
 
 variants:
   - name: 'default'
-    comment: 'Minimal PCB no USB'
+    comment: 'Full PCB'
     type: kibom
-
-  - name: 'USB'
-    comment: 'Full board'
-    type: kibom
-    file_id: _USB
-    variant: USB
-
-  - name: 'XTAL'
-    comment: 'No USB, but crystal included'
-    type: kibom
-    file_id: _XTAL
-    variant: XTAL
 
 outputs:
   - name: 'bom_xlsx'
@@ -72,10 +61,13 @@ outputs:
         - Quantity Per PCB
         - field: Value
           join: ['voltage', 'current', 'power', 'tolerance']
-        - field: MFN
-          name: Manufacturer
-        - field: MFP
+        - field: Mouser p/n
+          name: Mouser Part Number
+        - field: Manufacturer p/n
           name: Manf. Part
+        - field: LCSC
+          name: LCSC Part
+        - Description
         - Footprint
       normalize_values: true
 
@@ -97,6 +89,7 @@ outputs:
     dir: BoM
     options:
       layer_view: F
+      extra_fields: Description,Mouser p/n
 
   - name: 'print_sch'
     comment: "Schematic PDF"
@@ -161,10 +154,6 @@ outputs:
             - layer: F.SilkS
             - layer: Dwgs.User
           sheet: 'Top layer'
-        - layers: [ GND.Cu, Dwgs.User ]
-          sheet: 'GND plane'
-        - layers: [ Power.Cu, Dwgs.User ]
-          sheet: 'Power plane'
         - layers:
             - layer: B.Cu
             - layer: B.Mask

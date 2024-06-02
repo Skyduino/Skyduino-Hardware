@@ -61,6 +61,7 @@ jobs:
         board: ${{ env.PCB_FILE }}
 
     - name: Retrieve results
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: preflight
@@ -87,6 +88,7 @@ jobs:
         targets: gerbers drill postion
 
     - name: upload results
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: Fabrication
@@ -113,6 +115,7 @@ jobs:
         targets: bom_xlsx bom_html ibom
 
     - name: upload results
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: BOMs
@@ -143,6 +146,7 @@ jobs:
             3D 3D_top_view
 
     - name: Doc
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: Doc

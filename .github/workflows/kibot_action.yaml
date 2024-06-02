@@ -57,7 +57,7 @@ jobs:
         dir: Generated
         targets: __NONE__
         config: ${{ env.KIBOT_CFG }}
-        schama: ${{ env.SCHEMA_FILE }}
+        schema: ${{ env.SCHEMA_FILE }}
         board: ${{ env.PCB_FILE }}
 
     - name: Retrieve results

@@ -85,7 +85,7 @@ jobs:
         schema: ${{ env.SCHEMA_FILE }}
         board: ${{ env.PCB_FILE }}
         skip: all
-        targets: gerbers drill postion
+        targets: gerbers drill position
 
     - name: upload results
       if: always()

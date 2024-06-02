@@ -82,7 +82,7 @@ jobs:
         dir: default
         variant: default
         config: ${{ env.KIBOT_CFG }}
-        schama: ${{ env.SCHEMA_FILE }}
+        schema: ${{ env.SCHEMA_FILE }}
         board: ${{ env.PCB_FILE }}
         skip: all
         targets: gerbers drill postion
@@ -109,7 +109,7 @@ jobs:
         dir: default
         variant: default
         config: ${{ env.KIBOT_CFG }}
-        schama: ${{ env.SCHEMA_FILE }}
+        schema: ${{ env.SCHEMA_FILE }}
         board: ${{ env.PCB_FILE }}
         skip: all
         targets: bom_xlsx bom_html ibom
@@ -136,7 +136,7 @@ jobs:
         dir: default
         variant: default
         config: ${{ env.KIBOT_CFG }}
-        schama: ${{ env.SCHEMA_FILE }}
+        schema: ${{ env.SCHEMA_FILE }}
         board: ${{ env.PCB_FILE }}
         skip: all
         targets: >-

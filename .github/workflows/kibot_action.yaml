@@ -68,6 +68,7 @@ jobs:
 
 
   fabrication:
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull' || inputs.fabrication }}
     name: "Fabrication"
     runs-on: ubuntu-latest
     needs: [PreFlight]
@@ -94,6 +95,7 @@ jobs:
 
   BOMs:
     name: "BOMs"
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull' || inputs.bom }}
     runs-on: ubuntu-latest
     needs: [PreFlight]
 
@@ -119,6 +121,7 @@ jobs:
 
   Docs:
     name: Everything else
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull' || inputs.everything_else }}
     runs-on: ubuntu-latest
     needs: [PreFlight]
 

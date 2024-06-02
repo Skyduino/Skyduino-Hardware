@@ -28471,7 +28471,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "${TITLE} Rev. ${Variant}.${RELEASE_VERSION}\n${COMMIT_HASH}"
+	(gr_text "${TITLE} Rev: ${RELEASE_VERSION}\n${COMMIT_HASH}"
 		(at 150 86 0)
 		(layer "B.SilkS")
 		(uuid "4f399c1f-3d36-4540-9e1c-0ee690b86465")

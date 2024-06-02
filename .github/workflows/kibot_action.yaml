@@ -84,7 +84,7 @@ jobs:
         schama: ${{ env.SCHEMA_FILE }}
         board: ${{ env.PCB_FILE }}
         skip: all
-        targets: gerbers dril postion
+        targets: gerbers drill postion
 
     - name: upload results
       uses: actions/upload-artifact@v4

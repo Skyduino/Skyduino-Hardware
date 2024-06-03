@@ -1,0 +1,27 @@
+name: "Upload Release Assets"
+
+# Controls when the action will run.
+on:
+  release:
+    types: [published]
+
+
+jobs:
+  UploadAssets:
+    name: Upload Assets to release
+    runs-on: ubuntu-latest
+    steps:
+      - id: build
+        name: Build everything
+        uses: ./.github/workflows/kibot_action.yaml
+      
+      - id: upload_assets
+        name: Upload assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: output/*
+          generate_release_notes: false
+
+      - id: debug
+        name: Display structure of downloaded files
+        run: ls -R

@@ -5,23 +5,48 @@ on:
   release:
     types: [published]
 
+permissions:
+  contents: write
 
 jobs:
-  UploadAssets:
+  build:
+    name: Build everything
+    uses: ./.github/workflows/kibot_action.yaml
+
+  uploadAssets:
     name: Upload Assets to release
+    needs: [build]
     runs-on: ubuntu-latest
+    env:
+      zip3d: 3D Models-${{ github.ref_name }}.zip
+      zipfab: Fabrication-${{ github.ref_name }}.zip
+      zipbom: BoMs-${{ github.ref_name }}.zip
+      zipprints: PCB and Schematic printout-${{ github.ref_name }}.zip
     steps:
-      - id: build
-        name: Build everything
-        uses: ./.github/workflows/kibot_action.yaml
-      
+      - id: download
+        uses: actions/download-artifact@v4
+        with:
+          merge-multiple: true
+
+      - id: zip3d
+        run: zip -r -5 '${{ env.zip3d }}' 3D/3D
+
+      - id: zipfab
+        run: zip -r -5 '${{ env.zipfab }}' Gerbers Position Drill
+
+      - id: zipbom
+        run: zip -r -5 '${{ env.zipbom }}' BoM/BoM
+
+      - id: zipprints
+        run: zip -r -5 '${{ env.zipprints }}' PCB Schematic
+
       - id: upload_assets
         name: Upload assets
         uses: softprops/action-gh-release@v2
         with:
-          files: output/*
+          files: |
+            ${{ env.zip3d }}
+            ${{ env.zipfab }}
+            ${{ env.zipbom }}
+            ${{ env.zipprints }}
           generate_release_notes: false
-
-      - id: debug
-        name: Display structure of downloaded files
-        run: ls -R

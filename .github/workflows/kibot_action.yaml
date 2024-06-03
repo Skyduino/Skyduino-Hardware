@@ -2,21 +2,6 @@ name: "Skyduino Roaster PCB"
 
 # Controls when the action will run.
 on:
-  push:
-    paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
-      - '*.kibot.yaml'
-      - '.github/workflows/kibot_action.yml'
-  pull_request:
-    paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
-      - '*.kibot.yaml'
-      - '.github/workflows/kibot_action.yml'
-  repository_dispatch:
-    types: [run_gha]
-
   workflow_dispatch:
     inputs:
       fabrication:
@@ -31,17 +16,60 @@ on:
         default: true
         type: boolean
 
-      everything_else:
-        description: 3D model, PDF files, renderings, etc
+      models:
+        description: 3D renderings, Step files
         required: false
         default: true
         type: boolean
+
+      docs:
+        description: PCB & Schema in PDF & verctor formates, etc
+        required: false
+        default: true
+        type: boolean
+
+  workflow_call:
+    inputs:
+      fabrication:
+        description: Fabrication Outputs
+        required: false
+        default: true
+        type: boolean
+
+      bom:
+        description: Bill of materials
+        required: false
+        default: true
+        type: boolean
+
+      models:
+        description: 3D renderings, Step files
+        required: false
+        default: true
+        type: boolean
+
+      docs:
+        description: PCB & Schema in PDF & verctor formates, etc
+        required: false
+        default: true
+        type: boolean
+
+  push:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+      - '*.kibot.yaml'
+      - '.github/workflows/kibot_action.yml'
+      - '.github/workflows/main.yml'
+  pull_request:
+    types: [opened, reopened, synchronize]
 
 
 env:
   KIBOT_CFG: Skyduino-Hardware.kibot.yaml
   SCHEMA_FILE: SkyDuino-Hardware.kicad_sch
   PCB_FILE: SkyDuino-Hardware.kicad_pcb
+  OUTPUT_DIR: output
 
 
 jobs:
@@ -54,7 +82,7 @@ jobs:
     - name: Run PreFlight checks
       uses: INTI-CMNB/KiBot@v2_k8
       with:
-        dir: Generated
+        dir: ${{ env.OUTPUT_DIR }}
         targets: __NONE__
         config: ${{ env.KIBOT_CFG }}
         schema: ${{ env.SCHEMA_FILE }}
@@ -65,11 +93,11 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: preflight
-        path: Generated
+        path: ${{ env.OUTPUT_DIR }}
 
 
   fabrication:
-    if: ${{ github.event_name == 'push' || github.event_name == 'pull' || inputs.fabrication }}
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' || inputs.fabrication }}
     name: "Fabrication"
     runs-on: ubuntu-latest
     needs: [PreFlight]
@@ -79,7 +107,7 @@ jobs:
 
     - uses: INTI-CMNB/KiBot@v2_k8
       with:
-        dir: default
+        dir: ${{ env.OUTPUT_DIR }}
         variant: default
         config: ${{ env.KIBOT_CFG }}
         schema: ${{ env.SCHEMA_FILE }}
@@ -92,12 +120,12 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Fabrication
-        path: default
+        path: ${{ env.OUTPUT_DIR }}
 
 
   BOMs:
     name: "BOMs"
-    if: ${{ github.event_name == 'push' || github.event_name == 'pull' || inputs.bom }}
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_requests' || inputs.bom }}
     runs-on: ubuntu-latest
     needs: [PreFlight]
 
@@ -106,7 +134,7 @@ jobs:
 
     - uses: INTI-CMNB/KiBot@v2_k8
       with:
-        dir: default
+        dir: ${{ env.OUTPUT_DIR }}
         variant: default
         config: ${{ env.KIBOT_CFG }}
         schema: ${{ env.SCHEMA_FILE }}
@@ -119,12 +147,12 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: BOMs
-        path: default
+        path: ${{ env.OUTPUT_DIR }}
 
 
-  Docs:
-    name: Everything else
-    if: ${{ github.event_name == 'push' || github.event_name == 'pull' || inputs.everything_else }}
+  models3D:
+    name: 3d Renderings & step models
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_requests' || inputs.models }}
     runs-on: ubuntu-latest
     needs: [PreFlight]
 
@@ -133,7 +161,34 @@ jobs:
 
     - uses: INTI-CMNB/KiBot@v2_k8
       with:
-        dir: default
+        dir: ${{ env.OUTPUT_DIR }}
+        variant: default
+        config: ${{ env.KIBOT_CFG }}
+        schema: ${{ env.SCHEMA_FILE }}
+        board: ${{ env.PCB_FILE }}
+        skip: all
+        targets: 3D 3D_top_view
+
+    - name: Upload
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: 3D
+        path: ${{ env.OUTPUT_DIR }}
+
+
+  Docs:
+    name: Everything else
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_requests' || inputs.docs }}
+    runs-on: ubuntu-latest
+    needs: [PreFlight]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: INTI-CMNB/KiBot@v2_k8
+      with:
+        dir: ${{ env.OUTPUT_DIR }}
         variant: default
         config: ${{ env.KIBOT_CFG }}
         schema: ${{ env.SCHEMA_FILE }}
@@ -143,11 +198,10 @@ jobs:
             print_sch print_pdf
             board_top board_top_filled
             board_bottom board_bottom_filled
-            3D 3D_top_view
 
-    - name: Doc
+    - name: Upload Docs
       if: always()
       uses: actions/upload-artifact@v4
       with:
         name: Doc
-        path: default
+        path: ${{ env.OUTPUT_DIR }}

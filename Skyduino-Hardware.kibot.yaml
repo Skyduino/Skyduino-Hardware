@@ -39,11 +39,6 @@ preflight:
       command: 'git show --no-patch --format=%ci'
       before: 'Git:'
 
-variants:
-  - name: 'default'
-    comment: 'Full PCB'
-    type: kibom
-
 outputs:
   - name: 'bom_xlsx'
     comment: "Spreadsheet for the Bill of Materials"
@@ -52,7 +47,7 @@ outputs:
     options: &bom_options
       xlsx:
         datasheet_as_link: MFP
-        title: 'KiBot variants example'
+        title: Skyduino Roaster
         max_col_width: 40
         highlight_empty: false
       columns:
@@ -80,7 +75,7 @@ outputs:
       format: HTML
       html:
         datasheet_as_link: MFP
-        title: 'KiBot variants example'
+        title: Skyduino Roaster
         highlight_empty: false
 
   - name: ibom
@@ -95,9 +90,6 @@ outputs:
     comment: "Schematic PDF"
     type: pdf_sch_print
     dir: Schematic
-    options:
-      # Append the variant to the title
-      title: "+ (%V variant)"
 
   - name: gerbers
     comment: Gerbers
@@ -139,8 +131,6 @@ outputs:
     options:
       force_edge_cuts: true
       keep_temporal_files: true
-      # Append the variant to the title
-      title: "+ (%V variant)"
       # This is the worksheet we selected in the project, no need to specify it again
       # sheet_reference_layout: pcb_print.kicad_wks
       scaling: 2.0

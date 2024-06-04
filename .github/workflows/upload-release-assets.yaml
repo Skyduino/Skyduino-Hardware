@@ -32,13 +32,13 @@ jobs:
       - run: ls -lR
 
       - id: zip3d
-        run: zip -r -5 '${{ env.zip3d }}' 3D/3D
+        run: zip -r -5 '${{ env.zip3d }}' 3D
 
       - id: zipfab
         run: zip -r -5 '${{ env.zipfab }}' Gerbers Position Drill
 
       - id: zipbom
-        run: zip -r -5 '${{ env.zipbom }}' BoM/BoM
+        run: zip -r -5 '${{ env.zipbom }}' BoM
 
       - id: zipprints
         run: zip -r -5 '${{ env.zipprints }}' PCB Schematic

@@ -6384,7 +6384,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-XHB 2P"
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
 			(at 20.32 77.47 0)
 			(effects
 				(font
@@ -7945,7 +7972,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-XHB 2P"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
 			(at 64.77 77.47 0)
 			(effects
 				(font
@@ -9205,7 +9259,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-XHB 3P"
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
 			(at 24.13 27.94 0)
 			(effects
 				(font
@@ -9278,7 +9359,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "2P Terminal Block"
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
 			(at 212.09 35.56 0)
 			(effects
 				(font
@@ -9585,7 +9693,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-XHB 2P"
+			(at 36.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 36.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 36.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
 			(at 36.83 77.47 0)
 			(effects
 				(font
@@ -9934,7 +10069,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-XHB 2P"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
 			(at 52.07 77.47 0)
 			(effects
 				(font
@@ -10003,7 +10165,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST-XHB 2P"
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
 			(at 38.1 180.34 0)
 			(effects
 				(font

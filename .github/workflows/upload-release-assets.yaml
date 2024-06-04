@@ -2,20 +2,22 @@ name: "Upload Release Assets"
 
 # Controls when the action will run.
 on:
-  release:
-    types: [published]
+#  release:
+#    types: [published]
+  workflow_call:
+    
 
 permissions:
   contents: write
 
 jobs:
-  build:
-    name: Build everything
-    uses: ./.github/workflows/kibot_action.yaml
+#  build:
+#    name: Build everything
+#    uses: ./.github/workflows/kibot_action.yaml
 
   uploadAssets:
     name: Upload Assets to release
-    needs: [build]
+#    needs: [build]
     runs-on: ubuntu-latest
     env:
       zip3d: 3D Models-${{ github.ref_name }}.zip

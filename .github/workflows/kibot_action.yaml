@@ -69,9 +69,6 @@ on:
   pull_request:
     types: [opened, reopened, synchronize]
 
-  release:
-    types: [published]
-
 
 env:
   KIBOT_CFG: Skyduino-Hardware.kibot.yaml
@@ -212,7 +209,7 @@ jobs:
 
   UploadAssets:
     name: Upload Assets
-    if: ${{ github.event_name == 'release' }}
+    if: ${{ startsWith(github.ref, 'ref/tag/v') }}
     needs:
       - fabrication
       - BOMs

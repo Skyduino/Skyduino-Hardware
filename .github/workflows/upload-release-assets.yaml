@@ -29,6 +29,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           merge-multiple: true
+      - run: ls -lR
 
       - id: zip3d
         run: zip -r -5 '${{ env.zip3d }}' 3D/3D

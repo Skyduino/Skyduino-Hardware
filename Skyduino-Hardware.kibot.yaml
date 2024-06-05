@@ -38,6 +38,8 @@ preflight:
     - name: COMMIT_DATE_LONG
       command: 'git show --no-patch --format=%ci'
       before: 'Git:'
+    - name: GIT_TAG
+      command: 'git tag --points-at HEAD'
 
 outputs:
   - name: 'bom_xlsx'

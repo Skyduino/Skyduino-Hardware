@@ -10,7 +10,7 @@
 		(rev "${RELEASE_VERSION}")
 		(company "Raz-1")
 		(comment 2 "${COMMIT_DATE_LONG}")
-		(comment 3 "${COMMIT_HASH}")
+		(comment 3 "${COMMIT_HASH} ${GIT_TAG}")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_A"

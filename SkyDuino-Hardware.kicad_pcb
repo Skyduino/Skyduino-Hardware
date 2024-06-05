@@ -13,7 +13,7 @@
 		(rev "${RELEASE_VERSION}")
 		(company "Raz-1")
 		(comment 2 "${COMMIT_DATE_LONG}")
-		(comment 3 "${COMMIT_HASH}")
+		(comment 3 "${COMMIT_HASH} ${GIT_TAG}")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -149,7 +149,8 @@
 	(property "COMMIT_DATE" "YYYY-MM-DD")
 	(property "COMMIT_DATE_LONG" "YYYY-MM-DD HH:MM:SS TZ")
 	(property "COMMIT_HASH" "beefbeef")
-	(property "RELEASE_VERSION" "0.3.dev")
+	(property "GIT_TAG" "")
+	(property "RELEASE_VERSION" "0.4")
 	(net 0 "")
 	(net 1 "Net-(ACL1-Pin_1)")
 	(net 2 "Net-(ACN1-Pin_1)")
@@ -28470,7 +28471,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "${TITLE} Rev: ${RELEASE_VERSION}\n${COMMIT_HASH}"
+	(gr_text "${TITLE} Rev: ${RELEASE_VERSION}\n${COMMIT_HASH} ${GIT_TAG}"
 		(at 150 86 0)
 		(layer "B.SilkS")
 		(uuid "4f399c1f-3d36-4540-9e1c-0ee690b86465")

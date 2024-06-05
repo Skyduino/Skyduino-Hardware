@@ -129,7 +129,7 @@ jobs:
 
   BOMs:
     name: "BOMs"
-    if: ${{ github.event_name == 'release' || github.event_name == 'push' || github.event_name == 'pull_requests' || inputs.bom }}
+    if: ${{ github.event_name == 'release' || github.event_name == 'push' || github.event_name == 'pull_request' || inputs.bom }}
     runs-on: ubuntu-latest
     needs: [PreFlight]
 
@@ -155,7 +155,7 @@ jobs:
 
   models3D:
     name: 3d Renderings & step models
-    if: ${{ github.event_name == 'release' || github.event_name == 'push' || github.event_name == 'pull_requests' || inputs.models }}
+    if: ${{ github.event_name == 'release' || github.event_name == 'push' || github.event_name == 'pull_request' || inputs.models }}
     runs-on: ubuntu-latest
     needs: [PreFlight]
 
@@ -181,7 +181,7 @@ jobs:
 
   Docs:
     name: PCB & Schematic printouts
-    if: ${{ github.event_name == 'release' || github.event_name == 'push' || github.event_name == 'pull_requests' || inputs.docs }}
+    if: ${{ github.event_name == 'release' || github.event_name == 'push' || github.event_name == 'pull_request' || inputs.docs }}
     runs-on: ubuntu-latest
     needs: [PreFlight]
 

@@ -795,6 +795,6 @@
     "COMMIT_DATE_LONG": "YYYY-MM-DD HH:MM:SS TZ",
     "COMMIT_HASH": "beefbeef",
     "GIT_TAG": "",
-    "RELEASE_VERSION": "0.4.dev"
+    "RELEASE_VERSION": "0.5.dev"
   }
 }

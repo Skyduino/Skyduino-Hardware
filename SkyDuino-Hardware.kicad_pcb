@@ -150,7 +150,7 @@
 	(property "COMMIT_DATE_LONG" "YYYY-MM-DD HH:MM:SS TZ")
 	(property "COMMIT_HASH" "beefbeef")
 	(property "GIT_TAG" "")
-	(property "RELEASE_VERSION" "0.4.dev")
+	(property "RELEASE_VERSION" "0.4")
 	(net 0 "")
 	(net 1 "Net-(ACL1-Pin_1)")
 	(net 2 "Net-(ACN1-Pin_1)")

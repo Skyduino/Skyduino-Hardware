@@ -19,6 +19,13 @@ globals:
   # We will use a value externally formatted
   time_reformat: false
 
+filters:
+  - name: fix_rotation
+    comment: 'Adjust rotation for JLC'
+    type: rot_footprint
+    negative_bottom: false
+    mirror_bottom: true
+
 preflight:
   check_zone_fills: true
   erc: true
@@ -35,11 +42,26 @@ preflight:
     - name: COMMIT_HASH
       command: 'git log -1 --format="%h"'
       before: 'Git:'
+    - name: COMMIT_DATE
+      command: 'git show --no-patch --format=%cs'
     - name: COMMIT_DATE_LONG
       command: 'git show --no-patch --format=%ci'
       before: 'Git:'
     - name: GIT_TAG
       command: 'git tag --points-at HEAD'
+    - name: REVISION
+      command: 'R=$(git tag --points-at HEAD) && [[ -z "${R}" ]] && git log -1 --format="%h" || echo "${R}"'
+
+variants:
+  - name: 'default'
+    comment: 'Full board'
+    type: kibom
+
+  - name: 'jlcpcb'
+    comment: 'JLCPCB Assembly'
+    type: kibom
+    file_id: _jlc_assembly
+    variant: jlcpcb
 
 outputs:
   - name: 'bom_xlsx'
@@ -52,6 +74,10 @@ outputs:
         title: Skyduino Roaster
         max_col_width: 40
         highlight_empty: false
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
       columns:
         - Row
         - References
@@ -79,6 +105,14 @@ outputs:
         datasheet_as_link: MFP
         title: Skyduino Roaster
         highlight_empty: false
+
+  - name: 'bom_csv'
+    comment: "CSV for the Bill of Materials"
+    type: bom
+    dir: JLCPCB
+    options:
+      <<: *bom_options
+      format: CSV
 
   - name: ibom
     comment: 'Prototype mounting guide'
@@ -122,9 +156,26 @@ outputs:
   - name: position
     comment: Pick & Place
     type: position
-    dir: Position
+    dir: JLCPCB
     options:
+      format: CSV
+      pre_transform: fix_rotation
+      units: millimeters
       separate_files_for_front_and_back: false
+      only_smd: true
+      columns:
+        - id: Ref
+          name: Designator
+        - Val
+        - Package
+        - id: PosX
+          name: "Mid X"
+        - id: PosY
+          name: "Mid Y"
+        - id: Rot
+          name: Rotation
+        - id: Side
+          name: Layer
 
   - name: print_pdf
     comment: "PDF for the PCB"
@@ -226,3 +277,18 @@ outputs:
       rotate_x: 3
       rotate_z: 3
       ray_tracing: true
+
+  - name: 3D_top_view_HQ
+    comment: "3D render from top (High Quality)"
+    type: blender_export
+    dir: 3D
+    options:
+      render_options:
+        transparent_background: true
+        samples: 20
+      point_of_view:
+        rotate_x: 30
+        rotate_z: -20
+      outputs:
+        - type: blender
+        - type: render

@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Skyduino Roaster")
-		(date "2024-05-13")
-		(rev "${RELEASE_VERSION}")
+		(date "${COMMIT_DATE}")
+		(rev "${REVISION}")
 		(company "Raz-1")
 		(comment 2 "${COMMIT_DATE_LONG}")
 		(comment 3 "${COMMIT_HASH} ${GIT_TAG}")
@@ -150,7 +150,7 @@
 	(property "COMMIT_DATE_LONG" "YYYY-MM-DD HH:MM:SS TZ")
 	(property "COMMIT_HASH" "beefbeef")
 	(property "GIT_TAG" "")
-	(property "RELEASE_VERSION" "0.5.dev")
+	(property "REVISION" "")
 	(net 0 "")
 	(net 1 "Net-(ACL1-Pin_1)")
 	(net 2 "Net-(ACN1-Pin_1)")
@@ -28471,7 +28471,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "${TITLE} Rev: ${RELEASE_VERSION}\n${COMMIT_HASH} ${GIT_TAG}"
+	(gr_text "${TITLE} ${GIT_TAG}\n${COMMIT_HASH}"
 		(at 150 86 0)
 		(layer "B.SilkS")
 		(uuid "4f399c1f-3d36-4540-9e1c-0ee690b86465")

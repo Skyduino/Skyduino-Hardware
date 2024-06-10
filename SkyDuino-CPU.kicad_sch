@@ -8301,7 +8301,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17415"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -8395,7 +8395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17415"
 			(at 80.01 157.48 0)
 			(effects
 				(font
@@ -8489,7 +8489,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17415"
 			(at 80.01 160.02 0)
 			(effects
 				(font
@@ -9095,7 +9095,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "STM32F412RET6"
 			(at 153.67 92.71 0)
 			(effects
 				(font
@@ -9446,7 +9446,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7519"
 			(at 67.31 157.48 0)
 			(effects
 				(font
@@ -9552,7 +9552,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17414"
 			(at 97.79 36.83 0)
 			(effects
 				(font
@@ -9724,7 +9724,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 59.69 29.21 0)
 			(effects
 				(font
@@ -9818,7 +9818,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C0805C759D1HAUTO"
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -9923,7 +9923,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 67.31 29.21 0)
 			(effects
 				(font
@@ -10254,7 +10254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "720-LWQ98G01R2T13K6L"
+		(property "Mouser pn" ""
 			(at 269.24 29.21 0)
 			(effects
 				(font
@@ -10263,7 +10263,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C34499"
 			(at 269.24 29.21 0)
 			(effects
 				(font
@@ -10424,7 +10424,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6563845"
 			(at 91.44 111.76 0)
 			(effects
 				(font
@@ -10526,7 +10526,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C377773"
 			(at 17.78 29.21 0)
 			(effects
 				(font
@@ -10631,7 +10631,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 166.37 40.64 0)
 			(effects
 				(font
@@ -10725,7 +10725,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C0805C759D1HAUTO"
 			(at 82.55 105.41 0)
 			(effects
 				(font
@@ -11371,7 +11371,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C377773"
 			(at 128.27 123.19 0)
 			(effects
 				(font
@@ -11476,7 +11476,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1710"
 			(at 107.95 93.98 0)
 			(effects
 				(font
@@ -11581,7 +11581,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 43.18 29.21 0)
 			(effects
 				(font
@@ -11853,6 +11853,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 22.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5d8147e9-2ca8-4549-b878-a7568f1b40f6")
 		)
@@ -11931,7 +11940,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 260.35 63.5 0)
 			(effects
 				(font
@@ -12026,7 +12035,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17408"
 			(at 260.35 29.21 0)
 			(effects
 				(font
@@ -12235,7 +12244,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7519"
 			(at 242.57 77.47 0)
 			(effects
 				(font
@@ -12478,7 +12487,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2980568"
 			(at 59.69 133.35 0)
 			(effects
 				(font
@@ -12575,7 +12584,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C27834"
 			(at 50.8 149.86 0)
 			(effects
 				(font
@@ -12680,7 +12689,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 52.07 29.21 0)
 			(effects
 				(font
@@ -12976,7 +12985,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1017"
 			(at 161.29 34.29 0)
 			(effects
 				(font
@@ -13072,7 +13081,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C377773"
 			(at 25.4 29.21 0)
 			(effects
 				(font
@@ -13168,7 +13177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "187-CL21B225KPFNNNF"
+		(property "Mouser pn" ""
 			(at 251.46 63.5 0)
 			(effects
 				(font
@@ -13177,7 +13186,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C377773"
 			(at 251.46 63.5 0)
 			(effects
 				(font
@@ -13347,7 +13356,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 34.29 29.21 0)
 			(effects
 				(font
@@ -13441,7 +13450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17414"
 			(at 97.79 31.75 0)
 			(effects
 				(font
@@ -13628,7 +13637,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1857136"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -13729,7 +13738,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17415"
 			(at 229.87 77.47 0)
 			(effects
 				(font
@@ -13834,7 +13843,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1710"
 			(at 177.8 40.64 0)
 			(effects
 				(font
@@ -13928,7 +13937,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C27834"
 			(at 50.8 147.32 0)
 			(effects
 				(font

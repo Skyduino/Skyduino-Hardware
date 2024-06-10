@@ -2,8 +2,6 @@ name: "Upload Release Assets"
 
 # Controls when the action will run.
 on:
-#  release:
-#    types: [published]
   workflow_call:
     
 
@@ -11,19 +9,15 @@ permissions:
   contents: write
 
 jobs:
-#  build:
-#    name: Build everything
-#    uses: ./.github/workflows/kibot_action.yaml
-
   uploadAssets:
     name: Upload Assets to release
-#    needs: [build]
     runs-on: ubuntu-latest
     env:
       zip3d: 3D Models-${{ github.ref_name }}.zip
       zipfab: Fabrication-${{ github.ref_name }}.zip
       zipbom: BoMs-${{ github.ref_name }}.zip
       zipprints: PCB and Schematic printout-${{ github.ref_name }}.zip
+      jlcpcb: JLCPCB Assembly-${{ github.ref_name }}.zip
     steps:
       - id: download
         uses: actions/download-artifact@v4
@@ -35,13 +29,16 @@ jobs:
         run: zip -r -5 '${{ env.zip3d }}' 3D
 
       - id: zipfab
-        run: zip -r -5 '${{ env.zipfab }}' Gerbers Position Drill
+        run: zip -r -5 '${{ env.zipfab }}' Gerbers Drill
 
       - id: zipbom
         run: zip -r -5 '${{ env.zipbom }}' BoM
 
       - id: zipprints
         run: zip -r -5 '${{ env.zipprints }}' PCB Schematic
+
+      - id: jlcpcb
+        run: zip -r -5 '${{ env.jlcpcb }}' JLCPCB
 
       - id: upload_assets
         name: Upload assets
@@ -52,4 +49,5 @@ jobs:
             ${{ env.zipfab }}
             ${{ env.zipbom }}
             ${{ env.zipprints }}
+            ${{ env.jlcpcb }}
           generate_release_notes: false

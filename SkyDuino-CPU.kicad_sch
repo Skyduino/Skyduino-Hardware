@@ -8676,6 +8676,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 276.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "ccdfcc3a-5a80-4c8d-8356-b92afa21a8e8")
 		)
@@ -10076,6 +10085,42 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 97.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser p/n" ""
+			(at 97.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer p/n" ""
+			(at 97.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
+			(at 97.79 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9bc14c65-094d-4e4e-b9e4-1eeb3d6ee053")
 		)
@@ -11133,6 +11178,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 30.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B12"
 			(uuid "959604f6-bc38-4c77-95d5-f6b46781376a")
 		)
@@ -11649,6 +11703,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 279.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a813690e-eb3c-4137-b4ca-bd7c67061e80")
 		)
@@ -12077,6 +12140,15 @@
 			)
 		)
 		(property "Manufacturer p/n" ""
+			(at 20.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 20.32 63.5 0)
 			(effects
 				(font

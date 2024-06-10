@@ -6420,6 +6420,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "994cc5b3-c3c6-442d-ba03-2292467c16f3")
 		)
@@ -6810,6 +6819,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "44347867-873b-401b-aecc-aab1b671a7f0")
 		)
@@ -6903,6 +6921,15 @@
 			)
 		)
 		(property "Manufacturer p/n" "RT314024"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 245.11 93.98 0)
 			(effects
 				(font
@@ -7285,6 +7312,15 @@
 			)
 		)
 		(property "Manufacturer p/n" "19705-4303"
+			(at 274.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 274.32 86.36 0)
 			(effects
 				(font
@@ -8008,6 +8044,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "044b5e27-d51c-44f9-a522-fe442b58b0ff")
 		)
@@ -8260,6 +8305,15 @@
 			)
 		)
 		(property "Manufacturer p/n" "19705-4303"
+			(at 274.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 274.32 71.12 0)
 			(effects
 				(font
@@ -8886,6 +8940,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 274.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4988a6de-b23f-4045-880e-09274a66d8e2")
 		)
@@ -9287,6 +9350,15 @@
 			)
 		)
 		(property "Manufacturer p/n" ""
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 24.13 27.94 0)
 			(effects
 				(font
@@ -9729,6 +9801,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 36.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c22fe29-7109-4e22-9c46-9048844c5bab")
 		)
@@ -10097,6 +10178,15 @@
 			)
 		)
 		(property "Manufacturer p/n" ""
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 52.07 77.47 0)
 			(effects
 				(font
@@ -11097,6 +11187,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "68117740-dec3-4d0f-86b3-40ac5f8edaf1")
 		)
@@ -11767,6 +11866,15 @@
 			)
 		)
 		(property "Manufacturer p/n" "ECA-2AM101"
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 121.92 41.91 0)
 			(effects
 				(font
@@ -12598,6 +12706,15 @@
 			)
 		)
 		(property "Manufacturer p/n" "19705-4303"
+			(at 274.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 274.32 81.28 0)
 			(effects
 				(font

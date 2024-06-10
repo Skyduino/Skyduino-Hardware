@@ -9473,6 +9473,24 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 67.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "-90"
+			(at 67.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06cc0092-fbdf-4754-aea0-e46b1ea0e436")
 		)
@@ -12263,6 +12281,24 @@
 			)
 		)
 		(property "Manufacturer p/n" "USBLC6-2SC6"
+			(at 242.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 242.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "-90"
 			(at 242.57 77.47 0)
 			(effects
 				(font

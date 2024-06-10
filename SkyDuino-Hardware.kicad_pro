@@ -763,6 +763,12 @@
           "label": "LCSC Orig Part",
           "name": "LCSC Orig Part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCRotOffset",
+          "name": "JLCRotOffset",
+          "show": false
         }
       ],
       "filter_string": "",

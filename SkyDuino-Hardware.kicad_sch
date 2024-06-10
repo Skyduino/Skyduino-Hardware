@@ -6143,6 +6143,24 @@
 				(hide yes)
 			)
 		)
+		(property "Config" ""
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "90"
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8efc5f9c-be1b-45fd-849b-6910c0071a18")
 		)
@@ -7927,8 +7945,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" ""
-			(at 68.58 29.21 0)
+		(property "Config" ""
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "-90"
+			(at 68.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12637,6 +12664,24 @@
 			)
 		)
 		(property "Manufacturer p/n" "TCR2EF33LMCT"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "180"
 			(at 161.29 33.02 0)
 			(effects
 				(font

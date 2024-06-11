@@ -6152,7 +6152,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCRotOffset" "90"
+		(property "JLCRotOffset" "-90"
 			(at 36.83 104.14 0)
 			(effects
 				(font

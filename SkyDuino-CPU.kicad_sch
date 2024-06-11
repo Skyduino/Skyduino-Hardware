@@ -11205,6 +11205,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alternative Mouser p/n" "523-12402054M611A"
+			(at 30.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B12"
 			(uuid "959604f6-bc38-4c77-95d5-f6b46781376a")
 		)

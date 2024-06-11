@@ -5944,7 +5944,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17414"
 			(at 96.52 182.88 0)
 			(effects
 				(font
@@ -6116,7 +6116,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C75864"
 			(at 36.83 104.14 0)
 			(effects
 				(font
@@ -6135,6 +6135,24 @@
 			)
 		)
 		(property "Manufacturer p/n" "DRV8871DDA"
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 36.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "90"
 			(at 36.83 104.14 0)
 			(effects
 				(font
@@ -6232,7 +6250,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17408"
 			(at 102.87 134.62 0)
 			(effects
 				(font
@@ -6420,6 +6438,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "994cc5b3-c3c6-442d-ba03-2292467c16f3")
 		)
@@ -6489,7 +6516,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17414"
 			(at 209.55 72.39 0)
 			(effects
 				(font
@@ -6810,6 +6837,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 227.33 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "44347867-873b-401b-aecc-aab1b671a7f0")
 		)
@@ -6903,6 +6939,15 @@
 			)
 		)
 		(property "Manufacturer p/n" "RT314024"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 245.11 93.98 0)
 			(effects
 				(font
@@ -7065,7 +7110,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C706252"
 			(at 100.33 35.56 0)
 			(effects
 				(font
@@ -7170,7 +7215,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 82.55 27.94 0)
 			(effects
 				(font
@@ -7285,6 +7330,15 @@
 			)
 		)
 		(property "Manufacturer p/n" "19705-4303"
+			(at 274.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 274.32 86.36 0)
 			(effects
 				(font
@@ -7426,7 +7480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17560"
 			(at 100.33 45.72 0)
 			(effects
 				(font
@@ -7768,7 +7822,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14996"
 			(at 86.36 166.37 0)
 			(effects
 				(font
@@ -7864,7 +7918,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5219371"
 			(at 68.58 30.48 0)
 			(effects
 				(font
@@ -7891,8 +7945,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser pn" "595-LV3842XFDBVR"
-			(at 68.58 29.21 0)
+		(property "Config" ""
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "-90"
+			(at 68.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,6 +8071,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "044b5e27-d51c-44f9-a522-fe442b58b0ff")
 		)
@@ -8079,7 +8151,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17633"
 			(at 24.13 115.57 0)
 			(effects
 				(font
@@ -8260,6 +8332,15 @@
 			)
 		)
 		(property "Manufacturer p/n" "19705-4303"
+			(at 274.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 274.32 71.12 0)
 			(effects
 				(font
@@ -8477,7 +8558,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1710"
 			(at 220.98 36.83 0)
 			(effects
 				(font
@@ -8668,7 +8749,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17414"
 			(at 96.52 97.79 0)
 			(effects
 				(font
@@ -8763,7 +8844,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17408"
 			(at 102.87 179.07 0)
 			(effects
 				(font
@@ -8886,6 +8967,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 274.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4988a6de-b23f-4045-880e-09274a66d8e2")
 		)
@@ -8971,7 +9061,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14996"
 			(at 86.36 121.92 0)
 			(effects
 				(font
@@ -9076,7 +9166,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 265.43 29.21 0)
 			(effects
 				(font
@@ -9173,7 +9263,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17414"
 			(at 52.07 110.49 0)
 			(effects
 				(font
@@ -9295,6 +9385,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 24.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fbbdcf6b-84a2-4432-aa64-4270a98eb601")
 		)
@@ -9387,6 +9486,15 @@
 			)
 		)
 		(property "Manufacturer p/n" ""
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 212.09 35.56 0)
 			(effects
 				(font
@@ -9540,7 +9648,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C377773"
 			(at 52.07 30.48 0)
 			(effects
 				(font
@@ -9729,6 +9837,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 36.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c22fe29-7109-4e22-9c46-9048844c5bab")
 		)
@@ -9799,7 +9916,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17414"
 			(at 96.52 138.43 0)
 			(effects
 				(font
@@ -9914,7 +10031,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14996"
 			(at 86.36 81.28 0)
 			(effects
 				(font
@@ -10105,6 +10222,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 52.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb121c0e-d800-482f-be66-fc2b56065044")
 		)
@@ -10201,6 +10327,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 38.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62ea3df1-cc17-4670-9f7a-cff0420b0572")
 		)
@@ -10278,7 +10413,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19947604"
 			(at 93.98 30.48 0)
 			(effects
 				(font
@@ -10298,6 +10433,24 @@
 		)
 		(property "Manufacturer p/n" "SRN3015BTA-180M"
 			(at 93.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 93.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Orig Part" "C19947604"
+			(at 93.98 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +10536,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C377773"
 			(at 64.77 96.52 0)
 			(effects
 				(font
@@ -10678,7 +10831,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52028"
 			(at 240.03 36.83 0)
 			(effects
 				(font
@@ -10793,7 +10946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C155242"
 			(at 88.9 134.62 0)
 			(effects
 				(font
@@ -10962,7 +11115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C155242"
 			(at 88.9 93.98 0)
 			(effects
 				(font
@@ -11089,6 +11242,15 @@
 			)
 		)
 		(property "Manufacturer p/n" "ECA-2AM101"
+			(at 45.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 45.72 30.48 0)
 			(effects
 				(font
@@ -11233,7 +11395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17414"
 			(at 27.94 173.99 0)
 			(effects
 				(font
@@ -11471,7 +11633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C45783"
 			(at 110.49 41.91 0)
 			(effects
 				(font
@@ -11577,7 +11739,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C49678"
 			(at 179.07 41.91 0)
 			(effects
 				(font
@@ -11775,6 +11937,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-jlcpcb"
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "07be48b0-b554-42da-8742-89459d7c92b1")
 		)
@@ -11843,7 +12014,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17408"
 			(at 102.87 93.98 0)
 			(effects
 				(font
@@ -12142,7 +12313,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C155242"
 			(at 88.9 179.07 0)
 			(effects
 				(font
@@ -12474,7 +12645,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C843273"
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -12493,6 +12664,24 @@
 			)
 		)
 		(property "Manufacturer p/n" "TCR2EF33LMCT"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "180"
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -12598,6 +12787,15 @@
 			)
 		)
 		(property "Manufacturer p/n" "19705-4303"
+			(at 274.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-jlcpcb"
 			(at 274.32 81.28 0)
 			(effects
 				(font

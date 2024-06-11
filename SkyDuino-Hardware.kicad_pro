@@ -711,10 +711,10 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Mouser pn",
           "name": "Mouser pn",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -732,6 +732,42 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer p/n",
+          "name": "Manufacturer p/n",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Config",
+          "name": "Config",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser p/n",
+          "name": "Mouser p/n",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Orig Part",
+          "name": "LCSC Orig Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCRotOffset",
+          "name": "JLCRotOffset",
           "show": false
         }
       ],

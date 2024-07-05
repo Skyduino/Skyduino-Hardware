@@ -7277,7 +7277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31554193-de6c-4375-aedb-559a82d6a972")
-		(property "Reference" "ACN1"
+		(property "Reference" "ACL1"
 			(at 279.4 77.47 0)
 			(effects
 				(font
@@ -7363,7 +7363,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "ACN1")
+					(reference "ACL1")
 					(unit 1)
 				)
 			)
@@ -8279,7 +8279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5425cd69-450d-4068-9ef6-d65fc45bb931")
-		(property "Reference" "ACL1"
+		(property "Reference" "ACN1"
 			(at 279.4 88.9 0)
 			(effects
 				(font
@@ -8365,7 +8365,7 @@
 		(instances
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159"
-					(reference "ACL1")
+					(reference "ACN1")
 					(unit 1)
 				)
 			)

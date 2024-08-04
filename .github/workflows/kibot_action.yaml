@@ -102,7 +102,7 @@ jobs:
 
 
   fabrication:
-    if: ${{ github.event_name == 'release' || github.event_name == 'push' || github.event_name == 'pull_request' || inputs.fabrication }}
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' || inputs.fabrication }}
     name: "Fabrication"
     runs-on: ubuntu-latest
     needs: [PreFlight]
@@ -129,7 +129,7 @@ jobs:
 
   BOMs:
     name: "BOMs"
-    if: ${{ github.event_name == 'release' || github.event_name == 'push' || github.event_name == 'pull_request' || inputs.bom }}
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' || inputs.bom }}
     runs-on: ubuntu-latest
     needs: [PreFlight]
 
@@ -153,9 +153,37 @@ jobs:
         path: ${{ env.OUTPUT_DIR }}
 
 
+  jlcpcb:
+    name: "JLCPCB BOM & Placement files"
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' || inputs.bom || inputs.fabrication }}
+    runs-on: ubuntu-latest
+    needs: [PreFlight]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: INTI-CMNB/KiBot@v2_k8
+      name: JLCPCB BOM
+      with:
+        dir: ${{ env.OUTPUT_DIR }}
+        config: ${{ env.KIBOT_CFG }}
+        schema: ${{ env.SCHEMA_FILE }}
+        board: ${{ env.PCB_FILE }}
+        skip: erc,drc
+        targets: bom_csv position
+        variant: jlcpcb
+
+    - name: upload results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: JLCPCB-Assembly
+        path: ${{ env.OUTPUT_DIR }}
+
+
   models3D:
     name: 3d Renderings & step models
-    if: ${{ github.event_name == 'release' || github.event_name == 'push' || github.event_name == 'pull_request' || inputs.models }}
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' || inputs.models }}
     runs-on: ubuntu-latest
     needs: [PreFlight]
 
@@ -181,7 +209,7 @@ jobs:
 
   Docs:
     name: PCB & Schematic printouts
-    if: ${{ github.event_name == 'release' || github.event_name == 'push' || github.event_name == 'pull_request' || inputs.docs }}
+    if: ${{ github.event_name == 'push' || github.event_name == 'pull_request' || inputs.docs }}
     runs-on: ubuntu-latest
     needs: [PreFlight]
 
@@ -207,6 +235,35 @@ jobs:
         name: Doc
         path: ${{ env.OUTPUT_DIR }}
 
+
+  Blender:
+    name: 3d HQ Rendering
+    if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+    runs-on: ubuntu-latest
+    needs: [PreFlight]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: INTI-CMNB/KiBot@v2_k8
+      if: false
+      with:
+        dir: ${{ env.OUTPUT_DIR }}
+        config: ${{ env.KIBOT_CFG }}
+        schema: ${{ env.SCHEMA_FILE }}
+        board: ${{ env.PCB_FILE }}
+        skip: erc,drc
+        install3D: yes
+        targets: 3D_top_view_HQ
+
+    - name: Upload
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: 3D-HQ
+        path: ${{ env.OUTPUT_DIR }}
+
+
   UploadAssets:
     name: Upload Assets
     if: ${{ startsWith(github.ref, 'refs/tags/v') }}
@@ -215,4 +272,6 @@ jobs:
       - BOMs
       - models3D
       - Docs
+      - Blender
+      - jlcpcb
     uses: ./.github/workflows/upload-release-assets.yaml

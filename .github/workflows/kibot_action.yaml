@@ -301,7 +301,7 @@ jobs:
           RELEASE_TAG="${{ env.DIFF_OLD }}"
         fi
         echo "TAG_NAME=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
-        echo "::notice::Calculated Release Tag: $TAG_NAME"
+        echo "::notice::Calculated Release Tag: $RELEASE_TAG"
 
     - uses: INTI-CMNB/KiBot@v2_k8
       name: PCB & Schematic Diff

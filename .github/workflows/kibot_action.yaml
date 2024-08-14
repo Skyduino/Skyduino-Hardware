@@ -293,14 +293,14 @@ jobs:
         if [ -z "${{ env.DIFF_OLD }}" ]
         then
           RELEASE_TAG=$(gh release ls --exclude-drafts --exclude-pre-releases --json tagName --jq '.[0].tagName')
-          if [ -z "$RELEASE_TAG"]
+          if [ -z "$RELEASE_TAG" ]
           then
             RELEASE_TAG="KIBOT_LAST-1"
           fi
-          echo "TAG_NAME=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
         else
-          echo "TAG_NAME=${{ env.DIFF_OLD }}" >> "$GITHUB_OUTPUT"
+          RELEASE_TAG="${{ env.DIFF_OLD }}"
         fi
+        echo "TAG_NAME=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
         echo "::notice::Calculated Release Tag: $TAG_NAME"
 
     - uses: INTI-CMNB/KiBot@v2_k8

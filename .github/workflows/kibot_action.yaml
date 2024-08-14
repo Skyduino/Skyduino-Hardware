@@ -280,6 +280,10 @@ jobs:
         DIFF_OLD: ${{ github.event_name == 'pull_request' && format('{0}/{1}', 'origin', github.base_ref) || '' }}
 
     steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
     - id: get_last_release_tag
       name: Get Last release tag name
       env:
@@ -298,10 +302,6 @@ jobs:
           echo "TAG_NAME=${{ env.DIFF_OLD }}" >> "$GITHUB_OUTPUT"
         fi
         echo "::notice title=Calculated Release Tag::$TAG_NAME"
-
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
 
     - uses: INTI-CMNB/KiBot@v2_k8
       name: PCB & Schematic Diff

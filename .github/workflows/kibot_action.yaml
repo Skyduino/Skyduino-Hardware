@@ -275,7 +275,7 @@ jobs:
 
   Diffs:
     name: Generate PCB & Schematic diffs
-    runs-on: ubunutu-latest
+    runs-on: ubuntu-latest
     env:
         DIFF_OLD: ${{ github.event_name == 'pull_request' && format('{0}/{1}', 'origin', github.base_ref) || '' }}
 

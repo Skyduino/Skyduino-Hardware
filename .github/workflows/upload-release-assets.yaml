@@ -18,8 +18,8 @@ jobs:
       zipbom: BoMs-${{ github.ref_name }}.zip
       zipprints: PCB and Schematic printout-${{ github.ref_name }}.zip
       jlcpcb: JLCPCB Assembly-${{ github.ref_name }}.zip
-      prj_diff_src: "Diff/SkyDuino-Hardware-diff_{0}.pdf"
-      prj_diff_dst: "Diff/SkyDuino-Hardware-diff-{0}-${{ github.ref_name }}.pdf"
+      prj_diff_src: "SkyDuino-Hardware-diff_{0}.pdf"
+      prj_diff_dst: "SkyDuino-Hardware-diff-{0}-${{ github.ref_name }}.pdf"
 
     steps:
       - id: download

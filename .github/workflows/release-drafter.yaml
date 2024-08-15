@@ -2,10 +2,8 @@ name: "Draft Release notes"
 
 # Controls when the action will run.
 on:
-  push:
-    branches: [dev, master]
   pull_request:
-    types: [opened, reopened, synchronize]
+    types: [opened, reopened, synchronize, closed, labeled]
 
 permissions:
   contents: read
@@ -20,7 +18,24 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
+      - id: event_content_debug
+        name: print event content if debug is enabled
+        if: ${{ vars.DEBUG == 'yes' }}
+        run: echo "${{ toJSON(github.event) }}"
+
       # Drafts your next Release notes as Pull Requests are merged into "dev" or "master"
       - uses: release-drafter/release-drafter@v6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+            commitish: main
+            prerelease-identifier: "rc"
+            # if a PR to main branch is merged, that's a release
+            prerelease: >
+                ${{
+                    github.event_name == 'pull_request'
+                    && github.base_ref == 'main'
+                    && github.event.action == 'closed'
+                    && github.event.pull_request.merged
+                    && false || true
+                }}

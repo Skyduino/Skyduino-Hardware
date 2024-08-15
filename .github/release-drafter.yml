@@ -1,6 +1,7 @@
 version-template: '$MAJOR.$MINOR'
-name-template: '$NEXT_MINOR_VERSION Release'
-tag-template: 'v$NEXT_MINOR_VERSION'
+name-template: 'Version $RESOLVED_VERSION Release'
+tag-template: 'v$RESOLVED_VERSION'
+tag-prefix: 'v'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 template: |
   ## Changes

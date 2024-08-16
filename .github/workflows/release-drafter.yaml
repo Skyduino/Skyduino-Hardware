@@ -18,11 +18,6 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - id: event_content_debug
-        name: print event content if debug is enabled
-        if: ${{ vars.DEBUG == 'yes' }}
-        run: echo "${{ toJSON(github.event) }}"
-
       # Drafts your next Release notes as Pull Requests are merged into "dev" or "master"
       - uses: release-drafter/release-drafter@v6
         env:

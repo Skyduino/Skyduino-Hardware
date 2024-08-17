@@ -23,7 +23,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-            commitish: main
+            commitish: dev
             prerelease-identifier: "rc"
             # if a PR to main branch is merged, that's a release
             prerelease: >

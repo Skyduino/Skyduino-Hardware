@@ -8147,7 +8147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
+		(property "Footprint" "Connectors:USB_A_Molex_67643_Horizontal_and_AmphenolFCI_87583"
 			(at 273.05 78.74 0)
 			(effects
 				(font
@@ -8202,6 +8202,15 @@
 			)
 		)
 		(property "Config" "-jlcpcb"
+			(at 276.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt Mouser p/n" "649-87583-2010RLF"
 			(at 276.86 77.47 0)
 			(effects
 				(font

@@ -1478,259 +1478,6 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 3.175 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Crystal_GND23"
-				(at 3.175 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_GND23_0_1"
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.27) (xy -2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 -3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -1.27) (xy 2.032 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_GND23_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:FerriteBead_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -5207,12 +4954,6 @@
 		(uuid "4067e74d-e946-4f3b-9860-ba963d85539b")
 	)
 	(junction
-		(at 91.44 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47037e91-7614-44c1-bb64-27440bd62fe4")
-	)
-	(junction
 		(at 242.57 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5327,12 +5068,6 @@
 		(uuid "a4166bf3-ebc9-4def-b84c-84424eee3402")
 	)
 	(junction
-		(at 91.44 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7173598-a5f9-4786-8927-564f08a2013d")
-	)
-	(junction
 		(at 81.28 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5343,12 +5078,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b92915fc-f879-4378-a268-2e2277a5f004")
-	)
-	(junction
-		(at 74.93 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5d68042-1e95-439c-bf32-6dc8ec78e9bf")
 	)
 	(junction
 		(at 151.13 30.48)
@@ -5401,6 +5130,10 @@
 	(no_connect
 		(at 171.45 107.95)
 		(uuid "31b61438-08f4-41b1-af83-33de8a4dcafc")
+	)
+	(no_connect
+		(at 135.89 110.49)
+		(uuid "3a15840e-2215-4ce9-b248-09b07f5a85de")
 	)
 	(no_connect
 		(at 171.45 57.15)
@@ -5502,15 +5235,9 @@
 		(at 135.89 92.71)
 		(uuid "dd04b77e-451f-4b92-b6cf-b650b4596a71")
 	)
-	(wire
-		(pts
-			(xy 74.93 111.76) (xy 74.93 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000c8102-bfc5-4073-94e9-6e3da4a5f1d4")
+	(no_connect
+		(at 135.89 113.03)
+		(uuid "fb346fb1-b1c1-4c56-b42d-196a47a560d4")
 	)
 	(wire
 		(pts
@@ -5674,16 +5401,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 111.76) (xy 72.39 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1613e43d-45be-4e5d-a0bd-41674a9ec61d")
-	)
-	(wire
-		(pts
 			(xy 45.72 154.94) (xy 48.26 154.94)
 		)
 		(stroke
@@ -5804,16 +5521,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 111.76) (xy 72.39 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e8a04f8-b860-471e-9481-e1eaa694e163")
-	)
-	(wire
-		(pts
 			(xy 158.75 30.48) (xy 156.21 30.48)
 		)
 		(stroke
@@ -5831,16 +5538,6 @@
 			(type default)
 		)
 		(uuid "22394331-a27b-4161-a366-9c9aa73997f2")
-	)
-	(wire
-		(pts
-			(xy 91.44 115.57) (xy 91.44 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2601ddc3-794d-4b76-a9d7-79fa3c4e1318")
 	)
 	(wire
 		(pts
@@ -5954,16 +5651,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 113.03) (xy 107.95 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39aaf76a-e278-4822-8af7-87ccef9ddd68")
-	)
-	(wire
-		(pts
 			(xy 171.45 80.01) (xy 180.34 80.01)
 		)
 		(stroke
@@ -5971,26 +5658,6 @@
 			(type default)
 		)
 		(uuid "3a8cc10f-df7b-4844-afec-012029b587cd")
-	)
-	(wire
-		(pts
-			(xy 80.01 105.41) (xy 74.93 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c551738-7aa5-461a-b18d-cc2a1e2b4c28")
-	)
-	(wire
-		(pts
-			(xy 107.95 119.38) (xy 91.44 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb5ebf7-57ff-45fa-b5b7-aa4b22287c5d")
 	)
 	(wire
 		(pts
@@ -6031,16 +5698,6 @@
 			(type default)
 		)
 		(uuid "472437e3-0f7b-49d8-a78f-ddbc47739aba")
-	)
-	(wire
-		(pts
-			(xy 107.95 110.49) (xy 135.89 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4788d924-e579-41c2-b798-d1fcb01bc896")
 	)
 	(wire
 		(pts
@@ -6234,16 +5891,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 111.76) (xy 99.06 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b1b052a-c85a-4fd7-8637-abcc4163af02")
-	)
-	(wire
-		(pts
 			(xy 242.57 85.09) (xy 242.57 87.63)
 		)
 		(stroke
@@ -6254,16 +5901,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 111.76) (xy 99.06 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c8e407a-be63-41a4-97f7-b1417859f968")
-	)
-	(wire
-		(pts
 			(xy 67.31 24.13) (xy 67.31 25.4)
 		)
 		(stroke
@@ -6271,16 +5908,6 @@
 			(type default)
 		)
 		(uuid "5dbe4391-85fd-4103-97cd-740ad19724e9")
-	)
-	(wire
-		(pts
-			(xy 107.95 105.41) (xy 107.95 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e3a0672-f088-4de0-9bc1-4c0638e5d533")
 	)
 	(wire
 		(pts
@@ -6321,16 +5948,6 @@
 			(type default)
 		)
 		(uuid "647a80aa-2cc4-49c4-a2f9-84b445575d50")
-	)
-	(wire
-		(pts
-			(xy 85.09 119.38) (xy 91.44 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "659b81a8-db46-44df-996e-94bf5ceab23d")
 	)
 	(wire
 		(pts
@@ -6764,16 +6381,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 119.38) (xy 74.93 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a304c24a-b6ea-4fea-850d-7548cafa9d4e")
-	)
-	(wire
-		(pts
 			(xy 161.29 36.83) (xy 166.37 36.83)
 		)
 		(stroke
@@ -6974,16 +6581,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 105.41) (xy 74.93 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7a13034-19cc-47ed-b878-f1ba0c43032f")
-	)
-	(wire
-		(pts
 			(xy 271.78 124.46) (xy 271.78 121.92)
 		)
 		(stroke
@@ -7021,16 +6618,6 @@
 			(type default)
 		)
 		(uuid "ccb4d75b-9a9f-40c2-a44e-93527c8c8d93")
-	)
-	(wire
-		(pts
-			(xy 74.93 111.76) (xy 86.36 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdb7667b-969c-4f3f-be94-d848d24e496b")
 	)
 	(wire
 		(pts
@@ -7081,36 +6668,6 @@
 			(type default)
 		)
 		(uuid "d65a24a5-afcc-418f-a599-bc79386fb061")
-	)
-	(wire
-		(pts
-			(xy 107.95 113.03) (xy 135.89 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8983aa0-0d56-44a6-838f-89bc5f7e9917")
-	)
-	(wire
-		(pts
-			(xy 91.44 105.41) (xy 107.95 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbba6648-273b-4211-8cc5-0bee59ccc872")
-	)
-	(wire
-		(pts
-			(xy 91.44 107.95) (xy 91.44 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc674a84-f99b-4c41-b864-092b8661cffd")
 	)
 	(wire
 		(pts
@@ -7251,16 +6808,6 @@
 			(type default)
 		)
 		(uuid "e9ecbe7e-281f-41e1-8d29-bd1fbd2227e7")
-	)
-	(wire
-		(pts
-			(xy 85.09 105.41) (xy 91.44 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe1f4bb-e985-4911-b41a-0c965dd4cf89")
 	)
 	(wire
 		(pts
@@ -7434,17 +6981,6 @@
 		)
 		(uuid c3fc3de9-afe4-450b-a798-620206df746c)
 	)
-	(label "XTAL_32K768_2"
-		(at 118.11 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "172d74a7-1f50-42b6-8396-0e62a81f3348")
-	)
 	(label "D-"
 		(at 49.53 157.48 0)
 		(fields_autoplaced yes)
@@ -7455,17 +6991,6 @@
 			(justify left bottom)
 		)
 		(uuid "263623bd-67f2-4741-8d22-670fc653ae7e")
-	)
-	(label "XTAL_32K768_1"
-		(at 118.11 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ce7df30-4e34-474f-8a33-ec8b007e1945")
 	)
 	(label "D+"
 		(at 49.53 160.02 0)
@@ -8622,7 +8147,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_A_Molex_67643_Horizontal"
+		(property "Footprint" "Connectors:USB_A_Molex_67643_Horizontal_and_AmphenolFCI_87583"
 			(at 273.05 78.74 0)
 			(effects
 				(font
@@ -8677,6 +8202,15 @@
 			)
 		)
 		(property "Config" "-jlcpcb"
+			(at 276.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt Mouser p/n" "649-87583-2010RLF"
 			(at 276.86 77.47 0)
 			(effects
 				(font
@@ -9785,100 +9319,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 82.55 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48c34aae-5dea-48d9-8c35-5e93925be0fb")
-		(property "Reference" "C27"
-			(at 82.55 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "7.5pF"
-			(at 82.55 124.206 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1007_X8R_ULTRA_150C_SMD-3316375.pdf"
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C0805C759D1HAUTO"
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser p/n" "80-C0805C759D1HAUTO"
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer p/n" "C0805C759D1HAUTO"
-			(at 82.55 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "91200f26-ed16-4771-bc16-e63cc1086e9d")
-		)
-		(pin "1"
-			(uuid "c3826782-616e-433d-8f86-046fb174767f")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 67.31 29.21 0)
 		(unit 1)
@@ -10390,107 +9830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23")
-		(at 91.44 111.76 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68b94a8d-1bd2-481c-8c7f-f173702ca136")
-		(property "Reference" "Y1"
-			(at 91.44 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32.768kHz"
-			(at 97.79 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Oscillators:Diodes Inc G43270021"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/DIOD_S_A0003100668_1-2542289.pdf"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 3"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C6563845"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser p/n" "729-G43270021"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer p/n" "G43270021"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7814880d-d4a9-44cf-b88b-9629587f56a2")
-		)
-		(pin "3"
-			(uuid "e6fce035-75b9-4ff8-8d8d-e200f3fe98a6")
-		)
-		(pin "1"
-			(uuid "7e21a7cd-3830-4416-93d0-02d059a35469")
-		)
-		(pin "4"
-			(uuid "1cd1340b-6c51-49f7-871c-d7efe0d81ce7")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 17.78 29.21 0)
 		(unit 1)
@@ -10686,100 +10025,6 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 82.55 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72969a26-3e65-41d0-8d06-4d78bf24397f")
-		(property "Reference" "C26"
-			(at 82.5437 99.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "7.5pF"
-			(at 82.55 102.616 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/KEM_C1007_X8R_ULTRA_150C_SMD-3316375.pdf"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C0805C759D1HAUTO"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser p/n" "80-C0805C759D1HAUTO"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer p/n" "C0805C759D1HAUTO"
-			(at 82.55 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af0d937e-7f7f-4ffd-8b2e-bdc0f5cc1874")
-		)
-		(pin "1"
-			(uuid "b13139de-e7b8-4721-b0eb-0160f067d540")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -11263,73 +10508,6 @@
 			(project "SkyDuino-Hardware"
 				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 99.06 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fd433a7-c2e2-4cfd-8233-934ffc36fc83")
-		(property "Reference" "#PWR049"
-			(at 99.06 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98a76637-a300-4bc6-9007-67ecc6d50108")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -12909,73 +12087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcf7bed2-bac7-4b5a-b17e-9a2b1d88bdab")
-		(property "Reference" "#PWR048"
-			(at 72.39 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "472739c5-ca32-4ce2-9f83-335bff5b0d13")
-		)
-		(instances
-			(project "SkyDuino-Hardware"
-				(path "/a6671232-96de-4e23-ad68-f9378c1c0159/30f0c390-a08b-495d-a987-fe20b2c7c730"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 161.29 34.29 0)
 		(unit 1)
@@ -13664,7 +12775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/clock_z_x_e-3044365.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406051011_Shenzhen-SCTF-Elec-SX2M20-000B10F20TNN_C7431315.pdf"
 			(at 96.52 58.42 0)
 			(effects
 				(font
@@ -13682,7 +12793,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1857136"
+		(property "LCSC" "C7431315"
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -13691,7 +12802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser p/n" "346-2520Z20.C15X"
+		(property "Mouser p/n" ""
 			(at 92.71 62.23 0)
 			(effects
 				(font
@@ -13700,7 +12811,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer p/n" "2520Z20.C15X"
+		(property "Manufacturer p/n" "SX2M20.000B10F20TNN"
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
 			(at 92.71 62.23 0)
 			(effects
 				(font

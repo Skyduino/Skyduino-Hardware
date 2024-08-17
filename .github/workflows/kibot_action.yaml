@@ -58,6 +58,14 @@ on:
         type: boolean
 
   push:
+    branches:
+      - dev
+      - main
+
+    tags:
+      - 'v*'
+      - 'rc*'
+
     paths:
       - '*.kicad_sch'
       - '*.kicad_pcb'
@@ -223,6 +231,7 @@ jobs:
         schema: ${{ env.SCHEMA_FILE }}
         board: ${{ env.PCB_FILE }}
         skip: erc,drc
+        verbose: ${{ vars.VERBOSE_LEVEL != '' && vars.VERBOSE_LEVEL || 0 }}
         targets: >-
             print_sch print_pdf
             board_top board_top_filled
@@ -264,6 +273,57 @@ jobs:
         path: ${{ env.OUTPUT_DIR }}
 
 
+  Diffs:
+    name: Generate PCB & Schematic diffs
+    runs-on: ubuntu-latest
+    env:
+        DIFF_OLD: ${{ github.event_name == 'pull_request' && format('{0}/{1}', 'origin', github.base_ref) || '' }}
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - id: get_last_release_tag
+      name: Get Last release tag name
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      run: |
+        if [ -z "${{ env.DIFF_OLD }}" ]
+        then
+          RELEASE_TAG=$(gh release ls --exclude-drafts --exclude-pre-releases --json tagName --jq '.[0].tagName')
+          if [ -z "$RELEASE_TAG" ]
+          then
+            RELEASE_TAG="KIBOT_LAST-1"
+          fi
+        else
+          RELEASE_TAG="${{ env.DIFF_OLD }}"
+        fi
+        echo "TAG_NAME=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
+        echo "::notice::Calculated Release Tag: $RELEASE_TAG"
+
+    - uses: INTI-CMNB/KiBot@v2_k8
+      name: PCB & Schematic Diff
+      with:
+        dir: ${{ env.OUTPUT_DIR }}
+        config: ${{ env.KIBOT_CFG }}
+        schema: ${{ env.SCHEMA_FILE }}
+        board: ${{ env.PCB_FILE }}
+        skip: erc,drc
+        verbose: ${{ vars.VERBOSE_LEVEL != '' && vars.VERBOSE_LEVEL || 0 }}
+        targets: >-
+            -E DIFF_OLD='${{ steps.get_last_release_tag.outputs.TAG_NAME }}'
+            pcb_diff sch_diff
+
+    - name: Upload PCB & Schematic Diffs
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: Diff
+        path: ${{ env.OUTPUT_DIR }}/Diff/
+
+
   UploadAssets:
     name: Upload Assets
     if: ${{ startsWith(github.ref, 'refs/tags/v') }}
@@ -274,4 +334,5 @@ jobs:
       - Docs
       - Blender
       - jlcpcb
+      - Diffs
     uses: ./.github/workflows/upload-release-assets.yaml

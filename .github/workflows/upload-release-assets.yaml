@@ -18,6 +18,9 @@ jobs:
       zipbom: BoMs-${{ github.ref_name }}.zip
       zipprints: PCB and Schematic printout-${{ github.ref_name }}.zip
       jlcpcb: JLCPCB Assembly-${{ github.ref_name }}.zip
+      prj_diff_src: "SkyDuino-Hardware-diff_{0}.pdf"
+      prj_diff_dst: "SkyDuino-Hardware-diff-{0}-${{ github.ref_name }}.pdf"
+
     steps:
       - id: download
         uses: actions/download-artifact@v4
@@ -40,6 +43,12 @@ jobs:
       - id: jlcpcb
         run: zip -r -5 '${{ env.jlcpcb }}' JLCPCB
 
+      - id: rename_diffs
+        name: Rename PCB & Schematic diffs
+        run: |
+          cp '${{ format(env.prj_diff_src, 'pcb') }}' '${{ format(env.prj_diff_dst, 'pcb') }}'
+          cp '${{ format(env.prj_diff_src, 'sch') }}' '${{ format(env.prj_diff_dst, 'sch') }}'
+
       - id: upload_assets
         name: Upload assets
         uses: softprops/action-gh-release@v2
@@ -50,4 +59,6 @@ jobs:
             ${{ env.zipbom }}
             ${{ env.zipprints }}
             ${{ env.jlcpcb }}
+            ${{ format(env.prj_diff_dst, 'pcb') }}
+            ${{ format(env.prj_diff_dst, 'sch') }}
           generate_release_notes: false

@@ -10387,7 +10387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_Bourns:L_Bourns_SRN3015BTA"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
 			(at 93.98 30.48 0)
 			(effects
 				(font
@@ -10396,7 +10396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/Bourns_08042023_SRN3015BTA_datasheet-3305912.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310251551_Sunlord-SWPA4030S180MT_C96895.pdf"
 			(at 93.98 30.48 0)
 			(effects
 				(font
@@ -10414,7 +10414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Bourns/SRN3015BTA-180M"
+		(property "Mouser" ""
 			(at 93.98 30.48 90)
 			(effects
 				(font
@@ -10423,7 +10423,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19947604"
+		(property "LCSC" "C96895"
 			(at 93.98 30.48 0)
 			(effects
 				(font
@@ -10432,7 +10432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser p/n" "652-SRN3015BTA-180M"
+		(property "Mouser p/n" ""
 			(at 93.98 30.48 0)
 			(effects
 				(font
@@ -10441,7 +10441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer p/n" "SRN3015BTA-180M"
+		(property "Manufacturer p/n" "SWPA4030S180MT"
 			(at 93.98 30.48 0)
 			(effects
 				(font
@@ -10459,7 +10459,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Orig Part" "C19947604"
+		(property "LCSC Orig Part" "C96895"
 			(at 93.98 30.48 90)
 			(effects
 				(font

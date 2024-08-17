@@ -292,3 +292,21 @@ outputs:
       outputs:
         - type: blender
         - type: render
+
+  - name: pcb_diff
+    type: diff
+    dir: Diff
+    options:
+      old: '@DIFF_OLD@'
+      cache_dir: .kicache
+      only_different: true
+      pcb: true
+
+  - name: sch_diff
+    type: diff
+    dir: Diff
+    options:
+      old: '@DIFF_OLD@'
+      cache_dir: .kicache
+      only_different: true
+      pcb: false
